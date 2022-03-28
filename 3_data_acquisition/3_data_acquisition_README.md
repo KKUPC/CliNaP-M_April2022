@@ -1,5 +1,5 @@
 # Data acquisition
-การใช้งานเครื่อง NMR และ LC-MS 
+data acquisition of NMR และ LC-MS 
 
 ## Table of Contents
 1. [NMR](#nmr)
