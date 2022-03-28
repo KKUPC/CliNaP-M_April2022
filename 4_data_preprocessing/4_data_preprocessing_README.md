@@ -1,4 +1,4 @@
-# Planning 
+# Data pre-processing 
 
 ## Table of Contents
 1. [NMR data pre-processing](#nmr)
