@@ -21,5 +21,7 @@ laboratory scientists, biomedical scientists and clinical scientists.
 
 ### Prerequisites
 Participants are strongly recommended to attend the online course in Basic Principle of Metabolomics for Clinical and Natural Product Research avialble on
-KKUMEDX platform (http://kkumedx.md.kku.ac.th).
+KKUMEDX platform (https://kkumedx.md.kku.ac.th).
 
+### Instructors
+[Jutarop Phetcharaburanin](https://www.jutarop.com), Faculty of Medicine, Khon Kaen University
