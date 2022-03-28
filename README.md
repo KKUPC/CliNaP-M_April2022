@@ -15,4 +15,11 @@ Course, attendees will learn all the basic principles in metabolomics and they c
 covering how to design metabolomic study, prepare samples, acquire, analyse and interpret metabolomic data with our well experienced instructors in the
 field.
 
-## Target audience
+### Target audience
+The CliNaP-M short course is aimed at researchers at various levels including senior research assistants, PhD students, postdoctoral researchers, 
+laboratory scientists, biomedical scientists and clinical scientists.
+
+### Prerequisites
+Participants are strongly recommended to attend the online course in Basic Principle of Metabolomics for Clinical and Natural Product Research avialble on
+KKUMEDX platform (http://kkumedx.md.kku.ac.th).
+
