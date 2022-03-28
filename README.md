@@ -25,3 +25,11 @@ KKUMEDX platform (https://kkumedx.md.kku.ac.th).
 
 ### Instructors
 [Jutarop Phetcharaburanin](https://www.jutarop.com), Faculty of Medicine, Khon Kaen University
+[Poramate Klanrit](https://biochem.md.kku.ac.th/academic-staff/), Faculty of Medicine, Khon Kaen University
+[Arporn Wangwiwatsin](https://biochem.md.kku.ac.th/academic-staff/), Faculty of Medicine, Khon Kaen University
+[Sivamoke Dissook](https://w2.med.cmu.ac.th/omics/sivamoke/), Faculty of Medicine, Chiang Mai University
+[M.L.Manida Suksawat](https://kkuipl.org/executive-committee/), Khon Kaen University International Phenome Laboratory
+[Thanaporn Kulthawatsiri](https://kkuipl.org/executive-committee/), Khon Kaen University International Phenome Laboratory
+
+### Teaching assistants
+
