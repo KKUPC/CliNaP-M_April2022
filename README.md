@@ -43,15 +43,15 @@ TA2
 
 
 ### Topics and links for course manuals
-1. [Planning (experimental design and group work allocation)](/1_planning/1_planning_README.md)
-2. [Sample preparation]()
-3. [Data acquisition]()
-4. [Data pre-processing]()
-5. [Data analysis]()
-6. [Metabolite identification]()
+1. [Planning (experimental design and group work allocation)](1_planning/1_planning_README.md)
+2. [Sample preparation](2_sample_preparation/2_sample_preparation_README.md)
+3. [Data acquisition](3_data_acquisition/3_data_acquisition_README.md)
+4. [Data pre-processing](4_data_preprocessing/4_data_preprocessing_README.md)
+5. [Data analysis](5_data_analysis/5_data_analysis_README.md)
+6. [Metabolite identification](6_metID/6_metID_README.md)
 
 Additional material
-1. [R crashcourse]()
-2. [Software installation guideline]()
+1. [R crashcourse](R_crashcourse/R_crashcourse_README.md)
+2. [Software installation guideline](software_installation/software_installation_README.md)
 
 
