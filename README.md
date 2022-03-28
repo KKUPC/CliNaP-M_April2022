@@ -38,5 +38,20 @@ KKUMEDX platform (https://kkumedx.md.kku.ac.th).
 
 ### Teaching assistants
 TA1
+
 TA2
+
+
+### Topics and links for course manuals
+1. [Planning (experimental design and group work allocation)](/1_planning/1_planning_README.md)
+2. [Sample preparation]()
+3. [Data acquisition]()
+4. [Data pre-processing]()
+5. [Data analysis]()
+6. [Metabolite identification]()
+
+Additional material
+1. [R crashcourse]()
+2. [Software installation guideline]()
+
 
