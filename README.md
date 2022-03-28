@@ -37,4 +37,6 @@ KKUMEDX platform (https://kkumedx.md.kku.ac.th).
 [Thanaporn Kulthawatsiri](https://kkuipl.org/executive-committee/), Khon Kaen University International Phenome Laboratory
 
 ### Teaching assistants
+TA1
+TA2
 
