@@ -60,6 +60,8 @@ Kwuanjira Chaleekan, Faculty of Medicine, Khon Kaen University
 
 Hathaichanok Pradabkam, Faculty of Medicine, Khon Kaen University
 
+Phuc Nguyen Minh Ho, Faculty of Medicine, Khon Kaen University
+
 ### Topics and links for course manuals
 1. [Planning (experimental design and group work allocation)](1_planning/1_planning_README.md)
 2. [Sample preparation](2_sample_preparation/2_sample_preparation_README.md)
