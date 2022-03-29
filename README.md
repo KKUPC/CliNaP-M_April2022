@@ -36,7 +36,10 @@ KKUMEDX platform (https://kkumedx.md.kku.ac.th).
 
 [Thanaporn Kulthawatsiri](https://kkuipl.org/executive-committee/), Khon Kaen University International Phenome Laboratory
 
+[Suphasarang Sirirattanakul](https://kkuipl.org/executive-committee/), Khon Kaen University International Phenome Laboratory
+
 ### Teaching assistants
+
 Suthicha Deewai, Faculty of Medicine, Khon Kaen University
 
 Anyarin Jirahiranpat, Faculty of Medicine, Khon Kaen University
