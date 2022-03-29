@@ -37,10 +37,25 @@ KKUMEDX platform (https://kkumedx.md.kku.ac.th).
 [Thanaporn Kulthawatsiri](https://kkuipl.org/executive-committee/), Khon Kaen University International Phenome Laboratory
 
 ### Teaching assistants
-TA1
+Suthicha Deewai, Faculty of Medicine, Khon Kaen University
 
-TA2
+Anyarin Jirahiranpat, Faculty of Medicine, Khon Kaen University
 
+Siriyakorn Kulwong, Faculty of Medicine, Khon Kaen University
+
+Soontaree Ratchatapusit, Faculty of Medicine, Khon Kaen University
+
+Pimpawadee Phukhum, Faculty of Medicine, Khon Kaen University
+
+Saikhim Sringan, Faculty of Medicine, Khon Kaen University
+
+Jittima Tomacha, Faculty of Medicine, Khon Kaen University
+
+Sirinya Sittirak, Faculty of Medicine, Khon Kaen University
+
+Kwuanjira Chaleekan, Faculty of Medicine, Khon Kaen University
+
+Hathaichanok Pradabkam, Faculty of Medicine, Khon Kaen University
 
 ### Topics and links for course manuals
 1. [Planning (experimental design and group work allocation)](1_planning/1_planning_README.md)
