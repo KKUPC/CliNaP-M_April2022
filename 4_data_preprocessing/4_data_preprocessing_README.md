@@ -6,7 +6,12 @@ Before performing statistical analysis, data pre-processing is a very crucial st
 2. [LC-MS data pre-processing](#lcms)
 
 ## NMR data pre-processing <a name="nmr"></a>
-### Step1. Open R studio program.  
+### Step 1. Open R studio program.  
+### Step 2. Set working directory 
+### Step 3. Load library packages including metabom8, remotes and devtools
+### Step 4. Define path to NMR experiment
+### Step 5. Import NMR data
+### Step 6. Plot single spectrum
 
 ---
 [↥ **Back to top**](#top)
