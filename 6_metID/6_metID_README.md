@@ -5,7 +5,8 @@
 2. [LC-MS metabolite identification](#lcms)
 
 ## NMR metabolite identification <a name="nmr"></a>
-Some text here
+First, we are going to use Statistical Total Correlation Spectroscopy (STOCSY) toolbox on MATLAB to identify the correlated resonances of metabolites of interest.
+In MATLAB, make sure that you have set the working directory to where your processed data are stored. In this case, if you use KKUIPL laptop, the processed NMR data are stored at \D:\CliNaP_April2022\Processed_NMR_Data  
 
 ---
 [↥ **Back to top**](#top)
