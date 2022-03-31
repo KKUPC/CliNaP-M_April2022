@@ -4,7 +4,7 @@
 1. [General information](#general)
 2. [Metabolite extraction](#metabolite)
 3. [NMR](#nmr)
-4. [LC-MS](#lmcs)
+4. [LC-MS](#lcms)
 
 ## General information <a name="general"></a>
 ### Fermented fish sample
