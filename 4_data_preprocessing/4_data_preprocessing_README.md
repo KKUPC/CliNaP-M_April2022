@@ -11,6 +11,9 @@ Before performing statistical analysis, data pre-processing is a very crucial st
 ![](Figures/Figure1.png)
 
 ### Step 2. Set working directory 
+
+![](Figures/Figure2.png)
+
 ### Step 3. Load library packages including metabom8, remotes and devtools
 ### Step 4. Define path to NMR experiment
 ### Step 5. Import NMR data
