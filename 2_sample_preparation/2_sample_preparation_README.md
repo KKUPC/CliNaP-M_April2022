@@ -49,7 +49,7 @@ Extract metabolites from fermented fish samples using chloroform/methanol/water 
 ## NMR sample preparation <a name="nmr"></a>
 - Thaw sample and add 580 µl of NMR buffer 
 - Vortex and sonicate sample with ultrasonic bath 3 time or until get the homogeneous sample
--	Centrifuge sample at 13,000 g at 4oC for 10 minutes 
+-	Centrifuge sample at 13,000 g at 4ºC for 10 minutes 
 -	Transfer 550 µL of supernatant into 5 mm NMR tube
 
 ---
