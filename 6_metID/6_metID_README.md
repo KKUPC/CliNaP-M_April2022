@@ -11,6 +11,30 @@ In MATLAB, make sure that you have set the working directory to where your proce
 ![](Figures/0.jpg)
 **Figure 1**
 
+![](Figures/2.jpg)
+**Figure 2**
+
+![](Figures/3.jpg)
+**Figure 3**
+
+![](Figures/4.jpg)
+**Figure 4**
+
+![](Figures/5.jpg)
+**Figure 5**
+
+![](Figures/6.jpg)
+**Figure 6**
+
+![](Figures/7.jpg)
+**Figure 7**
+
+![](Figures/8.jpg)
+**Figure 8**
+
+![](Figures/9.jpg)
+**Figure 9**
+
 ---
 [↥ **Back to top**](#top)
 
