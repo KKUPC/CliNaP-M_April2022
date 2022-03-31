@@ -6,7 +6,7 @@ Before performing statistical analysis, data pre-processing is a very crucial st
 2. [LC-MS data pre-processing](#lcms)
 
 ## NMR data pre-processing <a name="nmr"></a>
-
+### Step1. Open R studio program.  
 
 ---
 [↥ **Back to top**](#top)
