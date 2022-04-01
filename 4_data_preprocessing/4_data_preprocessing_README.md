@@ -47,7 +47,8 @@ read1d_proc(data.file, exp_type=list(PULPROG='cpmgpr1d'))
 # use 'spec' to plot a single pectrum, e.g., in row position 15:
 spec(X[51,], ppm, shift = range(ppm), interactive=F)
 ```
-You should get the result like this 
+**You will obtain the result below**
+
 ![](Figures/Figure7.png)
 
 ### Step 7. Plot overlay spectra 
@@ -56,7 +57,8 @@ You should get the result like this
 # use 'matspec' to overlay spectra, in ppm range 0 to 10
 matspec(X, ppm, shift = c(-1, 10), interactive=F)
 ```
-You should get the result like this 
+**You will obtain the result below**
+
 ![](Figures/Figure9.png)
 
 ### Step 8. Create run order
@@ -74,7 +76,8 @@ specOverlay(X, ppm, shift=c(-0.05,0.05),
                      'Pulse Program'=meta$a_PULPROG) # linetype
 ) # linetype
 ```
-You should get the result like this 
+**You will obtain the result below**
+
 ![](Figures/Figure12.png)
 
 ### Step 10.  Perform TSP calibration
@@ -89,7 +92,8 @@ X_cal=calibrate(X, ppm, type='tsp')
 matspec(X_cal, ppm, shift=c(-0.1,0.1), interactive=F)
 ```
 
-You should get the result like this 
+**You will obtain the result below** 
+
 ![](Figures/Figure15.png)
 
 ### Step 11. Calculate quality control measures in water region, low field and up field
@@ -103,15 +107,15 @@ matspec(X_cal, ppm, shift=c(-1,1), interactive=F, main='UpField Cap')
 
 ![](Figures/Figure17.png)
 
-For residual water
+The NMR spectra for water region
 
 ![](Figures/Figure18.png)
 
-For low field 
+The NMR spectra for low field
 
 ![](Figures/Figure19.png)
 
-For up field  
+The NMR spectra for up field
 
 ### Step 12. Cut unwanted region including TSP, water and noise
 #### 12.1 TSP region
