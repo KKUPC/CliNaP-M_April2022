@@ -91,6 +91,11 @@ Now, you should obtain the STOCSY spectra below. The correlated resnonace of the
 
 ## LC-MS metabolite identification <a name="lcms"></a>
 For LC-MS/MS based approach, MS-DIAL software is employed for metabolite identification using quality control samples.
+Step 1 File Conversion
+-	Start “AnalysisBaseFileConverter.exe”.
+-	Drag & drop MS files (.d) into this - program.
+-	Click “Convert”.
+-	The ABF files are generated in the same directory as the raw data files. (Figure 1)
 
 ---
 [↥ **Back to top**](#top)
