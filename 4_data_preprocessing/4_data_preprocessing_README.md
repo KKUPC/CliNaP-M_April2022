@@ -47,6 +47,32 @@ read1d_proc(data.file, exp_type=list(PULPROG='cpmgpr1d'))
 # use 'spec' to plot a single pectrum, e.g., in row position 15:
 spec(X[51,], ppm, shift = range(ppm), interactive=F)
 ```
+### Step 7. Plot overlay spectra 
+### Step 8. Create run order
+### Step 9. Plot TSP signal
+### Step 10.  Perform TSP calibration
+### Step 11. Calculate quality control measures in water region, low field and up field
+
+### Step 12. Cut unwanted region including TSP, water and noise
+#### 12.1 TSP region
+#### 12.2 Water region
+#### 12.3 Down field noise region (ppm 9-10) 
+#### 12.4 Gather all regions to be removed and excision of TSP, water and noise regions
+
+### Step 13. Baseline correction
+### Step 14. Normalisation, PQN method 
+### Step 15. Visual inspection of the pre-processed NMR spectra
+
+### Step 16. Export NMR spectra to data table
+#### 16.1 Transpose data of x_pqn and ppm
+#### 16.2 Export NMR data in .csv file 
+#### 16.3 Open csv file in excel to rearrange the format file for multivariate analysis
+
+
+
+
+
+
 ---
 [↥ **Back to top**](#top)
 
