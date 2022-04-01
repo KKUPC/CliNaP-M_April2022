@@ -48,9 +48,9 @@ For this module, the chosen example dataset is Pla-ra samples derived NMR intens
 **Figure 5.** Full NMR data table
 
 For MetaboAnalyst analysis, the dataset is collected and arranged in Excel as following (Fig. 6): 
-_**Data Format**: .csv 
-_**Column**: Sample ID and Sample label
-_**Row**: variables
+-**Data Format**: .csv 
+-**Column**: Sample ID and Sample label
+-**Row**: variables
 ![](figures/F6-MetaboNMRData.png)
 **Figure 6.** NMR data table for MetaboAnalyst
 
