@@ -14,7 +14,7 @@ Before performing statistical analysis, data pre-processing is a very crucial st
 
 ```
 #set working directory 
-setwd("D:/R program training/Metabom8_demo")
+setwd("D:/CliNaP-M/Metabom8")
 ```
 
 
@@ -31,7 +31,7 @@ library(devtools)
 
 ```
 # define path to NMR experiments
-data.file <- "D:/R program training/Metabom8_demo/NMR2"
+data.file <- ""D:/CliNaP-M/Metabom8/NMR"
 ```
 
 ### Step 5. Import NMR data
@@ -125,7 +125,7 @@ The NMR spectra for up field
 matspec(X, ppm, shift = c(-0.05, 0.05), interactive=F)
 ```
 
-You will obtain the result below
+**You will obtain the result below**
 
 ![](Figures/Figure21.png)
 
@@ -142,7 +142,7 @@ idx_tsp=get_idx(range=c(min(ppm), 0.5), ppm)
 matspec(X, ppm, shift = c(4.75, 5), interactive=F)
 ```
 
-You will obtain the result below
+**You will obtain the result below**
 
 ![](Figures/Figure24.png)
 
@@ -159,7 +159,7 @@ idx_water=get_idx(range=c(4.75, 4.98), ppm)
 matspec(X, ppm, shift = c(8, 10), interactive=F)
 ```
 
-You will obtain the result below
+**You will obtain the result below**
 
 ![](Figures/Figure27.png)
 
@@ -191,7 +191,7 @@ Xcompare=rbind(X_bl[1,], X_cut[1,])
 matspec(Xcompare, ppm, shift = c(7, 9), interactive=F)
 matspec(Xcompare, ppm, shift = c(3,4), interactive=F)
 ```
-You will obtain the result below
+**You will obtain the result below**
 
 ![](Figures/Figure32.png)
 ![](Figures/Figure33.png)
