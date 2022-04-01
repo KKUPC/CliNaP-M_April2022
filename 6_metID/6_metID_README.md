@@ -98,5 +98,6 @@ Step 1 File Conversion
 -	Click “Convert”.
 -	The ABF files are generated in the same directory as the raw data files. (Figure 1)
 ![](Figures/MS1.png)
+**Figure 1**
 ---
 [↥ **Back to top**](#top)
