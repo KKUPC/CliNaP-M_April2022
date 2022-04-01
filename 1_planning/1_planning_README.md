@@ -24,7 +24,7 @@ Here are the tasks to be addressed at the end of short course for each group:
 - Group 6: What is the relationship between LC-MS/MS metabolome and odour satisfaction?
 - Groups 1 & 4, 2 & 5 and 3 & 6: Compare and contrast your results between NMR and LC-MS/MS.
 
-**Please note that if you are intereted in addressing the other tasks apart from your one, please feel free to do so. However, in your final group presentation, you need to present only your group task. Your extra results can be secretly kept for our class discussion :)
+**Please note that if you are intereted in addressing the other tasks apart from your one, please feel free to do so. However, in your final group presentation, you need to present only your group task. Your extra results can be secretly kept for our class discussion :)**
 
 ---
 [↥ **Back to top**](#top)
