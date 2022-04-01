@@ -48,25 +48,49 @@ read1d_proc(data.file, exp_type=list(PULPROG='cpmgpr1d'))
 spec(X[51,], ppm, shift = range(ppm), interactive=F)
 ```
 You should get the result like this 
-(Figure)
+![](Figures/Figure7.png)
 
 ### Step 7. Plot overlay spectra 
 
+```
+# use 'matspec' to overlay spectra, in ppm range 0 to 10
+matspec(X, ppm, shift = c(-1, 10), interactive=F)
+```
 You should get the result like this 
-(Figure)
+![](Figures/Figure9.png)
 
 ### Step 8. Create run order
+```
+# create run-order based on acquisition date
+meta$runOrder=rank(as.POSIXct(meta$a_DATE))
+```
 
 ### Step 9. Plot TSP signal
+```
+# plot TSP signal
+specOverlay(X, ppm, shift=c(-0.05,0.05),
+            an=list( 'Facet'=meta$a_EXP, # facet
+                     'RunOrder'=meta$runOrder, # colour
+                     'Pulse Program'=meta$a_PULPROG) # linetype
+) # linetype
+```
 You should get the result like this 
-(Figure)
+![](Figures/Figure12.png)
 
 ### Step 10.  Perform TSP calibration
+```
+# perform TSP calibration
+X_cal=calibrate(X, ppm, type='tsp')
+```
 
 **Plot TSP after calibration**
+```
+# plot TSP after calibration
+matspec(X_cal, ppm, shift=c(-0.1,0.1), interactive=F)
+```
 
 You should get the result like this 
-(Figure)
+![](Figures/Figure15.png)
 
 ### Step 11. Calculate quality control measures in water region, low field and up field
 
