@@ -94,9 +94,9 @@ For LC-MS/MS based approach, MS-DIAL software is employed for metabolite identif
 
 Step 1 File Conversion
 -	Start “AnalysisBaseFileConverter.exe”.
--	Drag & drop MS files (.d) into this - program.
+-	Drag & drop MS files (.d) into this program.
 -	Click “Convert”.
 -	The ABF files are generated in the same directory as the raw data files. (Figure 1)
-
+![](Figures/MS1.png)
 ---
 [↥ **Back to top**](#top)
