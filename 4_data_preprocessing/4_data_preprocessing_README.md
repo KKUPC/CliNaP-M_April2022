@@ -285,7 +285,8 @@ write.table(ppm3, file = "ppm3", quote = FALSE, sep = " ,",
 ![](Figures/FigureXXX.png)
 
 ### Step 4. Create and upload meta data as tab delimited file
-    This tool generates Base Peak Intensity Chromatograms (BPIs) and Total Ion Chromatograms (TICs). If you provide groups as we do here, you obtain two plots: one with colours based on provided groups, one with one colour per sample.
+#### This tool generates Base Peak Intensity Chromatograms (BPIs) and Total Ion Chromatograms (TICs). If you provide groups as we do here, you obtain two plots: one with colours based on provided groups, one with one colour per sample.
+
 
 
 
