@@ -63,11 +63,22 @@ You should get the result like this
 
 ### Step 10.  Perform TSP calibration
 
-***Plot TSP after calibration***
+**Plot TSP after calibration**
+
 You should get the result like this 
 (Figure)
 
 ### Step 11. Calculate quality control measures in water region, low field and up field
+
+You should get the result like this 
+(Figure)
+For residual water
+
+(Figure)
+For low field 
+
+(Figure)
+For up field  
 
 ### Step 12. Cut unwanted region including TSP, water and noise
 
