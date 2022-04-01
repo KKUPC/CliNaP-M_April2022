@@ -201,7 +201,7 @@ matspec(Xcompare, ppm, shift = c(3,4), interactive=F)
 The red dash line represents the uncorrected baseline, the black line represents the baseline correction spectrum. 
 
 
-### Step 14. Normalisation, PQN method 
+### Step 14. Normalisation with PQN method 
 ```
 # PQN normalisation
 X_pqn=pqn(X_bl, add_DilF = 'NULL')
