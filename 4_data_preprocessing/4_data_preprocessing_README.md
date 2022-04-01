@@ -81,10 +81,27 @@ For low field
 For up field  
 
 ### Step 12. Cut unwanted region including TSP, water and noise
-
 #### 12.1 TSP region
+- Check TSP region 
+
+You should get the result like this
+(Figure)
+
+- Specify TSP region to be removed 
+
 #### 12.2 Water region
+- Check water region 
+You should get the result like this
+(Figure)
+
+- Specify water region to be removed
+
+
 #### 12.3 Down field noise region (ppm 9-10) 
+- Check down field noise region
+You should get the result like this
+(Figure)
+
 #### 12.4 Gather all regions to be removed and excision of TSP, water and noise regions
 
 ### Step 13. Baseline correction
