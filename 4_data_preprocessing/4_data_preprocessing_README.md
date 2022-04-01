@@ -137,12 +137,14 @@ matspec(X_pqn, ppm, shift = range(ppm), interactive=F)
 matspec(X_pqn, ppm, shift = c(1.2, 1.7), interactive=F)
 ```
 
-You will obtain the result below
+**You will obtain the result below**
 
 ![](Figures/Figure36.png)
+
 The pre-processed NMR spectra at ppm 1-9.
 
 ![](Figures/Figure37.png)
+
 The pre-processed NMR spectra at ppm 1.2-1.7.
 
 ### Step 16. Export NMR spectra to data table
