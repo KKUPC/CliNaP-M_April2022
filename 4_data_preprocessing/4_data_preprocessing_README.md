@@ -287,6 +287,58 @@ write.table(ppm3, file = "ppm3", quote = FALSE, sep = " ,",
 ### Step 4. Create and upload meta data as tab delimited file
 #### This tool generates Base Peak Intensity Chromatograms (BPIs) and Total Ion Chromatograms (TICs). If you provide groups as we do here, you obtain two plots: one with colours based on provided groups, one with one colour per sample.
 
+- Type in the tool search box “xcms plot chromatogram”
+- Select mzXML.raw.RData as input > execute
+- When the process complete click the eye button to visualize the data
+
+![](Figures/FigureXXX.png)
+
+### Step 5. Peak picking
+#### Now that your data is ready for XCMS processing, the first step is to extract peaks from each of your data files independently. The idea here is, for each peak, to proceed to chromatographic peak detection.
+#### The XCMS solution provides two different algorithms to perform chromatographic peak detection: matchedFilter and centWave. The matchedFilter strategy is the first one provided by the XCMS R package. It is compatible with any LC-MS device, but was developed at a time when high resolution mass spectrometry was not common standard yet. On the other side, the centWave algorithm (Tautenhahn et al. 2008) was specifically developed for high resolution mass spectrometry, dedicated to data in centroid mode. In this tutorial, you will practice using the centWave algorithm.
+
+- Type in the tool search box “peak picking”
+- Select xcms findChromPeaks
+- Select mzXML.raw.RData as input > execute
+
+![](Figures/FigureXXX.png)
+
+### Step 6. Merging peak data into one data 
+
+- Type in the tool search box “merge”
+- Select xcms findChromPeaks Merger
+- Select mzXML.raw.xset.RData as input > execute
+
+![](Figures/FigureXXX.png)
+
+### Step 7. Group chromatogram peak
+
+- Type in the tool search box “group”
+- Select xcms groupChromPeak
+- Select xset.merged.RData as input > execute
+
+![](Figures/FigureXXX.png)
+
+### Step 8. Retention time correction
+
+- Type in the tool search box “retcor”
+- Select xcms adjustRtime
+- Select xset.merged.group.Chrom.RData as input > execute
+- Repeat step 7 with xset.merged.group.Chrom.adjustRtime.RData as input > execute
+
+![](Figures/FigureXXX.png)
+
+### Step 9. Fill peaks
+
+- Type in the tool search box “fillPeaks”
+- Select xcms fillChromPeaks (fillPeaks)
+- Select xset.merged.group.Chrom.adjustRtime.groupChromPeaks.RData as input > execute
+ as input > execute
+ 
+ ![](Figures/FigureXXX.png)
+
+ 
+
 
 
 
