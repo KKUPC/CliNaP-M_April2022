@@ -7,7 +7,7 @@
 ## NMR metabolite identification <a name="nmr"></a>
 First, we are going to use Statistical Total Correlation Spectroscopy (STOCSY) toolbox on MATLAB to identify the correlated resonances of metabolites of interest.
 
-Open MATLAB
+Open MATLAB on KKUIPL laptop
 
 In MATLAB, make sure that you have set the working directory to where your processed data are stored (look at the left-hand panel if you could see your data file in .mat format). In this case, if you use KKUIPL laptop, the processed NMR data are stored at \D:\CliNaP_April2022\Processed_NMR_Data (Fig. 1)
 
@@ -26,12 +26,24 @@ You will obtain the processed NMR spectra below.
 ![](Figures/MetID_Fig2.JPG)
 **Figure 2**
 
-Now, click data cursor and click the NMR signal of interest. 
+Now, click data cursor and click the NMR signal of interest - in this case, we are going to select 1.329 ppm (doublet) as the driver peak. Then, right click this peak and choose 'export cursor data to work space'.  
+
 ![](Figures/MetID_Fig3.JPG)
 **Figure 3**
 
+Name the cursor data as peak_1p329 and click 'ok'.
+
 ![](Figures/MetID_Fig4.JPG)
 **Figure 4**
+
+In MATLAB command window, do the following:
+
+```bash
+#Perform STOCSY using the peak at 1.329 ppm as the driver peak
+STOCSY(xaln, ppm, peak_1p329.Position(1),0.000001);
+```
+
+Now, you should obtain the STOCSY spectra below. The correlated resnonace of the driver peak (1.329 ppm) is a protron resonance at 4.146 ppm (quartet) indicated by the similar correlation coefficient.
 
 ![](Figures/MetID_Fig5.JPG)
 **Figure 5**
