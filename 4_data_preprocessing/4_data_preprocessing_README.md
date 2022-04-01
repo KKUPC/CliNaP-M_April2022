@@ -8,7 +8,7 @@ Before performing statistical analysis, data pre-processing is a very crucial st
 ## NMR data pre-processing <a name="nmr"></a>
 ### Step 1. Open R studio program 
 
-![](Figures/Figure1.png)
+![](Figures/Figure1-1.png)
 
 ### Step 2. Set working directory 
 
