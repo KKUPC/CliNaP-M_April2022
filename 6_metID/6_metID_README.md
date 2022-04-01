@@ -191,8 +191,43 @@ The metabolite searching can be carried out using either retention time (RT) or 
 ![](Figures/MS15.png)
 **Figure 15** 
 
-### HMDB
+### Human metabolome database (HMDB)
+	The Human Metabolome Database (HMDB) is a freely available electronic database containing detailed information about small molecule metabolites found in the human body. It is intended to be used for applications in metabolomics, clinical chemistry, biomarker discovery and general education. The database is designed to contain or link three kinds of data: 1) chemical data, 2) clinical data, and 3) molecular biology/biochemistry data. The database contains 114,193 metabolite entries including both water-soluble and lipid soluble metabolites as well as metabolites that would be regarded as either abundant (> 1 uM) or relatively rare (< 1 nM). Additionally, 5,702 protein sequences are linked to these metabolite entries. (Source:  https://hmdb.ca/)
+
+1) Go to  https://hmdb.ca/ > Click Search > Click LC-MS Search
+![](Figures/HMDB1.jpg)
+
+2) Add “m/z” > Set parameter > Click Search
+![](Figures/HMDB2.jpg)
+
+3) List of matched metabolites
+![](Figures/HMDB3.jpg)
+
+4) Description of metabolite
+![](Figures/HMDB4.jpg)
+![](Figures/HMDB5.jpg)
+
+5) Select MS/MS Spectra with “Experimental Conditions” to confirm fragmentation patterns of spectrum
+![](Figures/HMDB6.jpg)
+
+6) Spectrum details, spectrum view, and experimental conditions
+![](Figures/HMDB7.jpg)
 
 ### METLIN
+	METLIN has multiple searching capabilities including single, batch, precursor ion, neutral loss, accurate mass, and fragment searches. The popular similarity search algorithm for unknown characterization, another METLIN search option, originated on METLIN in 2008. METLIN now includes over a million molecules ranging from lipids, steroids, plant & bacteria metabolites, small peptides, carbohydrates, exogenous drugs/metabolites, central carbon metabolites and toxicants. The metabolites and other chemical entities have been individually analyzed to provide experimental MS/MS data. (Source: https://metlin.scripps.edu/)
+	
+1) Go to https://metlin.scripps.edu/ > Click Sign Up 
+![](Figures/METLIN1.jpg)
+
+2) Create “New User Registration”
+![](Figures/METLIN2.jpg)
+
+3) Click “Simple Search”
+![](Figures/METLIN3.jpg)
+
+4) Add “m/z” > Set parameter > Click Search
+![](Figures/METLIN4.jpg)
+
+	
 ---
 [↥ **Back to top**](#top)
