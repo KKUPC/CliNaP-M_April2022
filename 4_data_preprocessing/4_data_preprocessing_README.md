@@ -81,6 +81,8 @@ specOverlay(X, ppm, shift=c(-0.05,0.05),
 ![](Figures/Figure12.png)
 
 ### Step 10.  Perform TSP calibration
+
+**TSP calibration**
 ```
 # perform TSP calibration
 X_cal=calibrate(X, ppm, type='tsp')
