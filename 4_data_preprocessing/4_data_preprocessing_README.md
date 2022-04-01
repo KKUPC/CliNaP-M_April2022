@@ -119,13 +119,20 @@ The NMR spectra for up field
 
 ### Step 12. Cut unwanted region including TSP, water and noise
 #### 12.1 TSP region
-- Check TSP region
+- **Check TSP region**
+```
+#Check TSP region
+matspec(X, ppm, shift = c(-0.05, 0.05), interactive=F)
+```
 
+You will obtain the result below
+![](Figures/Figure21.png)
 
-You should get the result like this
-(Figure)
-
-- Specify TSP region to be removed 
+- **Specify TSP region to be removed** 
+```
+#Specify TSP region to be removed
+idx_tsp=get_idx(range=c(min(ppm), 0.5), ppm)
+```
 
 #### 12.2 Water region
 - Check water region 
