@@ -82,13 +82,13 @@ specOverlay(X, ppm, shift=c(-0.05,0.05),
 
 ### Step 10.  Perform TSP calibration
 
-**TSP calibration**
+- **TSP calibration**
 ```
 # perform TSP calibration
 X_cal=calibrate(X, ppm, type='tsp')
 ```
 
-**Plot TSP after calibration**
+- **Plot TSP after calibration**
 ```
 # plot TSP after calibration
 matspec(X_cal, ppm, shift=c(-0.1,0.1), interactive=F)
