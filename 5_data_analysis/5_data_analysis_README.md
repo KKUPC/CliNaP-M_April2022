@@ -4,11 +4,11 @@
 1. [Overview and Aims](#overview)
 2. [Introduction to MetaboAnalyst](#intro)
 3. [NMR-based metabolome data analysis using MetaboAnalyst](#nmrbased)
-    3.2. [Data analysis using MetaboAnalyst](#nmrdataanalysis)
-    3.3. [Download Results](#nmrdownload)
+   *[Data analysis using MetaboAnalyst](#nmrdataanalysis)
+   *[Download Results](#nmrdownload)
 4. [LC-MS/MS – based metabolome data analysis using MetaboAnalyst](#lcmsbased)
-    4.2. [Data analysis using MetaboAnalyst](#lcmsdataanalysis)
-    4.3. [Download Results](#lcmsdownload)
+   *[Data analysis using MetaboAnalyst](#lcmsdataanalysis)
+   *[Download Results](#lcmsdownload)
 5. [Extra box 1](#extra1)
 
 ---
@@ -52,9 +52,9 @@ For this module, the chosen example dataset is Pla-ra samples derived NMR intens
 **Figure 5.** Full NMR data table
 
 For MetaboAnalyst analysis, the dataset is collected and arranged in Excel as following (Fig. 6): 
-**Data Format**: .csv 
-**Column**: Sample ID and Sample label
-**Row**: variables
+_**Data Format**: .csv 
+_**Column**: Sample ID and Sample label
+_**Row**: variables
 ![](figures/F6-MetaboNMRData.png)
 **Figure 6.** NMR data table for MetaboAnalyst
 
