@@ -75,9 +75,11 @@ Name the cursor data as peak_3p007 and click 'ok'.
 STOCSY(xaln, ppm, peak_3p007.Position(1),0.000001);
 ```
 
-Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (3.007 ppm) include the protron resonances at 4.146 ppm (quartet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet. 
+Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (3.007 ppm) include the protron resonances at 3.17 ppm (doublet of doublets), 3.98 ppm (doublet of doublets), 6.94 ppm (doublet of doublets of doublets) and 7.19 ppm (doublet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet. 
 
 ![](Figures/MetID_Fig11.JPG)
+
+
 
 ![](Figures/MetID_Fig12.JPG)
 
