@@ -108,6 +108,39 @@ Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the 
 
 ### Searching against Chenomx database
 
+![](Figures/Chenomx _Fig1.JPG)
+**Figure 1**
+![](Figures/Chenomx _Fig2.JPG)
+**Figure 2**
+![](Figures/Chenomx _Fig3.JPG)
+**Figure 3**
+![](Figures/Chenomx _Fig4.JPG)
+**Figure 4**
+![](Figures/Chenomx _Fig5.JPG)
+**Figure 5**
+![](Figures/Chenomx _Fig6.JPG)
+**Figure 6**
+![](Figures/Chenomx _Fig7.JPG)
+**Figure 7**
+![](Figures/Chenomx _Fig8.JPG)
+**Figure 8**
+![](Figures/Chenomx _Fig9.JPG)
+**Figure 9**
+![](Figures/Chenomx _Fig10.JPG)
+**Figure 10**
+![](Figures/Chenomx _Fig11.JPG)
+**Figure 11**
+![](Figures/Chenomx _Fig12.JPG)
+**Figure 12**
+![](Figures/Chenomx _Fig13.JPG)
+**Figure 13**
+![](Figures/Chenomx _Fig114.JPG)
+**Figure 14**
+![](Figures/Chenomx _Fig15.JPG)
+**Figure 15**
+![](Figures/Chenomx _Fig16.JPG)
+**Figure 16**
+
 ---
 [↥ **Back to top**](#top)
 
