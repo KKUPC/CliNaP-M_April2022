@@ -281,6 +281,23 @@ It is composed of R functions able to extract, filter, align, fill gap and annot
 
 **Figure2: LCMS preprocessing workflow.**
 
+https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms-preprocessing/slides-plain.html
+
+![](Figures/XXX.png)
+
+The metabolome analysis workflow is available at the following servers and docker image
+
+https://usegalaxy.eu/
+https://africa.usegalaxy.eu/
+https://india.usegalaxy.eu/
+https://streetscience.usegalaxy.eu/
+https://usegalaxy.org.au/
+https://workflow4metabolomics.usegalaxy.fr/
+
+![](Figures/XXX.png)
+
+For those of you who do not want to upload your data to server, galaxy can be run locally in your PC using docker
+
 ## LC-MS data pre-processing 
 ### Step 1. Upload data 
 - Collection
