@@ -1,4 +1,6 @@
 # CliNaP-M (April 2022)
+![](figures/CliNaP-LOGO4.png)
+
 Practical hands-on training in food metabolome analysis
 
 ## Course overview
