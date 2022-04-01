@@ -1,8 +1,6 @@
 # CliNaP-M (April 2022)
 ![](figures/CliNaP-LOGO4.png)
 
-Practical hands-on training in food metabolome analysis
-
 ## Course overview
 
 Metabolomics is one of the most renowned and emerging research methodologies in the 21st century that quantitatively and qualitatively measure the level of
