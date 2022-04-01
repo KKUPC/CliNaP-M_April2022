@@ -75,14 +75,7 @@ Now, you should obtain the STOCSY spectra below. The correlated resnonace of the
 ![](Figures/MetID_Fig14.JPG)
 **Figure 14**
 
-![](Figures/MetID_Fig15.JPG)
-**Figure 15**
 
-![](Figures/MetID_Fig16.JPG)
-**Figure 16**
-
-![](Figures/MetID_Fig17.JPG)
-**Figure 17**
 
 
 
