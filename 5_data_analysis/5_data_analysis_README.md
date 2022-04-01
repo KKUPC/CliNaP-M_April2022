@@ -36,7 +36,7 @@ As mentioned above, MetaboAnalyst supports a wide array of data input types gene
 
 There are four data formats that can be used in MetaboAnalyst including Comma Separated Values (.csv), Tab Delimited Text (.txt), mzTab 2.0-M files (.mzTab), and Zipped files (.zip). The instruction and special notes of each format are provided in section “General” (Fig. 4). Also, next to this section are the instructions for different data types and analysis paths. 
 
-![](figures/F4-DataFormat.png)  
+![](figures/F4-DataFormats.png)  
 **Figure 4.** The instruction for data formats that can be used in MetaboAnalyst
 
 ---
