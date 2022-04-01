@@ -82,12 +82,13 @@ Additional material
 | ---  |    ---  |
 | 11:00-12:00  | Check-in |
 | 12:00-13:00 | Lunch |
-| 13:00-14:00 | Plenary Lecture |
-| 14:00-14:30 | Coffee break |
-| 14:30-15:30 | Session 1: Sample preparation |
-| 15:30-16:30 | Session 2: Data acquisition |
-| 16:30-17:10 | R crash course |
+| 13:00-14:00 | Plenary Lecture (Assoc. Prof Nisana Namwat) |
+| 14:00-14:30 | Coffee break + group work announcement (Jutarop) |
+| 14:30-15:30 | Session 1: Sample preparation (Manida/Anyarin/Siriyakorn) |
+| 15:30-16:30 | Session 2: Data acquisition (Thanaporn/Suthicha/Saikhim) |
+| 16:30-17:10 | R crash course (Arporn) |
 | 17:10-17:30 | Day 1 Exit Ticket |
+| 17:30-18:00 | (Optional) Software installation (Instructor team) | 
 
 ### Day 2 (4 April 2022)
 
