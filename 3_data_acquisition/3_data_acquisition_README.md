@@ -13,6 +13,6 @@ Some text here
 
 ## Data acquisition - LC-MS <a name="lcms"></a>
 Some text here
-![](LC-MS label.jpg)
+
 ---
 [↥ **Back to top**](#top)
