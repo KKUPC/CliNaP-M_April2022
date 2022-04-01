@@ -136,7 +136,10 @@ X_pqn=pqn(X_bl, add_DilF = 'NULL')
 matspec(X_pqn, ppm, shift = range(ppm), interactive=F)                                 
 matspec(X_pqn, ppm, shift = c(1.2, 1.7), interactive=F)
 ```
-You will obtain the result below
+
+You should get the result like this
+(Figure)
+(Figure)
 
 ### Step 16. Export NMR spectra to data table
 #### 16.1 Transpose data of x_pqn and ppm
