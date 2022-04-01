@@ -119,8 +119,8 @@ For LC-MS/MS based approach, MS-DIAL software is employed for metabolite identif
 
 2.4 Importing ABF files (Figure 6,7)
 	1) Select ABF files 
-  2) Set the file as “Quality Control (QC)”
-  3) Edit injection volume (in this sample, we injected 2 uL)
+  	2) Set the file as “Quality Control (QC)”
+  	3) Edit injection volume (in this sample, we injected 2 uL)
 ![](Figures/MS6.png)
 **Figure 6**
 
@@ -129,20 +129,23 @@ For LC-MS/MS based approach, MS-DIAL software is employed for metabolite identif
 
 2.5 Setting parameters
 	1) Data collection tab
-		  Mass accuracy: After the peak detection algorithm is applied along the MS axis with a very low threshold, MS-DIAL performs spectral centroiding. By default, mass spectrum of ±0.01 and ±0.05 Da range from each peak top is integrated in MS1 and MS2, respectively. Importantly, this MS2 tolerance value is also used to build the MS/MS chromatogram for a certain m/z trace. The MS/MS chromatograms are dedicated to the MS2Dec deconvolution program.
-    Data collection parameters: You can set analysis ranges (RT, MS1 and MS/MS axis). In this demonstration, your expected data range is 0-30 min for 50-1000 Da.
+		Mass accuracy: After the peak detection algorithm is applied along the MS axis with a very low threshold, MS-DIAL performs spectral centroiding. By default, mass spectrum of ±0.01 and ±0.05 Da range from each peak top is integrated in MS1 and MS2, respectively. Importantly, this MS2 tolerance value is also used to build the MS/MS chromatogram for a certain m/z trace. The MS/MS chromatograms are dedicated to the MS2Dec deconvolution program.
+		Data collection parameters: You can set analysis ranges (RT, MS1 and MS/MS axis). In this demonstration, your expected data range is 0-30 min for 50-1000 Da.
 ![](Figures/MS8.png)
 **Figure 8**
-  2) Peak detection tab
-		  MS-DIAL provides two simple thresholds: minimum values for peak width and height. Peaks below these thresholds are ignored.
-		  Minimum peak width: indicates a threshold of peak width for filtering (0.1 and 0.05 are suitable for Q-TOF and Orbitrap, respectively).
-		  Smoothing method: Linear-weighted moving average is used for the peak detection as default to accurately determine the peak left- and right edges. The recommended smoothing level is 1-3. (If you already know unwanted m/z peaks because of columns or solvent contaminants, you can specify them in the Exclusion mass list).
+
+ 	2) Peak detection tab
+		MS-DIAL provides two simple thresholds: minimum values for peak width and height. Peaks below these thresholds are ignored.
+		Minimum peak width: indicates a threshold of peak width for filtering (0.1 and 0.05 are suitable for Q-TOF and Orbitrap, respectively).
+		Smoothing method: Linear-weighted moving average is used for the peak detection as default to accurately determine the peak left- and right edges. The recommended smoothing level is 1-3. (If you already know unwanted m/z peaks because of columns or solvent contaminants, you can specify them in the Exclusion mass list).
 ![](Figures/MS9.png)
 **Figure 9**
+
   3) MS2Dec tab
 		  Deconvolution parameters mean the cut-off values to reduce the MS noises. The sigma window value is highly affected by the resolution of deconvolutions. A higher value (0.7-1.0) will reduce the peak top resolutions, i.e. the number of resolved peaks will be decreased. On the other hand, a lower value (0.1-0.3) may also recognize many noise chromatographic peaks.
 ![](Figures/MS10.png)
 **Figure 10**
+
   4) Identification tab
 		  MSP file is a mass spectrum file format for MS/MS spectrum that available on MS-DIAL website (http://prime.psc.riken.jp/compms/msdial/main.html#MSP).
 ![](Figures/MS11.png)
@@ -150,10 +153,12 @@ For LC-MS/MS based approach, MS-DIAL software is employed for metabolite identif
 
 ![](Figures/MS12.png)
 **Figure 12**
+
   5) Adduct tab
 		  You can tick the adduct ions and charge values to be considered.
 ![](Figures/MS13.png)
 **Figure 13** 
+
   6) Alignment tab
 		  Result name will be the name of each alignment shown at the pane ‘Alignment navigator’ in the main window.
       The RT and MS1 tolerances for peak alignment depend on your chromatographic conditions.
