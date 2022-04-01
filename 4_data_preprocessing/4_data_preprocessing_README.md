@@ -266,7 +266,7 @@ write.table(ppm3, file = "ppm3", quote = FALSE, sep = " ,",
 - Start
 - After upload completed click build, name the list as mzXML
 
-![](Figures/FigureXXX.png)
+![](Figures/lcms1.png)
 
 
 ### Step 2. Read data using XCMS: MSnbase readMSData
