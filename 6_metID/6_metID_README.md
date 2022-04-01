@@ -90,7 +90,7 @@ Now, you should obtain the STOCSY spectra below. The correlated resnonace of the
 [↥ **Back to top**](#top)
 
 ## LC-MS metabolite identification <a name="lcms"></a>
-Some text here
+For LC-MS/MS based approach, MS-DIAL software is employed for metabolite identification using quality control samples.
 
 ---
 [↥ **Back to top**](#top)
