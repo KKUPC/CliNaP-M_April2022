@@ -49,14 +49,29 @@ Installing R and RStudio on Mac OS X
 To install R and RStudio on Mac OS X, go through the following steps:
 Install R on Mac
 Step – 1: Go to [CRAN R Project](https://cran.r-project.org./) Website.
+![](Figure_1.png)
 Step – 2: Click on the Download for (Mac) OS X link.
+![](Figure_2.png)
 Step – 3: Click on the link for the pkg file of the latest R version and save it.
+![](Figure_3.png)
 Step – 4: Double click the downloaded file and follow installation instructions.
+![](Figure_4.png)
+![](Figure_5.png)
+![](Figure_6.png)
+![](Figure_7.png)
+![](Figure_8.png)
+![](Figure_9.png)
+
 Install RStudio on Mac OS X
 Step – 1: With the r-base installed, you need to install RStudio. To do that, go to [download RStudio](https://www.rstudio.com/ide/download)and click on the download button for the RStudio desktop.
+![](Figure_10.png)
 Step – 2: Click on the link for the Mac OS X version of RStudio and save the .dmg file.
+![](Figure_11.png)
+![](Figure_12.png)
 Step – 3: Double click the downloaded file and then drag-and-drop it into your applications folder.
+![](Figure_14.png)
 Now with R and RStudio installed in your system, let’s look at a few packages that might help you in learning as well as using R to its fullest potential!
+![](Figure_15.png)
 
 ---
 [↥ **Back to top**](#top)
