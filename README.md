@@ -79,7 +79,6 @@ Additional material
 
 ### Day 1 (3 April 2022)
 
-
 | Time | Activities |
 | ---  |    ---  |
 | 11:00-12:00  | Check-in |
@@ -94,6 +93,20 @@ Additional material
 
 
 ### Day 2 (4 April 2022)
+
+| Time | Activities |
+| ---  |    ---  |
+| 9:00-9:30  | Opening ceremony |
+| 9:30-10:00 | Special lecture (KKUIPL) |
+| 10:00-10:30 | Coffee break |
+| 10:30-12:00 | Session 3: Data pre-processing |
+| 12:00-12:45 | Lunch 
+| 12:45-13:00 | Sponsor talk |
+| 13:00-14:30 | Session 4: Data analysis |
+| 14:30-15:00 | Coffee break | 
+| 15:00-16:30 |  Session 4: Data analysis (cont.) |
+| 16:30-17:00 | Day 2 Exit Ticket |
+| 17:00 onward | Reception dinner + Special lecture (Asst. Prof. Chavis Ketkaew) |
 
 ### Day 3 (5 April 2022)
 
