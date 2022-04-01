@@ -60,25 +60,25 @@ For MetaboAnalyst analysis, the dataset is collected and arranged in Excel as fo
 After the preparation for data file is completed, we can go back to MetaboAnalyst Module View and click “Statistical Analysis [one factor” to start the analysis process. 
 ![](figures/SA_Onefactor.png)
 
-In the box of “A plain text (.txt or .csv), select the information and follow the steps as below:
-**Data Type**: Peak intensities
-**Format**: Sample in columns (unpaired)
-**Data File**: click “Choose” to upload the data file (.csv file)
-Click **Submit**
+In the box of “A plain text (.txt or .csv)", select the information and follow the steps as below:
+- **Data Type**: Peak intensities
+- **Format**: Sample in columns (unpaired)
+- **Data File**: click “Choose” to upload the data file (.csv file)
+- Click **Submit**
 ![](figures/SA_FileUpload.png)
 
 ##### ***Data processing***
 The main steps of data processing include Data check, Missing value, Data filter, Data editor, and Normalisation.  
 *Data check & Missing value*
-The commands help to check the integrity of the data file and provide the editing window for group labels. It is necessary to look over a few important pieces of information such as number of samples, number of groups, and missing values before processing next steps. 
+- The commands help to check the integrity of the data file and provide the editing window for group labels. It is necessary to look over a few important pieces of information such as number of samples, number of groups, and missing values before processing next steps. 
 ![](figures/SA_DataCheck.png)
 
 *Data filter*
-The purpose of this step is to filter non-information variables such as baseline noises. MetaboAnalyst provides detailed explanations and suggestions for data filtering methods in their platform. For this module, we suggest using the “None” option to allow maximum variables for analysis. 
+- The purpose of this step is to filter non-information variables such as baseline noises. MetaboAnalyst provides detailed explanations and suggestions for data filtering methods in their platform. For this module, we suggest using the “None” option to allow maximum variables for analysis. 
 ![](figures/SA_DataFilter.png)
 
 *Normalisation*
-MetaboAnalyst provides the normalisation procedures with three categories to improve the quality of your dataset such as sample normalisation, data transformation, and data scaling. For this module, as the example dataset has undergone the preprocessing procedure, thus, none of the strategies is required.
+- MetaboAnalyst provides the normalisation procedures with three categories to improve the quality of your dataset such as sample normalisation, data transformation, and data scaling. For this module, as the example dataset has undergone the preprocessing procedure, thus, none of the strategies is required.
 ![](figures/SA_Normalization.png)
 
 
