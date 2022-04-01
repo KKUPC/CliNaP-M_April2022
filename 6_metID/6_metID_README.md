@@ -102,7 +102,7 @@ In MATLAB command window, do the following:
 STOCSY(xaln, ppm, peak_4p676.Position(1),0.000001)
 ```
 
-Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (4.676 ppm) include a few protron resonances at 3 - 4 ppm indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet.
+Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (4.676 ppm) include a few protron resonances at 3 - 4 ppm and a peak at 5.2 (doublet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet.
 
 ![](Figures/MetID_Fig14.JPG)
 
