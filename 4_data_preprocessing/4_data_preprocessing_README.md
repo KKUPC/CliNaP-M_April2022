@@ -254,13 +254,44 @@ write.table(ppm3, file = "ppm3", quote = FALSE, sep = " ,",
 
 
 
-
-
 ---
 [↥ **Back to top**](#top)
 
 ## LC-MS data pre-processing <a name="lcms"></a>
-Some text here
-![](Figures/)
+### Step 1. Upload data 
+- Collection
+- Select local file
+- Select workshop dataset 
+- File type mzXML
+- Start
+- After upload completed click build, name the list as mzXML
+
+![](Figures/FigureXXX.png)
+
+
+### Step 2. Read data using XCMS: MSnbase readMSData
+- Type in the tool search box readMSData
+- Select XCMS: MSnbase readMSData
+- Select mzXML collection
+- Execute
+
+![](Figures/FigureXXX.png)
+
+### Step 3. Create and upload meta data as tab delimited file
+- Create metadata in MS excel
+- Save as tab-delimited (.txt) file
+- Upload to galaxy (file type tabular)
+
+![](Figures/FigureXXX.png)
+
+### Step 4. Create and upload meta data as tab delimited file
+    This tool generates Base Peak Intensity Chromatograms (BPIs) and Total Ion Chromatograms (TICs). If you provide groups as we do here, you obtain two plots: one with colours based on provided groups, one with one colour per sample.
+
+
+
+
+
+
+
 ---
 [↥ **Back to top**](#top)
