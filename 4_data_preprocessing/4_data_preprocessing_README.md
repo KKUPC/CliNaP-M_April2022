@@ -198,6 +198,7 @@ You will obtain the result below
 
 The red dash line represents the uncorrected baseline, the black line represents the baseline correction spectrum. 
 
+
 ### Step 14. Normalisation, PQN method 
 ```
 # PQN normalisation
