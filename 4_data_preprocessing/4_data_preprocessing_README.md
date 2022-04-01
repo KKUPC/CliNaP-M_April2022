@@ -56,8 +56,17 @@ You should get the result like this
 (Figure)
 
 ### Step 8. Create run order
+
 ### Step 9. Plot TSP signal
+You should get the result like this 
+(Figure)
+
 ### Step 10.  Perform TSP calibration
+
+***Plot TSP after calibration***
+You should get the result like this 
+(Figure)
+
 ### Step 11. Calculate quality control measures in water region, low field and up field
 
 ### Step 12. Cut unwanted region including TSP, water and noise
