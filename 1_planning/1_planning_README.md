@@ -15,11 +15,16 @@ This sub-experiment aimed to investigate the metabolic differences in fermented 
 ## Group work <a name="groupwork"></a>
 Groups 1 - 3 are provided with NMR dataset while groups 4 - 6 obtain LC-MS/MS dataset. Odour satisfaction data is given to all groups for further correlation analysis.
 
-For all groups, you need to do the following:
-- Pre-process either NMR or LC-MS/MS dataset
-- Identify either NMR or LC-MS/MS metabolites
-- Perform multivaraite statistical analysis
+Here are the tasks to be addressed at the end of short course for each group:
+- Group 1: What are the differences in NMR metabolite profiles of fermented fish at different fermentation times?
+- Group 2: What are the differences in NMR metabolite profiles of fermented fish at different (raw and cooked) conditions?
+- Group 3: What is the relationship between NMR metabolome and odour satisfaction?
+- Group 4: What are the differences in LC-MS/MS metabolite profiles of fermented fish at different fermentation times?
+- Group 5: What are the differences in LC-MS/MS metabolite profiles of fermented fish at different (raw and cooked) conditions?
+- Group 6: What is the relationship between LC-MS/MS metabolome and odour satisfaction?
+- Groups 1 & 4, 2 & 5 and 3 & 6: Compare and contrast your results between NMR and LC-MS/MS.
 
+**Please note that if you are intereted in addressing the other tasks apart from your one, please feel free to do so. However, in your final group presentation, you need to present only your group task. Your extra results can be secretly kept for our class discussion :)
 
 ---
 [↥ **Back to top**](#top)
