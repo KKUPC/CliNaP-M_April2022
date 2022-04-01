@@ -99,12 +99,12 @@ Additional material
 | 9:00-9:30  | Opening ceremony |
 | 9:30-10:00 | Special lecture (KKUIPL) |
 | 10:00-10:30 | Coffee break |
-| 10:30-12:00 | Session 3: Data pre-processing |
+| 10:30-12:00 | Session 3: Data pre-processing (Manida/Sivamoke) |
 | 12:00-12:45 | Lunch |
 | 12:45-13:00 | Sponsor talk |
-| 13:00-14:30 | Session 4: Metabolite identification |
+| 13:00-14:30 | Session 4: Metabolite identification I (Jutarop/Thanaporn) |
 | 14:30-15:00 | Coffee break | 
-| 15:00-16:30 | Session 4: Metabolite identification (cont.) |
+| 15:00-16:30 | Session 4: Metabolite identification II (Jutarop/Thanaporn) |
 | 16:30-17:00 | Day 2 Exit Ticket |
 | 17:00 onward | Reception dinner + Special lecture (Asst. Prof. Chavis Ketkaew) |
 
@@ -113,9 +113,9 @@ Additional material
 | Time | Activities |
 | ---  |    ---  |
 | 9:00-9:30  | Special lecture (Dr. Bundit Promraksa) |
-| 9:30-10:30 | Session 5: Data analysis |
+| 9:30-10:30 | Session 5: Data analysis I (Arporn/Poramate/Jutarop/Phuc) |
 | 10:30-11:00 | Coffee break |
-| 11:00-12:00 | Session 5: Data analysis (cont.) |
+| 11:00-12:00 | Session 5: Data analysis II (Arporn/Poramate/Jutarop/Phuc) |
 | 12:00-12:45 | Lunch |
 | 12:45-13:00 | Sponsor talk |
 | 13:00-15:00 | Prepare for group presentation |
