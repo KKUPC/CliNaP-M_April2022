@@ -82,7 +82,8 @@ For up field
 
 ### Step 12. Cut unwanted region including TSP, water and noise
 #### 12.1 TSP region
-- Check TSP region 
+- Check TSP region
+
 
 You should get the result like this
 (Figure)
@@ -91,6 +92,8 @@ You should get the result like this
 
 #### 12.2 Water region
 - Check water region 
+
+
 You should get the result like this
 (Figure)
 
@@ -99,6 +102,8 @@ You should get the result like this
 
 #### 12.3 Down field noise region (ppm 9-10) 
 - Check down field noise region
+
+
 You should get the result like this
 (Figure)
 
