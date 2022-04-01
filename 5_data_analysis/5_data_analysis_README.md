@@ -5,7 +5,7 @@
 2. [Introduction to MetaboAnalyst](#intro)
 3. [NMR-based metabolome data analysis using MetaboAnalyst](#nmrbased)
 4. [LC-MS/MS – based metabolome data analysis using MetaboAnalyst](#lcmsbased)
-5. [Extra box 1](#extra1)
+5. [Additional materials](#extra)
 
 ---
 
@@ -204,3 +204,17 @@ Last but not least, the computationally intensive procedure known as “Permutat
 ### Download Results
 The results from MetaboAnalyst (all tables and figures) can be downloaded in “Download” section located in the left panel. We can either choose to download single files or all the files composed in “Download.zip”. In addition, a PDF analysis report can also be generated using the button “Generate Report”. 
 ![](figures/SA_Download.png)
+
+---
+[↥ **Back to top**](#top)
+
+## Additional materials <a name="extra"></a>
+Besides MetaboAnalyst, another choice for chemometrics analysis that we could employ for metabolome data analysis is SIMCA. 
+SIMCA is the multivariate data analysis software developed by Umetrics. The software provides different features include:
+- Plot the spectra and conduct multivariate models (PCA, PLS, OPLS)
+- Filter data with appropriate tools
+- Compare and validate model results
+Thus, it provides more analysis tools compared to MetaboAnalyst. Key differences are that SIMCA requires:
+- Indicating file contents (such as specify Primary ID, Secondary IDs as desired for both variables and observations)
+- Specifiying the workset for each analysis model
+- Fitting the model (the number of components can be changed by selecting different fit method than the default)
