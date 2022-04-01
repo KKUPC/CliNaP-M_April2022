@@ -93,9 +93,10 @@ Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the 
 [↥ **Back to top**](#top)
 
 ## LC-MS metabolite identification <a name="lcms"></a>
+### MS-DIAL
 For LC-MS/MS based approach, MS-DIAL software is employed for metabolite identification using quality control samples.
 
-### Step 1 File Conversion
+#### Step 1 File Conversion
 -	Start “AnalysisBaseFileConverter.exe”.
 -	Drag & drop MS files (.d) into this program.
 -	Click “Convert”.
@@ -103,7 +104,7 @@ For LC-MS/MS based approach, MS-DIAL software is employed for metabolite identif
 ![](Figures/MS1.png)
 **Figure 1**
 
-### Step 2 Project Creation
+#### Step 2 Project Creation
 2.1 Click “File” then click “New project” (Figure 2,3)
 ![](Figures/MS2.png)
 **Figure 2**
@@ -177,7 +178,7 @@ For LC-MS/MS based approach, MS-DIAL software is employed for metabolite identif
 ![](Figures/MS14.png)
 **Figure 14** 
 
-### Step 3: Compound Identification
+#### Step 3: Compound Identification
 The output of data filtering 
 
 1) MS1 spectrum
