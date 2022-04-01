@@ -5,7 +5,9 @@
 2. [LC-MS metabolite identification](#lcms)
 
 ## NMR metabolite identification <a name="nmr"></a>
-First, we are going to use Statistical Total Correlation Spectroscopy (STOCSY) toolbox on MATLAB to identify the correlated resonances of metabolites of interest.
+
+### Performing STOCSY in MATLAB environment
+Now, we are going to use Statistical Total Correlation Spectroscopy (STOCSY) toolbox on MATLAB to identify the correlated resonances of metabolites of interest. Let's get started with these three signals.
 
 Open MATLAB on KKUIPL laptop
 
@@ -79,11 +81,15 @@ Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the 
 
 ![](Figures/MetID_Fig11.JPG)
 
-
+Now, open the processed NMR spectra on MATLAB again and click 'data cursor', then click the peak at 4.676 ppm (doublet of doublets). Right-click and select 'export cursor data to workspace'.
 
 ![](Figures/MetID_Fig12.JPG)
 
+Name the cursor data as peak_4p676 and click 'ok'.
+
 ![](Figures/MetID_Fig13.JPG)
+
+
 
 ![](Figures/MetID_Fig14.JPG)
 
