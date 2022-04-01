@@ -78,6 +78,8 @@ Additional material
 ## Timetable
 
 ### Day 1 (3 April 2022)
+
+
 | Time | Activities |
 | ---  |    ---  |
 | 11:00-12:00  | Check-in |
@@ -89,6 +91,7 @@ Additional material
 | 16:30-17:10 | R crash course (Arporn) |
 | 17:10-17:30 | Day 1 Exit Ticket |
 | 17:30-18:00 | (Optional) Software installation (Instructor team) | 
+
 
 ### Day 2 (4 April 2022)
 
