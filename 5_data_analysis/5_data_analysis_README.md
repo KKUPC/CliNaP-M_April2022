@@ -4,11 +4,7 @@
 1. [Overview and Aims](#overview)
 2. [Introduction to MetaboAnalyst](#intro)
 3. [NMR-based metabolome data analysis using MetaboAnalyst](#nmrbased)
-   *[Data analysis using MetaboAnalyst](#nmrdataanalysis)
-   *[Download Results](#nmrdownload)
 4. [LC-MS/MS – based metabolome data analysis using MetaboAnalyst](#lcmsbased)
-   *[Data analysis using MetaboAnalyst](#lcmsdataanalysis)
-   *[Download Results](#lcmsdownload)
 5. [Extra box 1](#extra1)
 
 ---
@@ -58,9 +54,9 @@ _**Row**: variables
 ![](figures/F6-MetaboNMRData.png)
 **Figure 6.** NMR data table for MetaboAnalyst
 
-### Data analysis using MetaboAnalyst  <a name="nmrdataanalysis"></a>
+### Data analysis using MetaboAnalyst
 #### Data uploading and processing
-#####Data uploading
+##### Data uploading
 After the preparation for data file is completed, we can go back to MetaboAnalyst Module View and click “Statistical Analysis [one factor” to start the analysis process. 
 ![](figures/SA_Onefactor.png)
 
