@@ -11,7 +11,7 @@ Open MATLAB
 
 In MATLAB, make sure that you have set the working directory to where your processed data are stored (look at the left-hand panel if you could see your data file in .mat format). In this case, if you use KKUIPL laptop, the processed NMR data are stored at \D:\CliNaP_April2022\Processed_NMR_Data (Fig. 1)
 
-![](Figures/0.jpg)
+![](Figures/MetID_Fig1.jpg)
 **Figure 1**
 
 ```bash 
