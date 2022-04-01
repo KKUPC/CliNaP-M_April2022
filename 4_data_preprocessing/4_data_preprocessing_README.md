@@ -317,6 +317,8 @@ For those of you who do not want to upload your data to server, galaxy can be ru
 
 ![](Figures/lcms17.png)
 
+![](Figures/lcms18.png)
+
 ### Step 2. Read data using XCMS: MSnbase readMSData
 - Type in the tool search box readMSData
 - Select XCMS: MSnbase readMSData
