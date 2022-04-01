@@ -12,14 +12,41 @@ Before performing statistical analysis, data pre-processing is a very crucial st
 
 ### Step 2. Set working directory 
 
-![](Figures/Figure2.png)
+```
+#set working directory 
+setwd("D:/R program training/Metabom8_demo")
+```
 
 
 ### Step 3. Load library packages including metabom8, remotes and devtools
+
+```
+# load packages
+library(metabom8)
+library(remotes)
+library(devtools)
+```
+
 ### Step 4. Define path to NMR experiment
+
+```
+# define path to NMR experiments
+data.file <- "D:/R program training/Metabom8_demo/NMR2"
+```
+
 ### Step 5. Import NMR data
+
+```
+# import 1D MRS data
+read1d_proc(data.file, exp_type=list(PULPROG='cpmgpr1d'))
+```
+
 ### Step 6. Plot single spectrum
 
+```
+# use 'spec' to plot a single pectrum, e.g., in row position 15:
+spec(X[51,], ppm, shift = range(ppm), interactive=F)
+```
 ---
 [↥ **Back to top**](#top)
 
