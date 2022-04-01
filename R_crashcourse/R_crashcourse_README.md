@@ -29,11 +29,35 @@ To use this script, read the green text carefully. The text explain steps that y
 Keep reading and scrolling down. You will meet your first command! 
 ![](figures/6runcommandsPRIMM.png)
 
-To run a command in RStudio, place cursor anywhere on that line IN THE SCRIPT WINDOW (top window). There is no need to re-write or copy the command into the console (bottom window). 
+To run a command in RStudio, place cursor anywhere on that line IN THE SCRIPT WINDOW (top window). Then, hit 'Ctrl + Enter' for Windows or 'Command + Enter' for Mac. 
+There is no need to re-write or copy the command into the console (bottom window). 
 ![](figures/7cursorandCtrlEnter.png)
 
+The command that was run will appear in the console (bottom window) as well as any on-screen output.
+![](figures/8firstcommandran.png)
 
+Notice how the command in R look like. The name of the command (also-known-as "function") is followed by a round bracket (). Inside the round bracker is/are input(s) for the commands. Go through the provided script to see the variety and variation of R command syntax (i.e. grammar) 
 
 ## Hands-on <a name="handson"></a>
+Now, please continue with the provided R script. Remember that you should
+
+- Guess/Predict the outcome of each command before you hit Ctrl + Enter
+- Run the command then look at the output
+- Is it what you expect? Try to investigate how the command work. 
+
+Did you lost the R script? Download it again [here](#)
 
 ## Exercise <a name="exercise"></a>
+Before we go, try to produce the following plot using the script provided. (This script is also provided at the end of your `RCrashcourse.R` script)
+![](figures/exercise.png)
+
+```r
+data <- c(1,3,5,6,7,8,10,6,4,2)
+___plot(height = data, names.arg = c(___,___,___,___,___,___,___,___,___,___),
+        col = rainbow(____),
+        ____ = "CliNaP-M Day 1",
+        ____ = "______ _____")
+```
+
+
+
