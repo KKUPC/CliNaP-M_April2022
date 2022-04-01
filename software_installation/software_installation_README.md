@@ -90,7 +90,7 @@ You can download and install Docker on multiple platforms. Refer to the followin
 
 
 ## Installing Galaxy server <a name="galaxy"></a>
-Step – 1: Run docker engine and wait for the green light in the bottom left of docker desktop app
+###Step – 1: Run docker engine and wait for the green light in the bottom left of docker desktop app 
 Step – 2: In terminal (macOSX) or PowerShell (Windows) type: docker pull quay.io/galaxy/metabolomics-training:latest
 Step – 3: After the download was done In terminal (macOSX) or PowerShell (Windows) type: docker run -d -p 8080:80 -p 8021:21 -p 8022:22 quay.io/galaxy/metabolomics-training:latest
 Step – 4: Set up number of CPU for the local galaxy server In docker desktop go tocontainer/App tab > click the (>_) button >black terminal screen will pop up
