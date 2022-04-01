@@ -6,7 +6,7 @@
 3. [MS-Dial](#msdial)
 
 ## Installing R and RStudio <a name="r"></a>
-nstalling R and RStudio on Windows
+Installing R and RStudio on Windows
 To install R and RStudio on windows, go through the following steps:
 Install R on windows
 Step – 1: Go to [CRAN R project ](https://cran.r-project.org/)website.
@@ -30,6 +30,33 @@ Step – 5: Run the .exe file and follow the installation instructions.
 ![](R_Win_8.png)
 5.g. Click on Finish to complete the installation.
 ![](R_Win_9.png)
+
+Install RStudio on Windows
+Step – 1: With R-base installed, let’s move on to installing RStudio. To begin, go to [download RStudio](https://www.rstudio.com/ide/download) and click on the download button for RStudio desktop.
+Step – 2: Click on the link for the windows version of RStudio and save the .exe file.
+Step – 3: Run the .exe and follow the installation instructions.
+![](R_Win_11.png)
+3.a. Click Next on the welcome window.
+![](R_Win_12.png)
+3.b. Enter/browse the path to the installation folder and click Next to proceed.
+3.c. Select the folder for the start menu shortcut or click on do not create shortcuts and then click Next.
+![](R_Win_13.png)
+3.d. Wait for the installation process to complete.
+![](R_Win_14.png)
+3.e. Click Finish to end the installation.
+
+Installing R and RStudio on Mac OS X
+To install R and RStudio on Mac OS X, go through the following steps:
+Install R on Mac
+Step – 1: Go to [CRAN R Project](https://cran.r-project.org./) Website.
+Step – 2: Click on the Download for (Mac) OS X link.
+Step – 3: Click on the link for the pkg file of the latest R version and save it.
+Step – 4: Double click the downloaded file and follow installation instructions.
+Install RStudio on Mac OS X
+Step – 1: With the r-base installed, you need to install RStudio. To do that, go to [download RStudio](https://www.rstudio.com/ide/download)and click on the download button for the RStudio desktop.
+Step – 2: Click on the link for the Mac OS X version of RStudio and save the .dmg file.
+Step – 3: Double click the downloaded file and then drag-and-drop it into your applications folder.
+Now with R and RStudio installed in your system, let’s look at a few packages that might help you in learning as well as using R to its fullest potential!
 
 ---
 [↥ **Back to top**](#top)
