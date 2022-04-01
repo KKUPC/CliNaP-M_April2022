@@ -11,7 +11,7 @@ Open MATLAB
 
 In MATLAB, make sure that you have set the working directory to where your processed data are stored (look at the left-hand panel if you could see your data file in .mat format). In this case, if you use KKUIPL laptop, the processed NMR data are stored at \D:\CliNaP_April2022\Processed_NMR_Data (Fig. 1)
 
-![](Figures/MetID_Fig1.jpg)
+![](Figures/MetID_Fig1.JPG)
 **Figure 1**
 
 ```bash 
@@ -23,72 +23,56 @@ Set(gca, 'Xdir', 'Reverse');
 ```
 You will obtain the processed NMR spectra below.
 
-![](Figures/2.jpg)
+![](Figures/MetID_Fig2.JPG)
 **Figure 2**
 
 Now, click data cursor and click the NMR signal of interest. 
-![](Figures/3.jpg)
+![](Figures/MetID_Fig3.JPG)
 **Figure 3**
 
-![](Figures/4.jpg)
+![](Figures/MetID_Fig4.JPG)
 **Figure 4**
 
-![](Figures/5.jpg)
+![](Figures/MetID_Fig5.JPG)
 **Figure 5**
 
-![](Figures/6.jpg)
+![](Figures/MetID_Fig6.JPG)
 **Figure 6**
 
-![](Figures/7.jpg)
+![](Figures/MetID_Fig7.JPG)
 **Figure 7**
 
-![](Figures/8.jpg)
+![](Figures/MetID_Fig8.JPG)
 **Figure 8**
 
-![](Figures/9.jpg)
+![](Figures/MetID_Fig9.JPG)
 **Figure 9**
 
-![](Figures/10.jpg)
+![](Figures/MetID_Fig10.JPG)
 **Figure 10**
 
-![](Figures/11.jpg)
+![](Figures/MetID_Fig11.JPG)
 **Figure 11**
 
-![](Figures/12.jpg)
+![](Figures/MetID_Fig12.JPG)
 **Figure 12**
 
-![](Figures/13.jpg)
+![](Figures/MetID_Fig13.JPG)
 **Figure 13**
 
-![](Figures/14.jpg)
+![](Figures/MetID_Fig14.JPG)
 **Figure 14**
 
-![](Figures/15.jpg)
+![](Figures/MetID_Fig15.JPG)
 **Figure 15**
 
-![](Figures/16.jpg)
+![](Figures/MetID_Fig16.JPG)
 **Figure 16**
 
-![](Figures/17.jpg)
+![](Figures/MetID_Fig17.JPG)
 **Figure 17**
 
-![](Figures/18.jpg)
-**Figure 18**
 
-![](Figures/19.jpg)
-**Figure 19**
-
-![](Figures/20.jpg)
-**Figure 20**
-
-![](Figures/21.jpg)
-**Figure 21**
-
-![](Figures/22.jpg)
-**Figure 22**
-
-![](Figures/23.jpg)
-**Figure 23**
 
 ---
 [↥ **Back to top**](#top)
