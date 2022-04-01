@@ -126,6 +126,7 @@ matspec(X, ppm, shift = c(-0.05, 0.05), interactive=F)
 ```
 
 You will obtain the result below
+
 ![](Figures/Figure21.png)
 
 - **Specify TSP region to be removed** 
@@ -135,23 +136,48 @@ idx_tsp=get_idx(range=c(min(ppm), 0.5), ppm)
 ```
 
 #### 12.2 Water region
-- Check water region 
+- **Check water region** 
+```
+#Check water region
+matspec(X, ppm, shift = c(4.75, 5), interactive=F)
+```
 
+You will obtain the result below
 
-You should get the result like this
-(Figure)
+![](Figures/Figure24.png)
 
-- Specify water region to be removed
-
+- **Specify water region to be removed**
+```
+#Specify water region to be removed
+idx_water=get_idx(range=c(4.75, 4.98), ppm)
+```
 
 #### 12.3 Down field noise region (ppm 9-10) 
-- Check down field noise region
+- **Check down field noise region**
+```
+#Check downfield noise region
+matspec(X, ppm, shift = c(8, 10), interactive=F)
+```
 
+You will obtain the result below
 
-You should get the result like this
-(Figure)
+![](Figures/Figure27.png)
+
+- **Specify downfield noise to be removed**
+```
+#Specify downfield noise to be removed
+idx_noise=get.idx(range=c(9, max(ppm)), ppm)
+```
 
 #### 12.4 Gather all regions to be removed and excision of TSP, water and noise regions
+```
+#Gather all regions to be removed
+idx_rm=c(idx_tsp, idx_water, idx_noise)
+
+# Exision of TSP, res. water and noise regions
+X_cut=X_cal[,-idx_rm]
+ppm=ppm[-idx_rm]
+```
 
 ### Step 13. Baseline correction
 
