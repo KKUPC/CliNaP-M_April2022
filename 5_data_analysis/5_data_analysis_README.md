@@ -121,7 +121,7 @@ The results from MetaboAnalyst (all tables and figures) can be downloaded in “
 
 ## LC-MS/MS – based metabolome data analysis using MetaboAnalyst <a name="lcmsbased"></a>
 For this module, the chosen example dataset is Pla-ra samples derived from LC-MS/MS peak intensity with two different prepared methods (Raw and Cooked) and collected at three different time points (day 0, 2 weeks, and 6 weeks).  Moreover, the odour satisfaction score was also provided. 
-![](figures/LCMS_Fulltable.png)
+![](figures/LSMS_Fulltable.png)
 
 For MetaboAnalyst analysis, the dataset is collected and arranged in Excel as following: 
 - **Data Format**: .csv 
