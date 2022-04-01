@@ -73,5 +73,6 @@ Phuc Nguyen Minh Ho, Faculty of Medicine, Khon Kaen University
 Additional material
 1. [R crashcourse](R_crashcourse/R_crashcourse_README.md)
 2. [Software installation guideline](software_installation/software_installation_README.md)
+3. [How to download R script from Github](how_to_download_R_script/how_to_download_R_script_README.md)
 
 
