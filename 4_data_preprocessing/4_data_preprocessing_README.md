@@ -307,8 +307,15 @@ For those of you who do not want to upload your data to server, galaxy can be ru
 - Start
 - After upload completed click build, name the list as mzXML
 
-![](Figures/lcms1.png)
+![](Figures/lcms13.png)
 
+![](Figures/lcms14.png)
+
+![](Figures/lcms15.png)
+
+![](Figures/lcms16.png)
+
+![](Figures/lcms17.png)
 
 ### Step 2. Read data using XCMS: MSnbase readMSData
 - Type in the tool search box readMSData
