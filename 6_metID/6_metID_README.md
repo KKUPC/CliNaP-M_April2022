@@ -54,7 +54,7 @@ Name the cursor data as peak_1p933 and click 'ok'.
 In MATLAB command window, do the following:
 
 ```bash
-#Perform STOCSY using the peak at 1.329 ppm as the driver peak
+#Perform STOCSY using the peak at 1.933 ppm as the driver peak
 STOCSY(xaln, ppm, peak_1p933.Position(1),0.000001);
 ```
 
@@ -62,11 +62,20 @@ Now, you will obtain the STOCSY spectra below. No correlated resnonace of the dr
 
 ![](Figures/MetID_Fig8.JPG)
 
-
+Now, open the processed NMR spectra on MATLAB again and click 'data cursor', then click the peak at 3.007 ppm (doublet of doublets). Right-click and select 'export cursor data to workspace'.
 
 ![](Figures/MetID_Fig9.JPG)
 
+Name the cursor data as peak_3p007 and click 'ok'.
+
 ![](Figures/MetID_Fig10.JPG)
+
+```bash
+#Perform STOCSY using the peak at 3.007 ppm as the driver peak
+STOCSY(xaln, ppm, peak_3p007.Position(1),0.000001);
+```
+
+Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (3.007 ppm) include the protron resonances at 4.146 ppm (quartet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet. 
 
 ![](Figures/MetID_Fig11.JPG)
 
