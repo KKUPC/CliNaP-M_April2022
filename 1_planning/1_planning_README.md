@@ -16,6 +16,10 @@ This sub-experiment aimed to investigate the metabolic differences in fermented 
 Groups 1 - 3 are provided with NMR dataset while groups 4 - 6 obtain LC-MS/MS dataset. Odour satisfaction data is given to all groups for further correlation analysis.
 
 For all groups, you need to do the following:
+- Pre-process either NMR or LC-MS/MS dataset
+- Identify either NMR or LC-MS/MS metabolites
+- Perform multivaraite statistical analysis
+
 
 ---
 [↥ **Back to top**](#top)
