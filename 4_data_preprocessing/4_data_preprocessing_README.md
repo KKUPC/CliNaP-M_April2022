@@ -93,17 +93,23 @@ You should get the result like this
 ![](Figures/Figure15.png)
 
 ### Step 11. Calculate quality control measures in water region, low field and up field
-
-
-You should get the result like this 
-(Figure)
+```
+# calculate quality control measures
+matspec(X_cal, ppm, shift=c(4.5,5), interactive=F, main='Residual Water')
+matspec(X_cal, ppm, shift=c(9,11), interactive=F, main='LowField Cap')
+matspec(X_cal, ppm, shift=c(-1,1), interactive=F, main='UpField Cap')
+```
+**You will obtain the result below**
+![](Figures/Figure17.png)
 
 For residual water
 
-(Figure)
+![](Figures/Figure18.png)
+
 For low field 
 
-(Figure)
+![](Figures/Figure19.png)
+
 For up field  
 
 ### Step 12. Cut unwanted region including TSP, water and noise
