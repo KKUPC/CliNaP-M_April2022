@@ -118,3 +118,85 @@ Last but not least, the computationally intensive procedure known as “Permutat
 The results from MetaboAnalyst (all tables and figures) can be downloaded in “Download” section located in the left panel. We can either choose to download single files or all the files composed in “Download.zip”. In addition, a PDF analysis report can also be generated using the button “Generate Report”. 
 ![](figures/SA_Download.png)
 
+---
+[↥ **Back to top**](#top)
+
+## LC-MS/MS – based metabolome data analysis using MetaboAnalyst <a name="lcmsbased"></a>
+For this module, the chosen example dataset is Pla-ra samples derived from LC-MS/MS peak intensity with two different prepared methods (Raw and Cooked) and collected at three different time points (day 0, 2 weeks, and 6 weeks).  Moreover, the odour satisfaction score was also provided. 
+![](figures/LCMS_Fulltable.png)
+
+For MetaboAnalyst analysis, the dataset is collected and arranged in Excel as following: 
+- **Data Format**: .csv 
+- **Column**: Sample ID and Sample group
+- **Row**: variables
+- All the variables from “Extract blank” and “Recon blank” must be cut off from the data table. 
+![](figures/LCMS_MetaboData.png)
+
+### Data analysis using MetaboAnalyst
+#### Data uploading and processing
+##### ***Data uploading***
+After the preparation for data file is completed, we can go back to MetaboAnalyst Module View and click “Statistical Analysis [one factor]” to start the analysis process. 
+![](figures/SA_Onefactor.png)
+
+In the box of “A plain text (.txt or .csv)", select the information and follow the steps as below:
+- **Data Type**: Peak intensities
+- **Format**: Sample in columns (unpaired)
+- **Data File**: click “Choose” to upload the data file (.csv file)
+- Click **Submit**
+![](figures/SA_LCMSFileUpload.png)
+
+##### ***Data processing***
+The main steps of data processing include Data check, Missing value, Data filter, Data editor, and Normalisation.  
+*Data check & Missing value*
+- The commands help to check the integrity of the data file and provide the editing window for group labels. It is necessary to look over a few important pieces of information such as number of samples, number of groups, and missing values before processing next steps. 
+![](figures/SA_LCMSDataCheck.png)
+
+*Data filter*
+- The purpose of this step is to filter non-information variables such as baseline noises. MetaboAnalyst provides detailed explanations and suggestions for data filtering methods in their platform. For this module, we suggest using the “None” option to allow maximum variables for analysis. 
+![](figures/SA_DataFilter.png)
+
+*Normalisation*
+- MetaboAnalyst provides the normalisation procedures with three categories to improve the quality of your dataset such as sample normalisation, data transformation, and data scaling. For this module, as the example dataset has undergone the preprocessing procedure, thus, none of the strategies is required.
+![](figures/SA_Normalization.png)
+
+
+In case your dataset requires normalisation procedures, after selecting and normalising, you can click “View Result” to review the results and to compare “before” and “after” processes.
+
+#### Statistical analysis
+After data processing, the toolbox appears with different analysis paths to select such as univariate analysis, chemometrics analysis, or cluster analysis. In this module, we introduce the process of chemometrics analysis, specifically principal component analysis (PCA) and orthogonal partial least squares - discriminant analysis (O-PLS-DA). 
+
+##### ***Principal component analysis (PCA)***
+The PCA is used to study the metabolic overview, similarities, and differences of all samples. 
+![](figures/SA_PCA_Allgroups.png)
+
+The visualisation of PCA results can be reviewed by different kinds of plots provided by MetaboAnalyst. The first plot “Overview” displays pairwise score plots of PCA results from top 5 principal components (PCs). 
+![](figures/SA_PCA_LCMSOverview.png)
+
+Next to that is the “Scree Plot” which displays the accumulated variance explained and the variance explained by individual PC. 
+![](figures/SA_PCA_LCMSScreePlot.png)
+
+In addition, “2D Scores Plot” can be used to study the clustering between groups.
+![](figures/SA_PCA_LCMS2DScoresPlot.png)
+
+##### ***Orthogonal partial least squares - discriminant analysis (O-PLS-DA)***
+The O-PLS-DA is used to investigate further in pairwise comparison aiming to identify the differences between groups. Therefore, it requires the step to select two interested groups for the analysis through “Data editor”. For the current dataset, the example is conducted for a pairwise comparison model between “Raw_day 0” and “Raw_2 weeks”. 
+![](figures/SA_OPLSDA_LCMSDataEditor.png)
+
+After the normalisation step which follows the instructions mentioned above, the analysis can be performed straight away by clicking “OrthPLSDA” in the left panel under “Statistics” section. Similar to PCA, the visualisation of O-PLS-DA results can be reviewed by different kinds of plots provided by MetaboAnalyst. The first “Score Plot” demonstrates the significant class discrimination between “Raw_day 0” and “Raw_2 weeks”.
+![](figures/SA_OPLSDA_LCMSScorePlot.png)
+
+Further, the “Imp. Feature (S-plot)” represents the variable influence in an O-PLS-DA model. It combines the covariance and correlation loading profiles. The loading plots combine a scatter plot “p[1]” which describes the magnitude of each variable within a model, and “p(corr)[1]” which represents the reliability of each variable (model correlation). What’s more, we can choose the significance discriminated variable, click on it to access “Feature View” which is a box and whisker plot representing the difference in relative concentrations of this particular variable. 
+![](figures/SA_OPLSDA_LCMSSPlot.png)
+
+In the same window, we can also take a look at the table summarised from values of “p[1]” and “p(corr)[1]” by clicking on “View the detailed data table”. The variables at the outermost bottom and top of the loading plot were sorted in the order of potentially relevant metabolites with significant differences in the pairwise comparison. Thus, these potentially variables (or chemical shift, ppm) can be employed for further metabolite identification.
+![](figures/SA_OPLSDA_LCMSDetailedTable.png)
+
+The statistical parameters obtained from the current O-PLS-DA model, such as the fitness and predictability determined by  R2X, R2Y, and Q2 values, can be reviewed in “Model Overview”. 
+![](figures/SA_OPLSDA_LCMSModelOverview.png)
+
+Last but not least, the computationally intensive procedure known as “Permutation” can also be carried out in the same window, next to “Model Overview”.  Depending on the size of the dataset, we could set the appropriate number for permutation.
+![](figures/SA_OPLSDA_LCMSPermutation.png)
+
+### Download Results
+The results from MetaboAnalyst (all tables and figures) can be downloaded in “Download” section located in the left panel. We can either choose to download single files or all the files composed in “Download.zip”. In addition, a PDF analysis report can also be generated using the button “Generate Report”. 
+![](figures/SA_Download.png)
