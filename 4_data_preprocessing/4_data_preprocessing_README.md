@@ -180,16 +180,23 @@ ppm=ppm[-idx_rm]
 ```
 
 ### Step 13. Baseline correction
-
+```
+# Baseline correction
+X_bl=bcor(X_cut)
+```
 **Visual assessment**
+```
+# visual assessment
+Xcompare=rbind(X_bl[1,], X_cut[1,])
+matspec(Xcompare, ppm, shift = c(7, 9), interactive=F)
+matspec(Xcompare, ppm, shift = c(3,4), interactive=F)
+```
+You will obtain the result below
 
-You should get the result like this
-(Figure)
-(Figure)
-
+![](Figures/Figure32.png)
+![](Figures/Figure33.png)
 
 The red dash line represents the uncorrected baseline, the black line represents the baseline correction spectrum. 
-
 
 ### Step 14. Normalisation, PQN method 
 ```
