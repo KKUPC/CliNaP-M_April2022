@@ -81,9 +81,6 @@ Introduction to docker
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production
 
 •	https://docs.docker.com/get-started/overview/
-Installing docker
-
-Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
 You can download and install Docker on multiple platforms. Refer to the following section and choose the best installation path for you.
 
@@ -93,6 +90,15 @@ You can download and install Docker on multiple platforms. Refer to the followin
 
 
 ## Installing Galaxy server <a name="galaxy"></a>
+Step – 1: Run docker engine and wait for the green light in the bottom left of docker desktop app
+Step – 2: In terminal (macOSX) or PowerShell (Windows) type: docker pull quay.io/galaxy/metabolomics-training:latest
+Step – 3: After the download was done In terminal (macOSX) or PowerShell (Windows) type: docker run -d -p 8080:80 -p 8021:21 -p 8022:22 quay.io/galaxy/metabolomics-training:latest
+Step – 4: Set up number of CPU for the local galaxy server In docker desktop go tocontainer/App tab > click the (>_) button >black terminal screen will pop up
+Type:
+cp config/job_conf.xml.sample_basic config/job_conf.xml
+
+nano config/job_conf.xml
+How to use nano editor -> https://www.nano-editor.org/dist/v2.2/nano.html#Editor-Basics\
 
 
 ---
