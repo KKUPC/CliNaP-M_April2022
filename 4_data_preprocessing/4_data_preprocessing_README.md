@@ -117,6 +117,11 @@ You should get the result like this
 
 You should get the result like this
 (Figure)
+(Figure)
+
+
+The red dash line represents the uncorrected baseline, the black line represents the baseline correction spectrum. 
+
 
 ### Step 14. Normalisation, PQN method 
 ### Step 15. Visual inspection of the pre-processed NMR spectra
