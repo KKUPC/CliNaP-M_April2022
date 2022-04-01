@@ -91,6 +91,12 @@ For up field
 ### Step 14. Normalisation, PQN method 
 ### Step 15. Visual inspection of the pre-processed NMR spectra
 
+```
+#The visual inspection of the pre-processed NMR spectra:
+matspec(X_pqn, ppm, shift = range(ppm), interactive=F)                                 
+matspec(X_pqn, ppm, shift = c(1.2, 1.7), interactive=F)
+```
+
 ### Step 16. Export NMR spectra to data table
 #### 16.1 Transpose data of x_pqn and ppm
 
