@@ -210,7 +210,7 @@ The results from MetaboAnalyst (all tables and figures) can be downloaded in “
 
 ## Additional materials <a name="extra"></a>
 Besides MetaboAnalyst, another choice for chemometrics analysis that we could employ for metabolome data analysis is SIMCA. 
-SIMCA is the multivariate data analysis software developed by Umetrics. The software provides different features include:
+SIMCA is the multivariate data analysis software developed by Umetrics. The software provides different features including:
 - Plot the spectra and conduct multivariate models (PCA, PLS, OPLS)
 - Filter data with appropriate tools
 - Compare and validate model results
