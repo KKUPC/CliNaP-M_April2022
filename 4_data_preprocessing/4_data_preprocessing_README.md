@@ -256,7 +256,7 @@ write.table(ppm3, file = "ppm3", quote = FALSE, sep = " ,",
 
 ---
 [↥ **Back to top**](#top)
-## The Galaxy environment 
+## The Galaxy environment <a name="lcms"></a>
 In order to share metabolomics analysis strategies and centralize tools and practices, the web-based platform Galaxy] is the core component of the W4M infrastructure. This web-based platform is open source with a very active community which insures up-to-date software releases and efficient support for both end-users and tools developers. Galaxy provides several interesting features for metabolomics tools integration compared to other workflow engines, which include: no known data size limitations [4], possibilities to automate pipelines, and to ensure reproducibility. Because of its web interface, this cross-platform system enables scientist without programming experience to design and run analysis workflows.
 The main features of this platform are:
 - A real benefit to users with results traceability and storage,
@@ -271,8 +271,17 @@ Galaxy provides an ergonomic interface for tools and workflows **(Figure 1).**
 First, the interface is designed to be accessible: users without programming experience can easily specify parameters and run tools and workflows. Second, Galaxy is not only a computing tools runner but also an interesting way to share and publish analyses through the web and interactive web-based documents describing a complete analysis project.
 In terms of computing infrastructure, the Galaxy platform “Workflow4metabolomics” is hosting on one of the French Bioinformatics Institute nodes: the Analysis and Bioinformatics for Marine Science (ABiMS) laboratory. Technically, Galaxy was deployed in a virtual environment based on VMWARE. Optimization efforts, such as connections pool or web services decoupling, allow a good level of scalability. Computing resources connection uses the standard DRMAA API, and is completed with a dedicated connector (tool runner) in order to make available adequate resources both in terms of high computing performance and memory amount (up to 1TB RAM). Finally, a shared and secure storage space completes this layer, essential to smoothly working treatments.
 
+## Raw data pre-processing with XCMS
+XCMS is a free software dedicated to pre-processing any types of mass spectrometry acquisition files from low to high resolution including FT-MS data coupled with different kind of chromatography (liquid or gaz). This software is used worldwide by a majority of specialists of metabolomic using mass spectrometry methods.
+This software is based on different algorithms that have been published and is maintained on the R repository.
+XCMS is able to read files with open format as mzXML and netCDF which are independent of the constructors' formats.
+It is composed of R functions able to extract, filter, align, fill gap and annotate isotopes, adducts and fragments. This set of functions gives a modularity particularly well adapted to defined workflows which is one of the key points of Galaxy **(Figure 2)**
 
-## LC-MS data pre-processing <a name="lcms"></a>
+![](Figures/XXX.png)
+
+**Figure2: LCMS preprocessing workflow.**
+
+## LC-MS data pre-processing 
 ### Step 1. Upload data 
 - Collection
 - Select local file
