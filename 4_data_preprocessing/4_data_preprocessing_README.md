@@ -54,7 +54,10 @@ spec(X[51,], ppm, shift = range(ppm), interactive=F)
 ### Step 11. Calculate quality control measures in water region, low field and up field
 
 ### Step 12. Cut unwanted region including TSP, water and noise
-#### 12.1 TSP region
+
+**12.1 TSP region**
+text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+
 #### 12.2 Water region
 #### 12.3 Down field noise region (ppm 9-10) 
 #### 12.4 Gather all regions to be removed and excision of TSP, water and noise regions
