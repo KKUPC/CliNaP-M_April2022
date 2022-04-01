@@ -93,11 +93,13 @@ You can download and install Docker on multiple platforms. Refer to the followin
 Step – 1: Run docker engine and wait for the green light in the bottom left of docker desktop app
 
 ![](lcms5.png)
+
 Step – 2: In terminal (macOSX) or PowerShell (Windows) type: docker pull quay.io/galaxy/metabolomics-training:latest
 
 ![](lcms6.png)
 
 Step – 3: After the download was done In terminal (macOSX) or PowerShell (Windows) type: docker run -d -p 8080:80 -p 8021:21 -p 8022:22 quay.io/galaxy/metabolomics-training:latest
+
 ![](lcms7.png)
 ![](lcms8.png)
 ![](lcms9.png)
@@ -105,6 +107,7 @@ Step – 3: After the download was done In terminal (macOSX) or PowerShell (Wind
 Step – 4: Set up number of CPU for the local galaxy server In docker desktop go tocontainer/App tab > click the (>_) button >black terminal screen will pop up
 Type:
 cp config/job_conf.xml.sample_basic config/job_conf.xml
+
 ![](lcms10.png)
 
 
