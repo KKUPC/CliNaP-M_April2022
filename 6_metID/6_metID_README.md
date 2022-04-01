@@ -108,8 +108,12 @@ Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the 
 
 ### Searching against Chenomx database
 
+Open Chenomx NMR Suite software and select 'Profiler'
+
 ![](Figures/Chenomx_Fig1.jpg)
-**Figure 1**
+
+
+
 ![](Figures/Chenomx_Fig2.jpg)
 **Figure 2**
 ![](Figures/Chenomx_Fig3.jpg)
