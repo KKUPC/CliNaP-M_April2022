@@ -104,7 +104,7 @@ Step – 3: After the download was done In terminal (macOSX) or PowerShell (Wind
 ![](lcms8.png)
 ![](lcms9.png)
 
-Step – 4: Set up number of CPU for the local galaxy server In docker desktop go tocontainer/App tab > click the (>_) button >black terminal screen will pop up
+Step – 4: Set up number of CPU for the local galaxy server In docker desktop go to container/App tab > click the (>_) button >black terminal screen will pop up
 Type:
 cp config/job_conf.xml.sample_basic config/job_conf.xml
 
