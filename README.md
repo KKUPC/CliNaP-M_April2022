@@ -63,12 +63,12 @@ Hathaichanok Pradabkam, Faculty of Medicine, Khon Kaen University
 Phuc Nguyen Minh Ho, Faculty of Medicine, Khon Kaen University
 
 ## Topics and links for course manuals
-1. [Planning (experimental design and group work allocation)](1_planning/1_planning_README.md)
-2. [Sample preparation](2_sample_preparation/2_sample_preparation_README.md)
-3. [Data acquisition](3_data_acquisition/3_data_acquisition_README.md)
-4. [Data pre-processing](4_data_preprocessing/4_data_preprocessing_README.md)
-5. [Data analysis](5_data_analysis/5_data_analysis_README.md)
-6. [Metabolite identification](6_metID/6_metID_README.md)
+0. [Planning (experimental design and group work allocation)](1_planning/1_planning_README.md)
+1. [Sample preparation](2_sample_preparation/2_sample_preparation_README.md)
+2. [Data acquisition](3_data_acquisition/3_data_acquisition_README.md)
+3. [Data pre-processing](4_data_preprocessing/4_data_preprocessing_README.md)
+4. [Data analysis](5_data_analysis/5_data_analysis_README.md)
+5. [Metabolite identification](6_metID/6_metID_README.md)
 
 Additional material
 1. [R crashcourse](R_crashcourse/R_crashcourse_README.md)
