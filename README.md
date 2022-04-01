@@ -62,7 +62,7 @@ Hathaichanok Pradabkam, Faculty of Medicine, Khon Kaen University
 
 Phuc Nguyen Minh Ho, Faculty of Medicine, Khon Kaen University
 
-### Topics and links for course manuals
+## Topics and links for course manuals
 1. [Planning (experimental design and group work allocation)](1_planning/1_planning_README.md)
 2. [Sample preparation](2_sample_preparation/2_sample_preparation_README.md)
 3. [Data acquisition](3_data_acquisition/3_data_acquisition_README.md)
@@ -74,5 +74,16 @@ Additional material
 1. [R crashcourse](R_crashcourse/R_crashcourse_README.md)
 2. [Software installation guideline](software_installation/software_installation_README.md)
 3. [How to download R script from Github](how_to_download_R_script/how_to_download_R_script_README.md)
+
+## Timetable
+
+### Day 1 (3 April 2022)
+
+### Day 2 (4 April 2022)
+
+### Day 3 (5 April 2022)
+
+
+
 
 
