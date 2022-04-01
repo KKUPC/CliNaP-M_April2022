@@ -47,9 +47,14 @@ read1d_proc(data.file, exp_type=list(PULPROG='cpmgpr1d'))
 # use 'spec' to plot a single pectrum, e.g., in row position 15:
 spec(X[51,], ppm, shift = range(ppm), interactive=F)
 ```
-You should get the result like this
+You should get the result like this 
+(Figure)
 
 ### Step 7. Plot overlay spectra 
+
+You should get the result like this 
+(Figure)
+
 ### Step 8. Create run order
 ### Step 9. Plot TSP signal
 ### Step 10.  Perform TSP calibration
