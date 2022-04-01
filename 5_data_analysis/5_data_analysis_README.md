@@ -19,45 +19,40 @@ In this module, we will cover key concepts in NMR-based and LC-MS/MS – based m
 MetaboAnlayst created by Wishart Research Group (University of Alberta, Canada) is a web-based platform for metabolomic data analysis and interpretation. Since the first version released in 2009, the platform has undergone continuous development and expansion in a variety of functional models that have been tailored for metabolomic data including data processing, statistical analysis, functional enrichment analysis, and metabolic pathway analysis. The platform also supports a wide array of data input types generated from different metabolomic approaches consisting of metabolite concentrations, spectra bins/peak table, MS/NMR peak lists or intensity table, and LC-MS raw spectra. Given its strengths in analysis methods and diverse data input, MetaboAnalyst is recognised as a friendly and comprehensive platform for metabolomics data analysis. 
 
 ![](figures/F1-MetaboAnalystPipline.png)
-**Figure 1.** Overview of MetaboAnalyst workflows (Obtained from Nucleic Acids Res, Volume 49, Issue W1, 2 July 2021, Pages W388–W396, https://doi.org/10.1093/nar/gkab382)
+(Obtained from Nucleic Acids Res, Volume 49, Issue W1, 2 July 2021, Pages W388–W396, https://doi.org/10.1093/nar/gkab382)
 
 ### Let’s start 
-To get started, open any web browser and go to https://www.metaboanalyst.ca/ for the main interface of MetaboAnalyst. The current window displays information regarding news & updates in the top centre, main menu in the left, and introduction of modules by scrolling down. To get to the module view and functions,  click the red button in the middle centre “Click here to start” (Fig.2).
+To get started, open any web browser and go to https://www.metaboanalyst.ca/ for the main interface of MetaboAnalyst. The current window displays information regarding news & updates in the top centre, main menu in the left, and introduction of modules by scrolling down. To get to the module view and functions,  click the red button in the middle centre “Click here to start”.
 ![](figures/F2-MainPage.png)
-**Figure 2.** Main interface of MetaboAnalyst
 
-Alternatively, the address https://www.metaboanalyst.ca/MetaboAnalyst/ModuleView.xhtml can be used to access directly to the page (Fig. 3). The current window provides direct access and detailed information for each module. In the left panel is a different directory related to the platform. The user can learn the command to handle each module in “Tutorials” or search for solutions for common questions and errors in “FAQs” . Here we would like to emphasise the instruction for “Data Formats” as it is the important initial step for every further process.  
+Alternatively, the address https://www.metaboanalyst.ca/MetaboAnalyst/ModuleView.xhtml can be used to access directly to the page. The current window provides direct access and detailed information for each module. In the left panel is a different directory related to the platform. The user can learn the command to handle each module in “Tutorials” or search for solutions for common questions and errors in “FAQs” . Here we would like to emphasise the instruction for “Data Formats” as it is the important initial step for every further process.  
 
 ![](figures/F3-ModuleView.png)  
-**Figure 3.** Module View
 
 ### Dataset preparation for MetaboAnalyst analysis
 As mentioned above, MetaboAnalyst supports a wide array of data input types generated from different metabolomic approaches that are suitable for different analysis paths in the platform. However, to be compatible with the platform commands, the transformation or arrangement of the dataset following guidelines is necessary. 
 
-There are four data formats that can be used in MetaboAnalyst including Comma Separated Values (.csv), Tab Delimited Text (.txt), mzTab 2.0-M files (.mzTab), and Zipped files (.zip). The instruction and special notes of each format are provided in section “General” (Fig. 4). Also, next to this section are the instructions for different data types and analysis paths. 
+There are four data formats that can be used in MetaboAnalyst including Comma Separated Values (.csv), Tab Delimited Text (.txt), mzTab 2.0-M files (.mzTab), and Zipped files (.zip). The instruction and special notes of each format are provided in section “General”. Also, next to this section are the instructions for different data types and analysis paths. 
 
-![](figures/F4-DataFormats.png)  
-**Figure 4.** The instruction for data formats that can be used in MetaboAnalyst
+![](figures/F4-DataFormats.png)
 
 ---
 [↥ **Back to top**](#top)
 
 ## NMR-based metabolome data analysis using MetaboAnalyst <a name="nmrbased"></a>
-For this module, the chosen example dataset is Pla-ra samples derived NMR intensity with two different prepared methods (Raw and Cooked) and collected at three different time points (day 0, 2 weeks, and 6 weeks) (Fig. 5).  Moreover, the odour satisfaction score was also provided. 
+For this module, the chosen example dataset is Pla-ra samples derived NMR intensity with two different prepared methods (Raw and Cooked) and collected at three different time points (day 0, 2 weeks, and 6 weeks).  Moreover, the odour satisfaction score was also provided. 
 ![](figures/F5-FullData.png)
-**Figure 5.** Full NMR data table
 
-For MetaboAnalyst analysis, the dataset is collected and arranged in Excel as following (Fig. 6): 
+For MetaboAnalyst analysis, the dataset is collected and arranged in Excel as following: 
 - **Data Format**: .csv 
 - **Column**: Sample ID and Sample label
 - **Row**: variables
 ![](figures/F6-MetaboNMRData.png)
-**Figure 6.** NMR data table for MetaboAnalyst
 
 ### Data analysis using MetaboAnalyst
 #### Data uploading and processing
 ##### ***Data uploading***
-After the preparation for data file is completed, we can go back to MetaboAnalyst Module View and click “Statistical Analysis [one factor” to start the analysis process. 
+After the preparation for data file is completed, we can go back to MetaboAnalyst Module View and click “Statistical Analysis [one factor]" to start the analysis process. 
 ![](figures/SA_Onefactor.png)
 
 In the box of “A plain text (.txt or .csv)", select the information and follow the steps as below:
