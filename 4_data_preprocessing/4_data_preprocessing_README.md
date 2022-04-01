@@ -100,6 +100,7 @@ X_cal=calibrate(X, ppm, type='tsp')
 - **Plot TSP after calibration**
 ```
 # plot TSP after calibration
+
 matspec(X_cal, ppm, shift=c(-0.1,0.1), interactive=F)
 ```
 
