@@ -47,18 +47,128 @@ read1d_proc(data.file, exp_type=list(PULPROG='cpmgpr1d'))
 # use 'spec' to plot a single pectrum, e.g., in row position 15:
 spec(X[51,], ppm, shift = range(ppm), interactive=F)
 ```
+you should get the result like this
+![](Figures/Figure7.png)
+
 ### Step 7. Plot overlay spectra 
+
+```
+# use 'matspec' to overlay spectra, in ppm range 0 to 10
+matspec(X, ppm, shift = c(-1, 10), interactive=F)
+```
+you should get the result like this 
+![](Figues/Figure9.png)
+
 ### Step 8. Create run order
+
+```
+# create run-order based on acquisition date
+meta$runOrder=rank(as.POSIXct(meta$a_DATE))
+```
+
 ### Step 9. Plot TSP signal
+
+```
+# plot TSP signal
+specOverlay(X, ppm, shift=c(-0.05,0.05),
+            an=list( 'Facet'=meta$a_EXP, # facet
+                     'RunOrder'=meta$runOrder, # colour
+                     'Pulse Program'=meta$a_PULPROG) # linetype
+) # linetype
+```
+you should get the result like this
+![](Figures/Figure12.png)
+
 ### Step 10.  Perform TSP calibration
+
+```
+# perform TSP calibration
+X_cal=calibrate(X, ppm, type='tsp')
+```
+**Plot TSP after calibration**
+```
+# plot TSP after calibration
+matspec(X_cal, ppm, shift=c(-0.1,0.1), interactive=F)
+```
+you should get result like this
+![](Figures/Figure15.png)
+
 ### Step 11. Calculate quality control measures in water region, low field and up field
 
-### Step 12. Cut unwanted region including TSP, water and noise
+```
+# calculate quality control measures
+matspec(X_cal, ppm, shift=c(4.5,5), interactive=F, main='Residual Water')
+matspec(X_cal, ppm, shift=c(9,11), interactive=F, main='LowField Cap')
+matspec(X_cal, ppm, shift=c(-1,1), interactive=F, main='UpField Cap')
+```
+you should get result like this
+![](Figures/Figure17.png)
 
+For residual water
+
+![](Figures/Figure18.png)
+
+For low field
+
+![](Figures/Figure19.png)
+
+For up field
+
+### Step 12. Cut unwanted region including TSP, water and noise
 #### 12.1 TSP region
+- Check TSP region
+```
+#Check TSP region
+matspec(X, ppm, shift = c(-0.05, 0.05), interactive=F)
+```
+You should get the result like this
+![](Figures/Figure21.png)
+
+- Specify TSP region to be removed
+```
+#Specify TSP region to be removed
+idx_tsp=get_idx(range=c(min(ppm), 0.5), ppm)
+```
+
 #### 12.2 Water region
+- Check water region
+```
+#Check water region
+matspec(X, ppm, shift = c(4.75, 5), interactive=F)
+```
+You should get the result like this
+![](Figures/Figure24.png)
+
+- Specify water region to be removed
+```
+#Specify water region to be removed
+idx_water=get_idx(range=c(4.75, 4.98), ppm)
+```
+
 #### 12.3 Down field noise region (ppm 9-10) 
+- Check down field noise region
+```
+#Check downfield noise region
+matspec(X, ppm, shift = c(8, 10), interactive=F)
+```
+You should get the result like this
+![](Figures/Figure27.png)
+
+- Specify downfield noise to be removed
+```
+#Specify downfield noise to be removed
+idx_noise=get.idx(range=c(9, max(ppm)), ppm)
+```
+
 #### 12.4 Gather all regions to be removed and excision of TSP, water and noise regions
+```
+#Gather all regions to be removed
+idx_rm=c(idx_tsp, idx_water, idx_noise)
+
+# Exision of TSP, res. water and noise regions
+X_cut=X_cal[,-idx_rm]
+ppm=ppm[-idx_rm]
+```
 
 ### Step 13. Baseline correction
 ### Step 14. Normalisation, PQN method 
