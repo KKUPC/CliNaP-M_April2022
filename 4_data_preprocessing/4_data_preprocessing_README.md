@@ -100,6 +100,7 @@ matspec(X_cal, ppm, shift=c(9,11), interactive=F, main='LowField Cap')
 matspec(X_cal, ppm, shift=c(-1,1), interactive=F, main='UpField Cap')
 ```
 **You will obtain the result below**
+
 ![](Figures/Figure17.png)
 
 For residual water
