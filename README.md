@@ -78,12 +78,21 @@ Additional material
 ## Timetable
 
 ### Day 1 (3 April 2022)
+| Time | Activities |
+| ---  |    ---  |
+| 11:00-12:00  | Check-in |
+| 12:00-13:00 | Lunch |
+| 13:00-14:00 | Plenary Lecture |
+| 14:00-14:30 | Coffee break |
+| 14:30-15:30 | Session 1: Sample preparation |
+| 15:30-16:30 | Session 2: Data acquisition |
+| 16:30-17:10 | R crash course |
+| 17:10-17:30 | Day 1 Exit Ticket |
 
 ### Day 2 (4 April 2022)
 
 ### Day 3 (5 April 2022)
 
 
-
-
-
+## Organising team
+## Our kind sponsors 
