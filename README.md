@@ -100,16 +100,36 @@ Additional material
 | 9:30-10:00 | Special lecture (KKUIPL) |
 | 10:00-10:30 | Coffee break |
 | 10:30-12:00 | Session 3: Data pre-processing |
-| 12:00-12:45 | Lunch 
+| 12:00-12:45 | Lunch |
 | 12:45-13:00 | Sponsor talk |
-| 13:00-14:30 | Session 4: Data analysis |
+| 13:00-14:30 | Session 4: Metabolite identification |
 | 14:30-15:00 | Coffee break | 
-| 15:00-16:30 |  Session 4: Data analysis (cont.) |
+| 15:00-16:30 | Session 4: Metabolite identification (cont.) |
 | 16:30-17:00 | Day 2 Exit Ticket |
 | 17:00 onward | Reception dinner + Special lecture (Asst. Prof. Chavis Ketkaew) |
 
 ### Day 3 (5 April 2022)
 
+| Time | Activities |
+| ---  |    ---  |
+| 9:00-9:30  | Special lecture (Dr. Bundit Promraksa) |
+| 9:30-10:30 | Session 5: Data analysis |
+| 10:30-11:00 | Coffee break |
+| 11:00-12:00 | Session 5: Data analysis (cont.) |
+| 12:00-12:45 | Lunch |
+| 12:45-13:00 | Sponsor talk |
+| 13:00-15:00 | Prepare for group presentation |
+| 15:00-15:30 | Coffee break | 
+| 15:30-16:30 | Group presentation |
+| 16:30-16:50 | Day 3 Exit Ticket and further disussion |
+| 16:50-17:00 | Closing ceremony |
+
 
 ## Organising team
+![](figures/organisers.png)
+
 ## Our kind sponsors 
+![](figures/sponsors.png)
+
+---
+
