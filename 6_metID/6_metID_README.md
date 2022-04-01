@@ -21,14 +21,12 @@ Figure;
 Plot(ppm, xaln);
 Set(gca, 'Xdir', 'Reverse');
 ```
-
-Figure;
-Plot(ppm, Xaln)
-Set
+You will obtain the processed NMR spectra below.
 
 ![](Figures/2.jpg)
 **Figure 2**
 
+Now, click data cursor and click the NMR signal of interest. 
 ![](Figures/3.jpg)
 **Figure 3**
 
