@@ -70,8 +70,10 @@ You should get the result like this
 
 ### Step 11. Calculate quality control measures in water region, low field and up field
 
+
 You should get the result like this 
 (Figure)
+
 For residual water
 
 (Figure)
