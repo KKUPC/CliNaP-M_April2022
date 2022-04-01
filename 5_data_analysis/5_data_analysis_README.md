@@ -48,15 +48,15 @@ For this module, the chosen example dataset is Pla-ra samples derived NMR intens
 **Figure 5.** Full NMR data table
 
 For MetaboAnalyst analysis, the dataset is collected and arranged in Excel as following (Fig. 6): 
--**Data Format**: .csv 
--**Column**: Sample ID and Sample label
--**Row**: variables
+- **Data Format**: .csv 
+- **Column**: Sample ID and Sample label
+- **Row**: variables
 ![](figures/F6-MetaboNMRData.png)
 **Figure 6.** NMR data table for MetaboAnalyst
 
 ### Data analysis using MetaboAnalyst
 #### Data uploading and processing
-##### Data uploading
+##### ***Data uploading***
 After the preparation for data file is completed, we can go back to MetaboAnalyst Module View and click “Statistical Analysis [one factor” to start the analysis process. 
 ![](figures/SA_Onefactor.png)
 
@@ -67,7 +67,7 @@ In the box of “A plain text (.txt or .csv), select the information and follow 
 Click **Submit**
 ![](figures/SA_FileUpload.png)
 
-#####Data processing
+##### ***Data processing***
 The main steps of data processing include Data check, Missing value, Data filter, Data editor, and Normalisation.  
 *Data check & Missing value*
 The commands help to check the integrity of the data file and provide the editing window for group labels. It is necessary to look over a few important pieces of information such as number of samples, number of groups, and missing values before processing next steps. 
@@ -84,10 +84,10 @@ MetaboAnalyst provides the normalisation procedures with three categories to imp
 
 In case your dataset requires normalisation procedures, after selecting and normalising, you can click “View Result” to review the results and to compare “before” and “after” processes.
 
-####Statistical analysis
+#### Statistical analysis
 After data processing, the tool box appears with different analysis paths to select such as univariate analysis, chemometrics analysis, or cluster analysis. In this module, we introduce the process of chemometrics analysis, specifically principal component analysis (PCA) and orthogonal partial least squares - discriminant analysis (O-PLS-DA). 
 
-#####Principal component analysis (PCA)
+##### ***Principal component analysis (PCA)***
 The PCA is used to study the metabolic overview, similarities, and differences of all samples. 
 ![](figures/SA_PCA_Allgroups.png)
 
@@ -100,7 +100,7 @@ Next to that is the “Scree Plot” which displays the accumulated variance exp
 In addition, “2D Scores Plot” can be used to study the clustering between groups.
 ![](figures/SA_PCA_2DScoresPlot.png)
 
-#####Orthogonal partial least squares - discriminant analysis (O-PLS-DA)
+##### ***Orthogonal partial least squares - discriminant analysis (O-PLS-DA)***
 The O-PLS-DA is used to investigate further in pairwise comparison aiming to identify the differences between groups. Therefore, it requires the step to select two interested groups for the analysis through “Data editor”. For the current dataset, the example is conducted for a pairwise comparison model between “Raw_day 0” and “Raw_2 weeks”. 
 ![](figures/SA_OPLSDA_DataEditor.png)
 
@@ -119,7 +119,7 @@ The statistical parameters obtained from the current O-PLS-DA model, such as the
 Last but not least, the computationally intensive procedure known as “Permutation” can also be carried out in the same window, next to “Model Overview”.  Depending on the size of the dataset, we could set the appropriate number for permutation.
 ![](figures/SA_OPLSDA_Permutation.png)
 
-###Download Results  <a name="nmrdownload"></a>
+### Download Results
 The results from MetaboAnalyst (all tables and figures) can be downloaded in “Download” section located in the left panel. We can either choose to download single files or all the files composed in “Download.zip”. In addition, a PDF analysis report can also be generated using the button “Generate Report”. 
 ![](figures/SA_Download.png)
 
