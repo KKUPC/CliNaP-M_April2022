@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Overview and Aims](#overview)
 2. [Introduction to MetaboAnalyst](#intro)
-3. [NMR-based metabolome data analysis using MetaboAnalyst](#nmrbased) 
+3. [NMR-based metabolome data analysis using MetaboAnalyst](#nmrbased)
     3.2. [Data analysis using MetaboAnalyst](#nmrdataanalysis)
     3.3. [Download Results](#nmrdownload)
 4. [LC-MS/MS – based metabolome data analysis using MetaboAnalyst](#lcmsbased)
