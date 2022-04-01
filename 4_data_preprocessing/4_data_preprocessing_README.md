@@ -66,6 +66,13 @@ spec(X[51,], ppm, shift = range(ppm), interactive=F)
 
 ### Step 16. Export NMR spectra to data table
 #### 16.1 Transpose data of x_pqn and ppm
+
+```
+#Transpose NMR data to create csv file
+x_pqn2 <- t(x_pqn)
+ppm2 <- t(ppm)
+```
+
 #### 16.2 Export NMR data to .csv file 
 
 ```
