@@ -67,8 +67,22 @@ spec(X[51,], ppm, shift = range(ppm), interactive=F)
 ### Step 16. Export NMR spectra to data table
 #### 16.1 Transpose data of x_pqn and ppm
 #### 16.2 Export NMR data in .csv file 
-#### 16.3 Open csv file in excel to rearrange the format file for multivariate analysis
 
+```
+#Export NMR data to .csv file
+write.table(X_pqn2, file = "x_pqn2", quote = FALSE, sep = ", ",
+            eol = "\n", na = "NA", dec = ".", row.names = FALSE,
+            col.names = TRUE, qmethod = c("escape", "double"),
+            fileEncoding = "")
+
+write.table(ppm3, file = "ppm3", quote = FALSE, sep = " ,",
+            eol = "\n", na = "NA", dec = ".", row.names = FALSE,
+            col.names = TRUE, qmethod = c("escape", "double"),
+            fileEncoding = "")
+     ``` 
+
+#### 16.3 Open csv file in excel to rearrange the format file for multivariate analysis
+![](Figures/Figure40-1.png)
 
 
 
