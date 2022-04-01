@@ -18,9 +18,9 @@ In MATLAB, make sure that you have set the working directory to where your proce
 ```bash 
 #Plot processed NMR spectra
 
-Figure;
-Plot(ppm, xaln);
-Set(gca, 'Xdir', 'Reverse');
+Figure
+Plot(ppm, xaln)
+Set(gca, 'Xdir', 'Reverse')
 ```
 You will obtain the processed NMR spectra below.
 
@@ -38,7 +38,8 @@ In MATLAB command window, do the following:
 
 ```bash
 #Perform STOCSY using the peak at 1.329 ppm as the driver peak
-STOCSY(xaln, ppm, peak_1p329.Position(1),0.000001);
+
+STOCSY(xaln, ppm, peak_1p329.Position(1),0.000001)
 ```
 
 Now, you will obtain the STOCSY spectra below. The correlated resnonace of the driver peak (1.329 ppm) is a protron resonance at 4.146 ppm (quartet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet. 
@@ -57,7 +58,8 @@ In MATLAB command window, do the following:
 
 ```bash
 #Perform STOCSY using the peak at 1.933 ppm as the driver peak
-STOCSY(xaln, ppm, peak_1p933.Position(1),0.000001);
+
+STOCSY(xaln, ppm, peak_1p933.Position(1),0.000001)
 ```
 
 Now, you will obtain the STOCSY spectra below. No correlated resnonace of the driver peak (1.933 ppm) is detected. You need to record the result from STOCSY spectra on your safe place i.e. Excel spreadsheet, in this case, 'no STOCSY correlation'. 
@@ -72,9 +74,12 @@ Name the cursor data as peak_3p007 and click 'ok'.
 
 ![](Figures/MetID_Fig10.JPG)
 
+In MATLAB command window, do the following:
+
 ```bash
 #Perform STOCSY using the peak at 3.007 ppm as the driver peak
-STOCSY(xaln, ppm, peak_3p007.Position(1),0.000001);
+
+STOCSY(xaln, ppm, peak_3p007.Position(1),0.000001)
 ```
 
 Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (3.007 ppm) include the protron resonances at 3.17 ppm (doublet of doublets), 3.98 ppm (doublet of doublets), 6.94 ppm (doublet of doublets of doublets) and 7.19 ppm (doublet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet. 
@@ -89,7 +94,15 @@ Name the cursor data as peak_4p676 and click 'ok'.
 
 ![](Figures/MetID_Fig13.JPG)
 
+In MATLAB command window, do the following:
 
+```bash
+#Perform STOCSY using the peak at 4.676 ppm as the driver peak
+
+STOCSY(xaln, ppm, peak_4p676.Position(1),0.000001)
+```
+
+Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (4.676 ppm) include the protron resonances at 3.17 ppm (doublet of doublets), 3.98 ppm (doublet of doublets), 6.94 ppm (doublet of doublets of doublets) and 7.19 ppm (doublet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet.
 
 ![](Figures/MetID_Fig14.JPG)
 
