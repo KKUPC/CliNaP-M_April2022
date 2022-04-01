@@ -94,12 +94,16 @@ For LC-MS/MS based approach, MS-DIAL software is employed for metabolite identif
 **Figure 1**
 
 ### Step 2 Project Creation
-2.1 Click “File” then click “New project”
+2.1 Click “File” then click “New project” (Figure 2,3)
 ![](Figures/MS2.png)
 **Figure 2**
 
 ![](Figures/MS3.png)
 **Figure 3**
+
+2.2 Browse a folder containing ABF files (Figure 4)
+![](Figures/MS4.png)
+**Figure 4**
 
 ---
 [↥ **Back to top**](#top)
