@@ -277,13 +277,13 @@ This software is based on different algorithms that have been published and is m
 XCMS is able to read files with open format as mzXML and netCDF which are independent of the constructors' formats.
 It is composed of R functions able to extract, filter, align, fill gap and annotate isotopes, adducts and fragments. This set of functions gives a modularity particularly well adapted to defined workflows which is one of the key points of Galaxy **(Figure 2)**
 
-![](Figures/XXX.png)
+![](Figures/lcms2.png)
 
 **Figure2: LCMS preprocessing workflow.**
 
 https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms-preprocessing/slides-plain.html
 
-![](Figures/XXX.png)
+![](Figures/lcms3.png)
 
 The metabolome analysis workflow is available at the following servers and docker image
 
@@ -294,7 +294,7 @@ https://streetscience.usegalaxy.eu/
 https://usegalaxy.org.au/
 https://workflow4metabolomics.usegalaxy.fr/
 
-![](Figures/XXX.png)
+![](Figures/lcms4.png)
 
 For those of you who do not want to upload your data to server, galaxy can be run locally in your PC using docker
 
