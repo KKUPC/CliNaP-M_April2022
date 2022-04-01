@@ -105,6 +105,10 @@ nano config/job_conf.xml
 
 How to use nano editor -> https://www.nano-editor.org/dist/v2.2/nano.html#Editor-Basics\
 
+ 1 worker require 4 GB of RAM For this example, the systems have 16 GB of RAM therefore the number of workers is set to 4.
+ 
+ Step – 5: Access your personal galaxy server by type http://localhost:8080/ In the address bar on your favorite web browser
+
 
 ---
 [↥ **Back to top**](#top)
