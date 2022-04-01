@@ -5,7 +5,7 @@
 2. [Group work](#groupwork)
 
 ## Experimental design <a name="expdesign"></a>
-The datasets used in this hands-on CliNaP-M short course (April 2022) is part of the project, namely, "Investigation of satisfaction-related molecular components in fermented fish seasoning (Pla-Ra)for improving industrial production" funded by Thailand Science Research and Innovation to Dr. Jutarop Phetchraburanin. Hence, all datasets provided in this short course should be stricly used for academic service purposes and all rights are reserved for CliNaP-M (April 2022) hands-on sessions only.
+The datasets used in this hands-on CliNaP-M short course (April 2022) is part of the project, namely, "Investigation of satisfaction-related molecular components in fermented fish seasoning (Pla-Ra)for improving industrial production" funded by Thailand Science Research and Innovation to Dr. Jutarop Phetchraburanin. Hence, all datasets provided in this short course should be stricly used for academic service purposes at KKUIPL and all rights are reserved for CliNaP-M (April 2022) hands-on sessions only.
 
 This sub-experiment aimed to investigate the metabolic differences in fermented fish with different fermentation times including baseline (day 0), week 2 and week 6 and different conditions: raw and cooked samples. All fermented fish samples were extracted using dual-phase extraction (methanol:chloroform:water, 1:3:1 [v/v/v]). Aqueous extracts were analysed using NMR and LC-MS/MS to explore the alterations in nutritional, functional and toxic metabolite pools at different fermentation times and conditions. In addition, odour satisfaction was assessed by food experts and data were recorded. Metabolome data can then be integrated with odour satisfaction using chemometrics in order to investigate odour satisfaction-related metabolites. The outcomes of this experiment can aid the fermented fish manufacturer to formulate their products that suit the customer demands.
 
@@ -13,7 +13,9 @@ This sub-experiment aimed to investigate the metabolic differences in fermented 
 [↥ **Back to top**](#top)
 
 ## Group work <a name="groupwork"></a>
-Some text here
+Groups 1 - 3 are provided with NMR dataset while groups 4 - 6 obtain LC-MS/MS dataset. Odour satisfaction data is given to all groups for further correlation analysis.
+
+For all groups, you need to do the following:
 
 ---
 [↥ **Back to top**](#top)
