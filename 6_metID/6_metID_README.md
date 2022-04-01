@@ -97,7 +97,9 @@ For LC-MS/MS based approach, MS-DIAL software is employed for metabolite identif
 2.1 Click “File” then click “New project”
 ![](Figures/MS2.png)
 **Figure 2**
+
 ![](Figures/MS3.png)
 **Figure 3**
+
 ---
 [↥ **Back to top**](#top)
