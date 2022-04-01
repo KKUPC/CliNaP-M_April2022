@@ -124,6 +124,11 @@ The red dash line represents the uncorrected baseline, the black line represents
 
 
 ### Step 14. Normalisation, PQN method 
+```
+# PQN normalisation
+X_pqn=pqn(X_bl, add_DilF = 'NULL')
+```
+
 ### Step 15. Visual inspection of the pre-processed NMR spectra
 
 ```
