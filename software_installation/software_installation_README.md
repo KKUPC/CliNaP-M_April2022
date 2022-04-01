@@ -75,9 +75,25 @@ Now with R and RStudio installed in your system, let’s look at a few packages 
 
 ---
 [↥ **Back to top**](#top)
+## Installing Docker
+Introduction to docker
+
+Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production
+
+•	https://docs.docker.com/get-started/overview/
+Installing docker
+
+Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
+
+You can download and install Docker on multiple platforms. Refer to the following section and choose the best installation path for you.
+
+•	https://docs.docker.com/get-docker/
+
+
+
 
 ## Installing Galaxy server <a name="galaxy"></a>
-Some text here
+
 
 ---
 [↥ **Back to top**](#top)
