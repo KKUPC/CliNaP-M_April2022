@@ -14,6 +14,7 @@ Before performing statistical analysis, data pre-processing is a very crucial st
 
 ```
 #set working directory 
+
 setwd("D:/CliNaP-M/Metabom8")
 ```
 
@@ -22,6 +23,7 @@ setwd("D:/CliNaP-M/Metabom8")
 
 ```
 # load packages
+
 library(metabom8)
 library(remotes)
 library(devtools)
@@ -31,6 +33,7 @@ library(devtools)
 
 ```
 # define path to NMR experiments
+
 data.file <- ""D:/CliNaP-M/Metabom8/NMR"
 ```
 
@@ -38,6 +41,7 @@ data.file <- ""D:/CliNaP-M/Metabom8/NMR"
 
 ```
 # import 1D MRS data
+
 read1d_proc(data.file, exp_type=list(PULPROG='cpmgpr1d'))
 ```
 
@@ -45,6 +49,7 @@ read1d_proc(data.file, exp_type=list(PULPROG='cpmgpr1d'))
 
 ```
 # use 'spec' to plot a single pectrum, e.g., in row position 15:
+
 spec(X[15,], ppm, shift = range(ppm), interactive=F)
 ```
 **You will obtain the result below**
@@ -55,6 +60,7 @@ spec(X[15,], ppm, shift = range(ppm), interactive=F)
 
 ```
 # use 'matspec' to overlay spectra, in ppm range 0 to 10
+
 matspec(X, ppm, shift = c(-1, 10), interactive=F)
 ```
 **You will obtain the result below**
@@ -64,12 +70,14 @@ matspec(X, ppm, shift = c(-1, 10), interactive=F)
 ### Step 8. Create run order
 ```
 # create run-order based on acquisition date
+
 meta$runOrder=rank(as.POSIXct(meta$a_DATE))
 ```
 
 ### Step 9. Plot TSP signal
 ```
 # plot TSP signal
+
 specOverlay(X, ppm, shift=c(-0.05,0.05),
             an=list( 'Facet'=meta$a_EXP, # facet
                      'RunOrder'=meta$runOrder, # colour
@@ -85,6 +93,7 @@ specOverlay(X, ppm, shift=c(-0.05,0.05),
 - **TSP calibration**
 ```
 # perform TSP calibration
+
 X_cal=calibrate(X, ppm, type='tsp')
 ```
 
@@ -101,6 +110,7 @@ matspec(X_cal, ppm, shift=c(-0.1,0.1), interactive=F)
 ### Step 11. Calculate quality control measures in water region, low field and up field
 ```
 # calculate quality control measures
+
 matspec(X_cal, ppm, shift=c(4.5,5), interactive=F, main='Residual Water')
 matspec(X_cal, ppm, shift=c(9,11), interactive=F, main='LowField Cap')
 matspec(X_cal, ppm, shift=c(-1,1), interactive=F, main='UpField Cap')
@@ -124,6 +134,7 @@ The NMR spectra for up field
 - **Check TSP region**
 ```
 #Check TSP region
+
 matspec(X, ppm, shift = c(-0.05, 0.05), interactive=F)
 ```
 
@@ -134,6 +145,7 @@ matspec(X, ppm, shift = c(-0.05, 0.05), interactive=F)
 - **Specify TSP region to be removed** 
 ```
 #Specify TSP region to be removed
+
 idx_tsp=get_idx(range=c(min(ppm), 0.5), ppm)
 ```
 
@@ -141,6 +153,7 @@ idx_tsp=get_idx(range=c(min(ppm), 0.5), ppm)
 - **Check water region** 
 ```
 #Check water region
+
 matspec(X, ppm, shift = c(4.75, 5), interactive=F)
 ```
 
@@ -151,6 +164,7 @@ matspec(X, ppm, shift = c(4.75, 5), interactive=F)
 - **Specify water region to be removed**
 ```
 #Specify water region to be removed
+
 idx_water=get_idx(range=c(4.75, 4.98), ppm)
 ```
 
@@ -158,6 +172,7 @@ idx_water=get_idx(range=c(4.75, 4.98), ppm)
 - **Check down field noise region**
 ```
 #Check downfield noise region
+
 matspec(X, ppm, shift = c(8, 10), interactive=F)
 ```
 
@@ -168,15 +183,18 @@ matspec(X, ppm, shift = c(8, 10), interactive=F)
 - **Specify downfield noise to be removed**
 ```
 #Specify downfield noise to be removed
+
 idx_noise=get.idx(range=c(9, max(ppm)), ppm)
 ```
 
 #### 12.4 Gather all regions to be removed and excision of TSP, water and noise regions
 ```
 #Gather all regions to be removed
+
 idx_rm=c(idx_tsp, idx_water, idx_noise)
 
 # Exision of TSP, res. water and noise regions
+
 X_cut=X_cal[,-idx_rm]
 ppm=ppm[-idx_rm]
 ```
@@ -184,11 +202,13 @@ ppm=ppm[-idx_rm]
 ### Step 13. Baseline correction
 ```
 # Baseline correction
+
 X_bl=bcor(X_cut)
 ```
 **Visual assessment**
 ```
 # visual assessment
+
 Xcompare=rbind(X_bl[1,], X_cut[1,])
 matspec(Xcompare, ppm, shift = c(7, 9), interactive=F)
 matspec(Xcompare, ppm, shift = c(3,4), interactive=F)
@@ -204,6 +224,7 @@ The red dash line represents the uncorrected baseline, the black line represents
 ### Step 14. Normalisation with PQN method 
 ```
 # PQN normalisation
+
 X_pqn=pqn(X_bl, add_DilF = 'NULL')
 ```
 
@@ -230,6 +251,7 @@ The pre-processed NMR spectra at ppm 1.2-1.7.
 
 ```
 #Transpose NMR data to create csv file
+
 x_pqn2 <- t(x_pqn)
 ppm2 <- t(ppm)
 ```
@@ -238,6 +260,7 @@ ppm2 <- t(ppm)
 
 ```
 #Export NMR data to .csv file
+
 write.table(X_pqn2, file = "x_pqn2", quote = FALSE, sep = ", ",
             eol = "\n", na = "NA", dec = ".", row.names = FALSE,
             col.names = TRUE, qmethod = c("escape", "double"),
