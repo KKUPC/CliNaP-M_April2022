@@ -112,6 +112,12 @@ You should get the result like this
 #### 12.4 Gather all regions to be removed and excision of TSP, water and noise regions
 
 ### Step 13. Baseline correction
+
+**Visual assessment**
+
+You should get the result like this
+(Figure)
+
 ### Step 14. Normalisation, PQN method 
 ### Step 15. Visual inspection of the pre-processed NMR spectra
 
