@@ -21,9 +21,25 @@ library(metabom8)
 
 #Plot processed NMR spectra
 
-matspec(X, ppm, shift = c(1., 10), interactive=F)
+matspec(X_pqn, ppm, shift = c(1.3, 1.38), interactive=F)
 
 ```
+
+The processed NMR spectra is now plotted. You have specified the chemical shift region to 1.30 - 1.38 ppm to visualise the exact chemical shift scale of this doublet signal at 1.333 ppm. 
+
+In R console, do the following:
+
+```bash 
+#Specify the driver peak for STOCSY
+
+driver1=1.333
+
+#Perform STOCSY
+
+stocsy_model=stocsy(X_pqn, ppm, driver1)
+```
+
+
 
 ![](Figures/RMetID1_1.JPG)
 ![](Figures/RMetID1.JPG)
