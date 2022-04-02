@@ -281,7 +281,7 @@ write.table(ppm3, file = "ppm3", quote = FALSE, sep = " ,",
 ---
 [↥ **Back to top**](#top)
 ## The Galaxy environment <a name="lcms"></a>
-In order to share metabolomics analysis strategies and centralize tools and practices, the web-based platform Galaxy] is the core component of the W4M infrastructure. This web-based platform is open source with a very active community which insures up-to-date software releases and efficient support for both end-users and tools developers. Galaxy provides several interesting features for metabolomics tools integration compared to other workflow engines, which include: no known data size limitations [4], possibilities to automate pipelines, and to ensure reproducibility. Because of its web interface, this cross-platform system enables scientist without programming experience to design and run analysis workflows.
+In order to share metabolomics analysis strategies and centralize tools and practices, the web-based platform Galaxy] is the core component of the W4M infrastructure. This web-based platform is open source with a very active community which insures up-to-date software releases and efficient support for both end-users and tools developers. Galaxy provides several interesting features for metabolomics tools integration compared to other workflow engines, which include: no known data size limitations, possibilities to automate pipelines, and to ensure reproducibility. Because of its web interface, this cross-platform system enables scientist without programming experience to design and run analysis workflows.
 The main features of this platform are:
 - A real benefit to users with results traceability and storage,
 - The ability to share results between users/labs/platforms,
@@ -305,17 +305,18 @@ It is composed of R functions able to extract, filter, align, fill gap and annot
 
 **Figure2: LCMS preprocessing workflow.**
 
-https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms-preprocessing/slides-plain.html
-
-![](Figures/lcms3.png)
-
 The metabolome analysis workflow is available at the following servers and docker image
 
 https://usegalaxy.eu/
+
 https://africa.usegalaxy.eu/
+
 https://india.usegalaxy.eu/
+
 https://streetscience.usegalaxy.eu/
+
 https://usegalaxy.org.au/
+
 https://workflow4metabolomics.usegalaxy.fr/
 
 ![](Figures/lcms4.png)
@@ -323,55 +324,58 @@ https://workflow4metabolomics.usegalaxy.fr/
 For those of you who do not want to upload your data to server, galaxy can be run locally in your PC using docker
 
 ## LC-MS data pre-processing 
-### Step 1. Upload data 
-- Collection
-- Select local file
+### Step 1. Upload data
+click on the upload icon on the top left of the screen next to the word "Tools"
+- Select collection tab
+- Select choose local file
 - Select workshop dataset 
-- File type mzXML
-- Start
+- Set file type to mzXML
+- Press start
 - After upload completed click build, name the list as mzXML
 
-![](Figures/lcms13.png)
+![](Figures/l1.png)
 
-![](Figures/lcms14.png)
+![](Figures/l2.png)
 
-![](Figures/lcms15.png)
+![](Figures/l3.png)
 
-![](Figures/lcms16.png)
 
-![](Figures/lcms17.png)
-
-![](Figures/lcms18.png)
 
 ### Step 2. Read data using XCMS: MSnbase readMSData
+
+This first step is only meant to read your mzXML file and generate an object usable by XCMS 
+
 - Type in the tool search box readMSData
 - Select XCMS: MSnbase readMSData
 - Select mzXML collection
 - Execute
 
-![](Figures/lcms19.png)
-
-![](Figures/lcms20.png)
+![](Figures/l4.png)
 
 ### Step 3. Create and upload meta data as tab delimited file
 - Create metadata in MS excel
 - Save as tab-delimited (.txt) file
 - Upload to galaxy (file type tabular)
 
-![](Figures/lcms21.png)
 
-![](Figures/lcms22.png)
+![](Figures/meta.png)
 
-### Step 4. Create and upload meta data as tab delimited file
-#### This tool generates Base Peak Intensity Chromatograms (BPIs) and Total Ion Chromatograms (TICs). If you provide groups as we do here, you obtain two plots: one with colours based on provided groups, one with one colour per sample.
+![](Figures/l5.png)
+
+![](Figures/l6.png)
+
+### Step 4. Getting an overview of your samples’ chromatograms
+This tool generates Base Peak Intensity Chromatograms (BPIs) and Total Ion Chromatograms (TICs). If you provide groups as we do here, you obtain two plots: one with colours based on provided groups, one with one colour per sample.
 
 - Type in the tool search box “xcms plot chromatogram”
 - Select mzXML.raw.RData as input > execute
 - When the process complete click the eye button to visualize the data
 
-![](Figures/lcms23.png)
+![](Figures/l7.png)
 
-![](Figures/lcms24.png)
+![](Figures/l8.png)
+
+![](Figures/l9.png)
 
 ### Step 5. Peak picking
 Now that your data is ready for XCMS processing, the first step is to extract peaks from each of your data files independently. The idea here is, for each peak, to proceed to chromatographic peak detection.
@@ -381,41 +385,76 @@ The XCMS solution provides two different algorithms to perform chromatographic p
 - Select xcms findChromPeaks
 - Select mzXML.raw.RData as input > execute
 
-![](Figures/FigureXXX.png)
+![](Figures/l10.png)
 
 ### Step 6. Merging peak data into one data 
+
+Gathering the different samples in one Rdata file
+A dedicated tool exists to merge the different RData files into a single one: xcms findChromPeaks Merger tool. Although you can simply take as input your dataset collection alone, the tool also provides de possibility to take into account a sampleMetadata file. Indeed, depending of your analytical sequence, you may want to treat part of your samples a different way when proceeding to the grouping step using xcms groupChromPeaks (group)
 
 - Type in the tool search box “merge”
 - Select xcms findChromPeaks Merger
 - Select mzXML.raw.xset.RData as input > execute
 
-![](Figures/FigureXXX.png)
+![](Figures/l11.png)
 
-### Step 7. Group chromatogram peak
+### Step 7. determining shared ions across samples
+
+The first peak picking step gave us lists of ions for each sample. However, what we want now is a single matrix of ions intensities for all samples. To obtain such a table, we need to determine, among the individual ion lists, which ions are the same. This is the aim of the present step, called ‘grouping’.
+
+The group function aligns ions extracted with close retention time and close m/z values in the different samples. In order to define this similarity, we have to define on one hand a m/z window and on the other hand a retention time window. A binning is then performed in the mass domain. The size of the bins is called width of overlapping m/z slices. You have to set it according to your mass spectrometer resolution.
+
+Then, a kernel density estimator algorithm is used to detect region of retention time with high density of ions. This algorithm uses a Gaussian model to group together peaks with similar retention time.
+
+The inclusion of ions in a group is defined by the standard deviation of the Gaussian model, called bandwidth. This parameter has a large weight on the resulting matrix. It must be chosen according to the quality of the chromatography. To be valid, the number of ions in a group must be greater than a given number of samples. Either a percentage of the total number of samples or an absolute value of samples can be given. This is defined by the user.
+
 
 - Type in the tool search box “group”
 - Select xcms groupChromPeak
 - Select xset.merged.RData as input > execute
 
-![](Figures/FigureXXX.png)
+![](Figures/l12.png)
 
-### Step 8. Retention time correction
+![](Figures/l13.png)
+
+### Step 8. retention time correction
+
+Sometimes with LC-MS techniques, a deviation in retention time occurs from a sample to another. In particular, this is likely to be observed when you inject large sequences of samples.
+
+This optional step aims to correct retention time drift for each peak among samples. The correction is based on what is called well behaved peaks, that are peaks found in all samples or at least in most of the samples.
+
+Sometimes it is difficult to find enough peaks present in all samples. The user can define a percentage of the total number of samples in which a peak should be found to be considered a well behaved peak. This parameter is called minimum required fraction of samples.
+
+On the contrary, you may have peak groups with more detected peaks than the total number of samples. Those peaks are called additional peaks. If you do not want to consider peak groups with too much additional peaks as ‘well behaved peaks’, you can use the ‘maximal number of additional peaks’ parameter to put them aside.
+
+The algorithm uses statistical smoothing methods. You can choose between linear or loess regression.
+
 
 - Type in the tool search box “retcor”
 - Select xcms adjustRtime
 - Select xset.merged.group.Chrom.RData as input > execute
 - Repeat step 7 with xset.merged.group.Chrom.adjustRtime.RData as input > execute
 
-![](Figures/FigureXXX.png)
+![](Figures/l14.png)
 
-### Step 9. Fill peaks
+### Step 9. integrating areas of missing peaks
+
+With this ‘fillChromPeaks’ step, you obtain your final intensity table. At this step, you have everything mandatory to begin analysing your data:
+
+A sampleMetadata file (if not done yet, to be completed with information about your samples)
+A dataMatrix file (with the intensities)
+A variableMetadata file (with information about ions such as retention times, m/z)
+
 
 - Type in the tool search box “fillPeaks”
 - Select xcms fillChromPeaks (fillPeaks)
 - Select xset.merged.group.Chrom.adjustRtime.groupChromPeaks.RData as input > execute
- as input > execute
+ as input > execute after the process was done the data matrix can be download ny clicking at the data and click at the disket sign
  
- ![](Figures/FigureXXX.png)
+ ![](Figures/l15.png)
+ 
+ ![](Figures/l16.png)
+
 
  
 
