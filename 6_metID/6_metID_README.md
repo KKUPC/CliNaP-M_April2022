@@ -118,9 +118,38 @@ You will obtain the STOCSY spectra below. The correlated resnonaces of the drive
 
 **Example 4**
 
+In R console, do the following:
+
+```bash 
+
+#Plot processed NMR spectra
+
+matspec(X_pqn, ppm, shift = c(4.62, 4.74), interactive=F)
+
+```
+
+You have specified the chemical shift region to 4.62 - 4.74 ppm to visualise the exact chemical shift scale of this doublet signal at 4.67 ppm to be used as the driver peak.
 
 ![](Figures/RMetID4_1.JPG)
+
+In R console, do the following:
+
+```bash 
+#Specify the driver peak for STOCSY
+
+driver4=4.67
+
+#Perform STOCSY
+
+stocsy_model=stocsy(X_pqn, ppm, driver4)
+
+```
+
+Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (4.676 ppm) include a few protron resonances at 3 - 4 ppm and a peak at 5.2 (doublet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet.
+
 ![](Figures/RMetID4.JPG)
+
+Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (4.676 ppm) include a few protron resonances at 3 - 4 ppm and a peak at 5.2 (doublet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet.
 
 ### Performing STOCSY in MATLAB environment
 Now, we are going to use STOCSY toolbox on MATLAB to identify the correlated resonances of metabolites of interest. Let's get started with these three signals.
