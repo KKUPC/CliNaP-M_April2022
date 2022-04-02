@@ -129,7 +129,9 @@ How to use nano editor -> https://www.nano-editor.org/dist/v2.2/nano.html#Editor
 [↥ **Back to top**](#top)
 
 ## Installing MS-Dial <a name="msdial"></a>
-Some text here
+Step – 1: Go to (http://prime.psc.riken.jp/compms/msdial/main.html) website.
+
+Step – 2: Run the .exe file(Window) or pkg (MacOS) and follow the installation instructions.
 
 ---
 [↥ **Back to top**](#top)
