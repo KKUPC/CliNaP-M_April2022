@@ -126,10 +126,10 @@ Additional material
 
 
 ## Organising team
-![](figures/organisers2.png)
+![](figures/organisers3.png)
 
 ## Our kind sponsors 
-![](figures/sponsors2.png)
+![](figures/sponsors3.png)
 
 ---
 
