@@ -13,7 +13,7 @@ This sub-experiment aimed to investigate the metabolic differences in fermented 
 [↥ **Back to top**](#top)
 
 ## Group work <a name="groupwork"></a>
-Groups 1 - 3 are provided with NMR dataset while groups 4 - 6 obtain LC-MS dataset. Odour satisfaction data is given to all groups for further correlation analysis.
+Groups 1 - 3 are provided with NMR dataset while groups 4 - 6 obtain LC-MS dataset. Odour satisfaction score is given to all groups for correlation analysis.
 
 Here are the tasks to be addressed at the end of short course for each group:
 - Group 1: How do the NMR metabolite profiles of fermented fish differ at different fermentation time points of each condition?
