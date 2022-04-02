@@ -305,6 +305,8 @@ It is composed of R functions able to extract, filter, align, fill gap and annot
 
 ![](Figures/lcms2.png)
 
+
+
 **Figure2: LCMS preprocessing workflow.**
 
 The metabolome analysis workflow is available at the following servers and docker image
@@ -327,6 +329,11 @@ For those of you who do not want to upload your data to server, galaxy can be ru
 
 ## LC-MS data pre-processing 
 ### Step 1. Upload data
+
+In metabolomics studies, the number of samples can vary a lot (from a handful to several hundreds). Thus, extracting your data from the raw files can be very fast, or take quite a long time. To optimise the computation time as much as possible, the W4M core team chose to develop tools that can run single raw files for the first steps of pre-processing in parallel, since the initial actions in the extraction process treat files independently.
+
+Since the first steps can be run on each file independently, the use of Dataset collections in Galaxy is recommended, to avoid having to launch jobs manually for each sample. You can start using the dataset collection option from the very beginning of your analysis, when uploading your data into Galaxy.
+
 click on the upload icon on the top left of the screen next to the word "Tools"
 - Select collection tab
 - Select choose local file
@@ -347,6 +354,9 @@ click on the upload icon on the top left of the screen next to the word "Tools"
 
 This first step is only meant to read your mzXML file and generate an object usable by XCMS 
 
+MSnbase readMSData tool, prior to XCMS tool is able to read files with open format as mzXML, mzMl, mzData and netCDF, which are independent of the constructors’ formats. The XCMS tool package itself is composed of R functions able to extract, filter, align and fill gap, with the possibility to annotate isotopes, adducts and fragments using the R package CAMERA (Carsten Kuhl 2017). This set of functions gives modularity, and thus is particularly well adapted to define workflows, one of the key points of Galaxy.
+
+
 - Type in the tool search box readMSData
 - Select XCMS: MSnbase readMSData
 - Select mzXML collection
@@ -355,6 +365,9 @@ This first step is only meant to read your mzXML file and generate an object usa
 ![](Figures/l4.png)
 
 ### Step 3. Create and upload meta data as tab delimited file
+
+The sampleMetadata file is a tab-separated table, in text format. This table has to be filled by the user. You can use any software you find appropriate to construct your table, as long as you save your file in a compatible format. For example, you can use a spreadsheet software such as Microsoft Excel or LibreOffice.
+
 - Create metadata in MS excel
 - Save as tab-delimited (.txt) file
 - Upload to galaxy (file type tabular)
@@ -362,12 +375,21 @@ This first step is only meant to read your mzXML file and generate an object usa
 
 ![](Figures/meta.png)
 
+The file has to be a .txtor a .tsv (tab-separated values). Neither .xlsx nor .odt are supported. If you use a spreadsheet software, be sure to change the default format to Text (Tab delimited) or equivalent.
+
 ![](Figures/l5.png)
+
+Once your sampleMetadata table is ready, you can proceed to the upload. In this tutorial we already prepared the table for you ;)
 
 ![](Figures/l6.png)
 
 ### Step 4. Getting an overview of your samples’ chromatograms
-This tool generates Base Peak Intensity Chromatograms (BPIs) and Total Ion Chromatograms (TICs). If you provide groups as we do here, you obtain two plots: one with colours based on provided groups, one with one colour per sample.
+
+You may be interested in getting an overview of what your samples’ chromatograms look like, for example to see if some of your samples have distinct overall characteristics, e.g. unexpected chromatographic peaks or huge overall intensity.
+
+You can use the sampleMedata file we previously uploaded to add some group colours to your samples when visualising your chromatograms. The tool automatically takes the second column as colour groups when a file is provided.
+
+Note that you can also check the chromatograms at any moment during the workflow
 
 - Type in the tool search box “xcms plot chromatogram”
 - Select mzXML.raw.RData as input > execute
@@ -375,9 +397,13 @@ This tool generates Base Peak Intensity Chromatograms (BPIs) and Total Ion Chrom
 
 ![](Figures/l7.png)
 
+This tool generates Base Peak Intensity Chromatograms (BPIs) and Total Ion Chromatograms (TICs). If you provide groups as we do here, you obtain two plots: one with colours based on provided groups, one with one colour per sample.
+
 ![](Figures/l8.png)
 
 ![](Figures/l9.png)
+
+
 
 ### Step 5. Peak picking
 Now that your data is ready for XCMS processing, the first step is to extract peaks from each of your data files independently. The idea here is, for each peak, to proceed to chromatographic peak detection.
@@ -387,7 +413,12 @@ The XCMS solution provides two different algorithms to perform chromatographic p
 - Select xcms findChromPeaks
 - Select mzXML.raw.RData as input > execute
 
+Along with the parameters used in the core centWave algorithm, XCMS provides other filtering options allowing you to get rid of ions that you don’t want to consider. For example, you can use Spectra Filters allowing you to discard some RT or M/z ranges, or Noise filter (as in this hands-on) not to use low intensity measures in the ROI detection step.
+
 ![](Figures/l10.png)
+
+At this step, you obtain a dataset collection containing one RData file per sample, with independent lists of ions. Although this is already a nice result, what you may want now is to get all this files together to identify which ions are shared between samples. To do so, XCMS provides a function that is called groupChromPeaks (or group). But before proceeding to this grouping step, first you need to group your individual RData files into a single one.
+
 
 ### Step 6. Merging peak data into one data 
 
@@ -415,9 +446,16 @@ The inclusion of ions in a group is defined by the standard deviation of the Gau
 - Select xcms groupChromPeak
 - Select xset.merged.RData as input > execute
 
+This grouping step is very important because it defines the data matrix which will be used especially for the statistical analyses. User has to check the effect of parameter values on the result.
+
+
+In order to check the result of the grouping function, a pdf file is created. It provides one plot per m/z slice found in the data. Each picture represents the peak density across samples, plotting the corresponding Gaussian model which width is defined by the bandwidth parameter. Each red dot corresponds to a sample. The plot allows to assess the quality of alignment. The grey areas’ width is associated with the bandwidth parameter
+
 ![](Figures/l12.png)
 
 ![](Figures/l13.png)
+
+
 
 ### Step 8. retention time correction
 
@@ -439,13 +477,23 @@ The algorithm uses statistical smoothing methods. You can choose between linear 
 
 ![](Figures/l14.png)
 
+This tool generates a plot output that you can use to visualise how retention time was applied across the samples and along the chromatogram. It also allows you to check whether the well behaved peaks were distributed homogeneously along the chromatogram.
+
 ![](Figures/rtcor1.png)
 
 ![](Figures/rtcor2.png)
 
+The retention time correction step is not mandatory. However, when it is used retention time are modified. Consequently, applying this step on your data requires to complete it with an additional ‘grouping’ step using the xcms groupChromPeaks (group) tool tool again.
+
+Parameters for this second group step are expected to be similar to the first group step. Nonetheless, since retention times are supposed to be less variable inside a same peak group now, in some cases it can be relevant to lower a little the bandwidth parameter.
+
+It is possible to use the retention time correction and grouping step in an iterative way if needed. Once you perform your last adjustRtime step and thus your last grouping step, you will obtain your final peak list (i.e. final list of ions).
+
 ### Step 9. integrating areas of missing peaks
 
-With this ‘fillChromPeaks’ step, you obtain your final intensity table. At this step, you have everything mandatory to begin analysing your data:
+At this point of the XCMS extraction workflow, the peak list may contain NA when peaks where not considered peaks in only some of the samples in the first ‘findChromPeaks’ step. This does not necessary means that no peak exists for these samples. For example, sometimes peaks are of very low intensity for some samples and were not kept as peaks because of that in the first ‘findChromPeaks’ step.
+
+To be able to get the information that may actually exist behind NAs, there is an additional XCMS step that is called fillChromPeaks.
 
 A sampleMetadata file (if not done yet, to be completed with information about your samples)
 A dataMatrix file (with the intensities)
@@ -461,6 +509,8 @@ A variableMetadata file (with information about ions such as retention times, m/
  
  ![](Figures/l16.png)
 
+
+ With this ‘fillChromPeaks’ step, you obtain your final intensity table. At this step, you have everything mandatory to begin analysing your data:
 
  
 
