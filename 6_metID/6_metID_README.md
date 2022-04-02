@@ -8,14 +8,23 @@
 
 ### Performing STOCSY in R programming
 
-Open your saved R.session from NMR data pre-processing session. 
+Open your saved R.session (namely, 'R working_Clinap2022-1') from NMR data pre-processing session. 
 
 Following NMR data pre-processing, you have the processed NMR data as 'X_pqn' in your R workspace. Now, we are going to use Statistical Total Correlation Spectroscopy (STOCSY) as part of Metabom 8 package to identify the correlated resonances of metabolites of interest.
 
 In R console, do the following:
 
 ```bash 
-#Load 
+#Load metabom 8 package
+
+library(metabom8)
+
+#Plot processed NMR spectra
+
+matspec(X, ppm, shift = c(1., 10), interactive=F)
+
+```
+
 ![](Figures/RMetID1_1.JPG)
 ![](Figures/RMetID1.JPG)
 
