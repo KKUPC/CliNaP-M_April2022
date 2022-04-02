@@ -7,17 +7,17 @@
 ## NMR metabolite identification <a name="nmr"></a>
 
 ### Performing STOCSY in R programming
-![](Figures/RMetID1.JPG)
 ![](Figures/RMetID1_1.JPG)
+![](Figures/RMetID1.JPG)
 
-![](Figures/RMetID2.JPG)
 ![](Figures/RMetID2_1.JPG)
+![](Figures/RMetID2.JPG)
 
-![](Figures/RMetID3.JPG)
 ![](Figures/RMetID3_1.JPG)
+![](Figures/RMetID3.JPG)
 
-![](Figures/RMetID4.JPG)
 ![](Figures/RMetID4_1.JPG)
+![](Figures/RMetID4.JPG)
 
 ### Performing STOCSY in MATLAB environment
 Now, we are going to use Statistical Total Correlation Spectroscopy (STOCSY) toolbox on MATLAB to identify the correlated resonances of metabolites of interest. Let's get started with these three signals.
