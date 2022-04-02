@@ -449,9 +449,9 @@ The inclusion of ions in a group is defined by the standard deviation of the Gau
 This grouping step is very important because it defines the data matrix which will be used especially for the statistical analyses. User has to check the effect of parameter values on the result.
 
 
-In order to check the result of the grouping function, a pdf file is created. It provides one plot per m/z slice found in the data. Each picture represents the peak density across samples, plotting the corresponding Gaussian model which width is defined by the bandwidth parameter. Each red dot corresponds to a sample. The plot allows to assess the quality of alignment. The grey areas’ width is associated with the bandwidth parameter
-
 ![](Figures/l12.png)
+
+In order to check the result of the grouping function, a pdf file is created. It provides one plot per m/z slice found in the data. Each picture represents the peak density across samples, plotting the corresponding Gaussian model which width is defined by the bandwidth parameter. Each red dot corresponds to a sample. The plot allows to assess the quality of alignment. The grey areas’ width is associated with the bandwidth parameter
 
 ![](Figures/l13.png)
 
