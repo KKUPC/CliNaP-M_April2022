@@ -437,6 +437,10 @@ The algorithm uses statistical smoothing methods. You can choose between linear 
 
 ![](Figures/l14.png)
 
+![](Figures/rtcor1.png)
+
+![](Figures/rtcor2.png)
+
 ### Step 9. integrating areas of missing peaks
 
 With this ‘fillChromPeaks’ step, you obtain your final intensity table. At this step, you have everything mandatory to begin analysing your data:
