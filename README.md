@@ -46,6 +46,8 @@ Anyarin Jirahiranpat, Faculty of Medicine, Khon Kaen University
 
 Siriyakorn Kulwong, Faculty of Medicine, Khon Kaen University
 
+Anukoon Ketnak, Faculty of Medicine, Khon Kaen University
+
 Soontaree Ratchatapusit, Faculty of Medicine, Khon Kaen University
 
 Pimpawadee Phukhum, Faculty of Medicine, Khon Kaen University
