@@ -8,14 +8,16 @@
 
 ### Performing STOCSY in R programming
 
+The statistical total correlation spectroscopy (STOCSY) analysis method helps aid the identification of potential biomarker molecules or metabolites in metabolomic studies based on NMR spectroscopic data. STOCSY takes advantage of the multicollinearity of the intensity variables in a set of spectra to generate a pseudo-two-dimensional NMR spectrum displaying the correlation among the intensities of the various peaks across the whole sample. 
+
 Open your saved R.session (namely, 'R working_Clinap2022-1') from NMR data pre-processing session. 
 
-Following NMR data pre-processing, you have the processed NMR data as 'X_pqn' in your R workspace. Now, we are going to use Statistical Total Correlation Spectroscopy (STOCSY) as part of Metabom 8 package to identify the correlated resonances of metabolites of interest.
+Following NMR data pre-processing, you have the processed NMR data as 'X_pqn' in your R workspace. Now, we are going to use STOCSY as part of Metabom8 package to identify the correlated resonances of metabolites of interest.
 
 In R console, do the following:
 
 ```bash 
-#Load metabom 8 package
+#Load metabom8 package
 
 library(metabom8)
 
@@ -56,12 +58,54 @@ matspec(X_pqn, ppm, shift = c(1.85, 2.0), interactive=F)
 
 ```
 
+You have specified the chemical shift region to 1.85 - 2.00 ppm to visualise the exact chemical shift scale of this doublet signal at 1.933 ppm to be used as the driver peak.
+
 ![](Figures/RMetID2_1.JPG)
 
+In R console, do the following:
+
+```bash 
+#Specify the driver peak for STOCSY
+
+driver2=1.933
+
+#Perform STOCSY
+
+stocsy_model=stocsy(X_pqn, ppm, driver2)
+
+```
+
+Now, you will obtain the STOCSY spectra below. No correlated resnonace of the driver peak (1.933 ppm) is detected. You need to record the result from STOCSY spectra on your safe place i.e. Excel spreadsheet, in this case, 'no STOCSY correlation'. 
 
 ![](Figures/RMetID2.JPG)
 
+In R console, do the following:
+
+```bash 
+
+#Plot processed NMR spectra
+
+matspec(X_pqn, ppm, shift = c(2.90, 3.15), interactive=F)
+
+```
+
+Now, you have specified the chemical shift region to 2.90 - 3.15 ppm to visualise the exact chemical shift scale of this doublet signal at 3.02 ppm to be used as the driver peak.
+
 ![](Figures/RMetID3_1.JPG)
+
+In R console, do the following:
+
+```bash 
+#Specify the driver peak for STOCSY
+
+driver3=3.02
+
+#Perform STOCSY
+
+stocsy_model=stocsy(X_pqn, ppm, driver3)
+
+```
+
 ![](Figures/RMetID3.JPG)
 
 ![](Figures/RMetID4_1.JPG)
