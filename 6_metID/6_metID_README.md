@@ -39,14 +39,26 @@ driver1=1.333
 #Perform STOCSY
 
 stocsy_model=stocsy(X_pqn, ppm, driver1)
+
 ```
 
 Now, you will obtain the STOCSY spectra below. The correlated resnonace of the driver peak (1.333 ppm) is a protron resonance at 4.145 ppm (quartet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet. 
 
 ![](Figures/RMetID1.JPG)
 
+In R console, do the following:
+
+```bash 
+
+#Plot processed NMR spectra
+
+matspec(X_pqn, ppm, shift = c(1.85, 2.0), interactive=F)
+
+```
 
 ![](Figures/RMetID2_1.JPG)
+
+
 ![](Figures/RMetID2.JPG)
 
 ![](Figures/RMetID3_1.JPG)
