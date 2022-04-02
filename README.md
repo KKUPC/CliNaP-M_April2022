@@ -98,7 +98,8 @@ Additional material
 | ---  |    ---  |
 | 9:00-9:30  | Opening ceremony |
 | 9:30-10:00 | Special lecture (KKUIPL) |
-| 10:00-10:30 | Coffee break |
+| 10:00-10:20 | Coffee break |
+| 10:20-10:30 | R crash course part 2 (Arporn) |
 | 10:30-12:00 | Session 3: Data pre-processing (Manida/Sivamoke) |
 | 12:00-12:45 | Lunch |
 | 12:45-13:00 | Sponsor talk |
