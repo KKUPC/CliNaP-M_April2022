@@ -276,7 +276,9 @@ write.table(ppm3, file = "ppm3", quote = FALSE, sep = " ,",
 #### 16.3 Open csv file in excel to rearrange the format file for multivariate analysis
 ![](Figures/Figure40-1.png)
 
+### Step 17. Save R workspace 
 
+![](Figures/Figure41.png)
 
 ---
 [↥ **Back to top**](#top)
