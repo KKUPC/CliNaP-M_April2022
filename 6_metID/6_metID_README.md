@@ -27,6 +27,8 @@ matspec(X_pqn, ppm, shift = c(1.3, 1.38), interactive=F)
 
 ```
 
+**Example 1**
+
 The processed NMR spectra is now plotted. You have specified the chemical shift region to 1.30 - 1.38 ppm to visualise the exact chemical shift scale of this doublet signal at 1.333 ppm to be used as the driver peak.
 
 ![](Figures/RMetID1_1.JPG)
@@ -47,6 +49,8 @@ stocsy_model=stocsy(X_pqn, ppm, driver1)
 Now, you will obtain the STOCSY spectra below. The correlated resnonace of the driver peak (1.333 ppm) is a protron resonance at 4.145 ppm (quartet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet. 
 
 ![](Figures/RMetID1.JPG)
+
+**Example 2**
 
 In R console, do the following:
 
@@ -79,6 +83,8 @@ Now, you will obtain the STOCSY spectra below. No correlated resnonace of the dr
 
 ![](Figures/RMetID2.JPG)
 
+**Example 3**
+
 In R console, do the following:
 
 ```bash 
@@ -106,7 +112,12 @@ stocsy_model=stocsy(X_pqn, ppm, driver3)
 
 ```
 
+You will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (3.02 ppm) include the protron resonances at 3.17 ppm (doublet of doublets), 3.98 ppm (doublet of doublets), 6.94 ppm (doublet of doublets of doublets) and 7.19 ppm (doublet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet. 
+
 ![](Figures/RMetID3.JPG)
+
+**Example 4**
+
 
 ![](Figures/RMetID4_1.JPG)
 ![](Figures/RMetID4.JPG)
@@ -131,6 +142,8 @@ You will obtain the processed NMR spectra below.
 
 ![](Figures/MetID_Fig2.JPG)
 
+**Example 1**
+
 Now, click data cursor and click the NMR signal of interest - in this case, we are going to select 1.329 ppm (doublet) as the driver peak. Then, right click this peak and choose 'export cursor data to work space'.  
 
 ![](Figures/MetID_Fig3.JPG)
@@ -150,6 +163,8 @@ STOCSY(xaln, ppm, peak_1p329.Position(1),0.000001)
 Now, you will obtain the STOCSY spectra below. The correlated resnonace of the driver peak (1.329 ppm) is a protron resonance at 4.146 ppm (quartet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet. 
 
 ![](Figures/MetID_Fig5.JPG)
+
+**Example 2**
 
 Now, open the processed NMR spectra on MATLAB again and click 'data cursor', then click the peak at 1.933 ppm (singlet). Right-click and select 'export cursor data to workspace'.
 
@@ -171,6 +186,8 @@ Now, you will obtain the STOCSY spectra below. No correlated resnonace of the dr
 
 ![](Figures/MetID_Fig8.JPG)
 
+**Example 3**
+
 Now, open the processed NMR spectra on MATLAB again and click 'data cursor', then click the peak at 3.007 ppm (doublet of doublets). Right-click and select 'export cursor data to workspace'.
 
 ![](Figures/MetID_Fig9.JPG)
@@ -190,6 +207,8 @@ STOCSY(xaln, ppm, peak_3p007.Position(1),0.000001)
 Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (3.007 ppm) include the protron resonances at 3.17 ppm (doublet of doublets), 3.98 ppm (doublet of doublets), 6.94 ppm (doublet of doublets of doublets) and 7.19 ppm (doublet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet. 
 
 ![](Figures/MetID_Fig11.JPG)
+
+**Example 4**
 
 Now, open the processed NMR spectra on MATLAB again and click 'data cursor', then click the peak at 4.676 ppm (doublet of doublets). Right-click and select 'export cursor data to workspace'.
 
