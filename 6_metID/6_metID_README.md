@@ -25,7 +25,7 @@ matspec(X_pqn, ppm, shift = c(1.3, 1.38), interactive=F)
 
 ```
 
-The processed NMR spectra is now plotted. You have specified the chemical shift region to 1.30 - 1.38 ppm to visualise the exact chemical shift scale of this doublet signal at 1.333 ppm. 
+The processed NMR spectra is now plotted. You have specified the chemical shift region to 1.30 - 1.38 ppm to visualise the exact chemical shift scale of this doublet signal at 1.333 ppm to be used as the driver peak.
 
 ![](Figures/RMetID1_1.JPG)
 
