@@ -27,6 +27,8 @@ matspec(X_pqn, ppm, shift = c(1.3, 1.38), interactive=F)
 
 The processed NMR spectra is now plotted. You have specified the chemical shift region to 1.30 - 1.38 ppm to visualise the exact chemical shift scale of this doublet signal at 1.333 ppm. 
 
+![](Figures/RMetID1_1.JPG)
+
 In R console, do the following:
 
 ```bash 
@@ -39,10 +41,10 @@ driver1=1.333
 stocsy_model=stocsy(X_pqn, ppm, driver1)
 ```
 
+Now, you will obtain the STOCSY spectra below. The correlated resnonace of the driver peak (1.333 ppm) is a protron resonance at 4.145 ppm (quartet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet. 
 
-
-![](Figures/RMetID1_1.JPG)
 ![](Figures/RMetID1.JPG)
+
 
 ![](Figures/RMetID2_1.JPG)
 ![](Figures/RMetID2.JPG)
