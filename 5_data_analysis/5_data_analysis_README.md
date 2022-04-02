@@ -214,6 +214,7 @@ SIMCA is the multivariate data analysis software developed by Umetrics. The soft
 - Plot the spectra and conduct multivariate models (PCA, PLS, OPLS)
 - Filter data with appropriate tools
 - Compare and validate model results
+
 Thus, it provides more analysis tools compared to MetaboAnalyst. Key differences are that SIMCA requires:
 - Indicating file contents (such as specify Primary ID, Secondary IDs as desired for both variables and observations)
 - Specifiying the workset for each analysis model
