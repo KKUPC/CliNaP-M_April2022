@@ -8,7 +8,7 @@
 
 In this section, you will learn how to use a machine learning tool called statistical total correlation spectroscopy (STOCSY)to identify the potential biomarker molecules or metabolites in metabolomic studies based on NMR spectroscopic data. The STOCSY analysis method helps aid the identification of  STOCSY takes advantage of the multicollinearity of the intensity variables in a set of spectra to generate a pseudo-two-dimensional NMR spectrum displaying the correlation among the intensities of the various peaks across the whole sample.
 
-Here, we will walk you through some exercises using four proton resonances (from four different metabolites).
+Here, we will walk you through some exercises with four proton resonances (from four different metabolites) including peaks at 1.333, 1.933, 3.02 and 4.67 ppm.
 
 ### Performing STOCSY in R programming
 
@@ -153,6 +153,8 @@ Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the 
 
 Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the driver peak (4.676 ppm) include a few protron resonances at 3 - 4 ppm and a peak at 5.2 (doublet) indicated by the similar correlation coefficient (or similar colour intensity). You need to record the driver peak and its correlated peaks from STOCSY spectra on your safe place i.e. Excel spreadsheet.
 
+In the next sub-section, you will learn the same STOCSY approach but on an alternative tool - MATLAB. Then, you can make your own decision which one you prefer. However, please note that R programming is non-licensed platform with free packages, whereas MATLAB is the licensed software.
+
 ### Performing STOCSY in MATLAB environment
 Now, we are going to use STOCSY toolbox on MATLAB to identify the correlated resonances of metabolites of interest. Let's get started with these three signals.
 
@@ -263,22 +265,33 @@ Now, you will obtain the STOCSY spectra below. The correlated resnonaces of the 
 
 ### Searching against Chenomx database
 
-Open Chenomx NMR Suite software and select 'Profiler'
+In this sub-section, you are going to use the correlated proton resonances obtained from STOCSY to search against Chenomx database to tentatively assign metabolites.
+
+First, open Chenomx NMR Suite software and select 'Profiler'. Then, click 'Yes' to include the samples spectrum from the software.
 
 ![](Figures/Chenomx_Fig1.jpg)
 
-
+Now, we are going to import our raw NMR data to Chenomx. Click 'File'.
 
 ![](Figures/Chenomx_Fig2.jpg)
-**Figure 2**
+
+Then, click 'Open'.
+
 ![](Figures/Chenomx_Fig3.jpg)
-**Figure 3**
+
+Select the directory where your NMR data are stored. In this case, select the folder 'Processed_NMR_Data'. Then, click 'Open'.
+
 ![](Figures/Chenomx_Fig4.jpg)
-**Figure 4**
+
+Select sample no.4 by clicking folder '4' and click 'Open'.
+
 ![](Figures/Chenomx_Fig5.jpg)
-**Figure 5**
+
+Select file 'fid', then click 'Open'.
+
 ![](Figures/Chenomx_Fig6.jpg)
-**Figure 6**
+
+Now, the software will ask you to set up the the calibration and processing parameters. Tick the box
 ![](Figures/Chenomx_Fig7.jpg)
 **Figure 7**
 ![](Figures/Chenomx_Fig8.jpg)
