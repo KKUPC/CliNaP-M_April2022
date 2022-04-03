@@ -503,7 +503,7 @@ A variableMetadata file (with information about ions such as retention times, m/
 - Type in the tool search box “fillPeaks”
 - Select xcms fillChromPeaks (fillPeaks)
 - Select xset.merged.group.Chrom.adjustRtime.groupChromPeaks.RData as input > execute
- as input > execute after the process was done the data matrix can be download ny clicking at the data and click at the disket sign
+ as input > execute after the process was done the data matrix can be download by clicking at the data and click at the diskett button
  
  ![](Figures/l15.png)
  
