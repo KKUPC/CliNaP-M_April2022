@@ -9,6 +9,8 @@ The datasets used in this hands-on CliNaP-M short course (April 2022) is part of
 
 This sub-experiment aimed to investigate the metabolic differences in fermented fish with different fermentation times including baseline (day 0), week 2 and week 6 and different conditions: raw and cooked samples. All fermented fish samples were extracted using dual-phase extraction (methanol:chloroform:water, 1:3:1 [v/v/v]). Aqueous extracts were analysed using NMR and LC-MS to explore the alterations in nutritional, functional and toxic metabolite pools at different fermentation times and conditions. In addition, odour satisfaction was assessed by food experts and data were recorded. Metabolome data can then be integrated with odour satisfaction using chemometrics in order to investigate odour satisfaction-related metabolites. The outcomes of this experiment can provide novel nutritional information to consumers and also aid the fermented fish manufacturer to formulate their products that suit the consumer demands.
 
+![](Figure/Conceptual.png)
+
 ---
 [↥ **Back to top**](#top)
 
