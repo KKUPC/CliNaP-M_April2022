@@ -69,8 +69,8 @@ Phuc Nguyen Minh Ho, Faculty of Medicine, Khon Kaen University
 1. [Sample preparation](2_sample_preparation/2_sample_preparation_README.md)
 2. [Data acquisition](3_data_acquisition/3_data_acquisition_README.md)
 3. [Data pre-processing](4_data_preprocessing/4_data_preprocessing_README.md)
-4. [Data analysis](5_data_analysis/5_data_analysis_README.md)
-5. [Metabolite identification](6_metID/6_metID_README.md)
+4. [Metabolite identification](6_metID/6_metID_README.md)
+5. [Data analysis](5_data_analysis/5_data_analysis_README.md)
 
 Additional material
 1. [R crashcourse](R_crashcourse/R_crashcourse_README.md)
