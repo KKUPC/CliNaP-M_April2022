@@ -145,7 +145,8 @@ https://drive.google.com/drive/folders/1AaxejKSMaq35L0wFVDCoce2eVf-sELPM?usp=sha
 ### Data note
 In "Data Analysis" sub-folder, either from NMR or LC-MS folder, there are three data files including:
 - File ".xlsx" is the data file derived from data pre-processing 
-- File "NMR intensiy.csv" and "LC-MS dataset.csv" are exported from ".xlsx" 
+- File "NMR intensiy.csv" and "LC-MS dataset.csv" are exported from ".xlsx" by changing data format 
+- File "NMR intensiy_Manual1.csv" and "LC-MS dataset_Manual1.csv" are the files used in manual (Module 4). The files have been arranged and collected information that used for data analysis in MetaboAnalyst. 
 
 ---
 [↥ **Back to top**](#top)
