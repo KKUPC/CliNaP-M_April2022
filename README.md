@@ -88,10 +88,9 @@ Additional material
 | 13:00-14:00 | Plenary Lecture (Assoc. Prof Nisana Namwat) |
 | 14:00-14:30 | Coffee break + group work announcement (Jutarop) |
 | 14:30-15:30 | Session 1: Sample preparation (Manida/Anyarin/Siriyakorn) |
-| 15:30-16:30 | Session 2: Data acquisition (Thanaporn/Suthicha/Saikhim) |
-| 16:30-17:10 | R crash course (Arporn) |
-| 17:10-17:30 | Day 1 Exit Ticket |
-| 17:30-18:00 | (Optional) Software installation (Instructor team) | 
+| 15:30-18:00 | Session 2: Data acquisition (Thanaporn/Suthicha/Saikhim) |
+| 18:00-18:30 | Day 1 Exit Ticket |
+| 18:30-19:00 | (Optional) Software installation (Instructor team) | 
 
 
 ### Day 2 (4 April 2022)
@@ -101,8 +100,8 @@ Additional material
 | 9:00-9:30  | Opening ceremony |
 | 9:30-10:00 | Special lecture (KKUIPL) |
 | 10:00-10:20 | Coffee break |
-| 10:20-10:30 | R crash course part 2 (Arporn) |
-| 10:30-12:00 | Session 3: Data pre-processing (Manida/Sivamoke) |
+| 10:20-11:00 | R crash course (Arporn) |
+| 11:00-12:00 | Session 3: Data pre-processing (Manida/Sivamoke) |
 | 12:00-12:45 | Lunch |
 | 12:45-13:00 | Sponsor talk |
 | 13:00-14:30 | Session 4: Metabolite identification I (Jutarop/Thanaporn) |
