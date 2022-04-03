@@ -89,9 +89,6 @@ Additional material
 | 14:00-14:30 | Coffee break + group work announcement (Jutarop) |
 | 14:30-15:30 | Session 1: Sample preparation (Manida/Anyarin/Siriyakorn) |
 | 15:30-18:00 | Session 2: Data acquisition (Thanaporn/Suthicha/Saikhim) |
-| 18:00-18:30 | Day 1 Exit Ticket |
-| 18:30-19:00 | (Optional) Software installation (Instructor team) | 
-
 
 ### Day 2 (4 April 2022)
 
@@ -126,6 +123,7 @@ Additional material
 | 16:30-16:50 | Day 3 Exit Ticket and further disussion |
 | 16:50-17:00 | Closing ceremony |
 
+**Note** If you need help installing software in your own laptop, please let any of the instructors know during coffee break or lunch break, or any gaps during the workshop. 
 
 ## Organising team
 ![](figures/organisers3.png)
