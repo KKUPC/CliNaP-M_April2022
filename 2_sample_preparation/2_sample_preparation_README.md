@@ -48,7 +48,7 @@ Extract metabolites from fermented fish samples using chloroform/methanol/water 
 
 ## NMR sample preparation <a name="nmr"></a>
 - Thaw sample and add 580 µl of NMR buffer 
-- Vortex and sonicate sample with ultrasonic bath 3 times or until get the homogeneous sample
+- Vortex and sonicate sample with ultrasonic bath until get the homogeneous sample
 -	Centrifuge sample at 13,000 g at 4ºC for 10 minutes 
 -	Transfer 550 µL of supernatant into 5 mm NMR tube
 
@@ -57,7 +57,7 @@ Extract metabolites from fermented fish samples using chloroform/methanol/water 
 
 ## LC-MS sample preparation <a name="lcms"></a>
 - Thaw sample and add 1 mL of HPLC-graded water:ACN 1:1 (v:v) to reconstitute the aqueous phase
--	Vortex and sonicate sample with ultrasonic bath 3 times or until get the homogeneous sample
+-	Vortex and sonicate sample with ultrasonic bath until get the homogeneous sample
 -	Centrifuge 13,000 rpm at 4ºC for 10 minutes 
 - 1 mL of samples were filtered with 0.2 µm filter 
 -	800 µL of sample was transferred into 2 mL glass vial
