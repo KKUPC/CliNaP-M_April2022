@@ -1,9 +1,10 @@
-# Software installation
+# Software installation and dataset
 
 ## Table of Contents
 1. [R and RStudio](#r)
 2. [Galaxy server](#galaxy)
 3. [MS-Dial](#msdial)
+4. [Download the dataset for this workshop](#dataset)
 
 ## Installing R and RStudio <a name="r"></a>
 Installing R and RStudio on Windows
@@ -136,3 +137,8 @@ Step – 2: Run the .exe file(Window) or pkg (MacOS) and follow the installation
 ---
 [↥ **Back to top**](#top)
 
+## Download the dataset for this workshop <a name="dataset"></a>
+The dataset used in this workshop is available for download from [here](#)
+
+---
+[↥ **Back to top**](#top)
