@@ -209,13 +209,18 @@ The results from MetaboAnalyst (all tables and figures) can be downloaded in “
 [↥ **Back to top**](#top)
 
 ## Additional materials <a name="extra"></a>
-Besides MetaboAnalyst, another choice for chemometrics analysis that we could employ for metabolome data analysis is SIMCA. 
-SIMCA is the multivariate data analysis software developed by Umetrics. The software provides different features including:
+Besides MetaboAnalyst, another choice for chemometrics analysis that we could employ for metabolome data analysis is SIMCA (requires paid license). SIMCA is the multivariate data analysis software developed by Umetrics. The software provides different features including:
 - Plot the spectra and conduct multivariate models (PCA, PLS, OPLS)
 - Filter data with appropriate tools
 - Compare and validate model results
 
-Thus, it provides more analysis tools compared to MetaboAnalyst. Key differences are that SIMCA requires:
-- Indicating file contents (such as specify Primary ID, Secondary IDs as desired for both variables and observations)
-- Specifiying the workset for each analysis model
-- Fitting the model (the number of components can be changed by selecting different fit method than the default)
+Thus, it provides more analysis tools compared to MetaboAnalyst. Key differences are that SIMCA allows users to:
+- indicate file contents in more detail (such as specify Primary ID, Secondary IDs, as desired for both variables and observations)
+- specify the workset for each analysis model
+- fit the model (the number of components can be changed by selecting different fit method than the default)
+- use either categorical or continuous Y variables.
+
+In Metaboanalyst, we have learnt how to identify metabolites that are significantly different between two conditions (experimental groups) of choice. Sometimes, however, we are interested in particular features of our samples regardless of the experimental group they come from. In this case, we would rely of statistical test such as PLS or OPLS which currently are not available on Metaboanalyst. The example below show how we could do this on SIMCA.
+
+## Using SIMCA with continuous Y variables
+
