@@ -215,12 +215,48 @@ Besides MetaboAnalyst, another choice for chemometrics analysis that we could em
 - Compare and validate model results
 
 Thus, it provides more analysis tools compared to MetaboAnalyst. Key differences are that SIMCA allows users to:
-- indicate file contents in more detail (such as specify Primary ID, Secondary IDs, as desired for both variables and observations)
+- indicate file contents in more detail (such as Primary ID, Secondary IDs, and other information as desired for both variables and observations)
 - specify the workset for each analysis model
-- fit the model (the number of components can be changed by selecting different fit method than the default)
+- fit the model (the number of components can be changed by selecting different fitting methods apart from the default)
 - use either categorical or continuous Y variables.
 
 In Metaboanalyst, we have learnt how to identify metabolites that are significantly different between two conditions (experimental groups) of choice. Sometimes, however, we are interested in particular features of our samples regardless of the experimental group they come from. In this case, we would rely of statistical test such as PLS or OPLS which currently are not available on Metaboanalyst. The example below show how we could do this on SIMCA.
 
-## Using SIMCA with continuous Y variables
+### Using SIMCA with continuous Y variables
+First open SIMCA software. You might see an empty workspace, or a workplace with some existing dataset and analysis results. By default, SIMCA will retain the work environment when it is closed and re-opened. 
+
+![](figures/#)
+
+Import the dataset into SIMCA. This time choose the .csv file with a column that indicate **odour satisfactory level**
+
+![](figures/#)
+
+Define the identity of each column and row.
+
+![](figures/#)
+
+Let's first try PCA on SIMCA. Click XXX to XXX.
+
+![](figures/#)
+
+Select groups that will be included in the analysis and select scaling method
+
+![](figures/#)
+![](figures/#)
+
+
+
+![](figures/#)
+
+
+
+
+
+
+
+
+
+---
+[↥ **Back to top**](#top)
+
 
