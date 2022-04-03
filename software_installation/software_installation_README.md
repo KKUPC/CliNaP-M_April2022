@@ -142,5 +142,10 @@ The dataset used in this workshop is available for download from [here](#)
 
 https://drive.google.com/drive/folders/1AaxejKSMaq35L0wFVDCoce2eVf-sELPM?usp=sharing
 
+### Data note
+In "Data Analysis" sub-folder, either from NMR or LC-MS folder, there are three data files including:
+- File ".xlsx" is the data file derived from data pre-processing 
+- File "NMR intensiy.csv" and "LC-MS dataset.csv" are exported from ".xlsx" 
+
 ---
 [↥ **Back to top**](#top)
