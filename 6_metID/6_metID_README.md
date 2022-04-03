@@ -6,9 +6,11 @@
 
 ## NMR metabolite identification <a name="nmr"></a>
 
-### Performing STOCSY in R programming
+In this section, you will learn how to use a machine learning tool called statistical total correlation spectroscopy (STOCSY)to identify the potential biomarker molecules or metabolites in metabolomic studies based on NMR spectroscopic data. The STOCSY analysis method helps aid the identification of  STOCSY takes advantage of the multicollinearity of the intensity variables in a set of spectra to generate a pseudo-two-dimensional NMR spectrum displaying the correlation among the intensities of the various peaks across the whole sample.
 
-The statistical total correlation spectroscopy (STOCSY) analysis method helps aid the identification of potential biomarker molecules or metabolites in metabolomic studies based on NMR spectroscopic data. STOCSY takes advantage of the multicollinearity of the intensity variables in a set of spectra to generate a pseudo-two-dimensional NMR spectrum displaying the correlation among the intensities of the various peaks across the whole sample. 
+Here, we will walk you through some exercises using four proton resonances (from four different metabolites).
+
+### Performing STOCSY in R programming
 
 Open your saved R.session (namely, 'R working_Clinap2022-1') from NMR data pre-processing session. 
 
