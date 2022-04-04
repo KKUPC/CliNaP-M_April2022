@@ -291,62 +291,115 @@ Select file 'fid', then click 'Open'.
 
 ![](Figures/Chenomx_Fig6.jpg)
 
-Now, the software will ask you to set up the the calibration and processing parameters. Tick the box
+Now, the software will ask you to set up the the calibration and processing parameters. Tick the box which says 'Sample contains a Chemical Shape Indicator (CSI)'. Choose TSP and insert Concentration (mM) as '5.8'.
+
 ![](Figures/Chenomx_Fig7.jpg)
-**Figure 7**
+
+You will then see your spectrum.
+
 ![](Figures/Chenomx_Fig8.jpg)
-**Figure 8**
+
+In the search box, type @1.329. The metabolites containing a protron resonance at 1.329 ppm will be listed. You need to go through each metabolite and compare the 'correlated resonance fingerprints' that match to what you see on STOCSY spectra, in this case, 4.12 ppm (if you remember ^_^)
+
 ![](Figures/Chenomx_Fig9.jpg)
-**Figure 9**
+
+Lactate is the one!! Hooray!! It shows the two proton resonances: one at 1.33 ppm (doublet) and the other at 4.12 ppm (quartet). Make sure you keep this information in your safe place i.e. Excel spreadsheet.
+
 ![](Figures/Chenomx_Fig10.jpg)
-**Figure 10**
+
+Now, let's check the peak at 1.9 ppm - put '@1.9' ppm in the search box and go through the list and find the metabolite that contains a proton resonance at 1.9 ppm, in this case, no other correlated STOCSY peak.
+ 
 ![](Figures/Chenomx_Fig11.jpg)
-**Figure 11**
+
+It is acetate!! Acetate has only one peak at 1.9 ppm :)
+
 ![](Figures/Chenomx_Fig12.jpg)
-**Figure 12**
+
+Now, let's check the peak at 3.007 ppm - put '@3.007' ppm in the search box and go through each metabolite on the list and compare the 'correlated resonance fingerprints' that match to what you see on STOCSY spectra.
+
 ![](Figures/Chenomx_Fig13.jpg)
-**Figure 13**
+
+Tyrosine seems to be the one!! Kepp it safe on your note.
+
 ![](Figures/Chenomx_Fig114.jpg)
-**Figure 14**
+
+Now, let's check the peak at 4.67 ppm - put '@4.67' ppm in the search box and go through each metabolite on the list and compare the 'correlated resonance fingerprints' that match to what you see on STOCSY spectra.
+
 ![](Figures/Chenomx_Fig15.jpg)
-**Figure 15**
+
+This metabolite is glucose-6-phosphate!! 
+
 ![](Figures/Chenomx_Fig16.jpg)
-**Figure 16**
 
 
 ### Searching against HMDB database
+
+Now, we are going to further confirm our metabolite assignments with another public database, namely, Human Metabolome Database (HMDB).
+
 ![](Figures/HMDB_Fig1.jpg)
-**Figure 1**
+
+Simple go to Google and search for 'HMDB'.
+
 ![](Figures/HMDB_Fig2.jpg)
-**Figure 2**
+
+Then, type in 'Lactic acid' in the search box.
+
 ![](Figures/HMDB_Fig3.jpg)
-**Figure 3**
+
+Select 'Lactic aicd' to visualise its 1H NMR spectrum.
+
 ![](Figures/HMDB_Fig4.jpg)
-**Figure 4**
+
+Click 'Spectra'
+
 ![](Figures/HMDB_Fig5.jpg)
-**Figure 5**
+
+Select 'Predicted 1D NMR 400 MHz'.
+
 ![](Figures/HMDB_Fig6.jpg)
-**Figure 6**
+
+Now, compare your STOCSY spectra to HMDB spectra of lactic acid.
+
 ![](Figures/HMDB_Fig7.jpg)
-**Figure 7**
+
+In the search box, type in 'Acetic acid'.
+
 ![](Figures/HMDB_Fig8.jpg)
-**Figure 8**
+
+Select 'Acetic aicd' to visualise its 1H NMR spectrum.
+
 ![](Figures/HMDB_Fig9.jpg)
-**Figure 9**
+
+Click 'Spectra'
+
 ![](Figures/HMDB_Fig10.jpg)
-**Figure 10**
+
+Select 'Predicted 1D NMR 400 MHz'.
+
 ![](Figures/HMDB_Fig11.jpg)
-**Figure 11**
+
+Now, compare your STOCSY spectra to HMDB spectra of acetic acid.
+
 ![](Figures/HMDB_Fig12.jpg)
-**Figure 12**
+
+Then, type in 'L-Tyrosine' in the search box.
+
 ![](Figures/HMDB_Fig13.jpg)
-**Figure 13**
+
+Select 'L-Tyrosine' to visualise its 1H NMR spectrum.
+
 ![](Figures/HMDB_Fig14.jpg)
-**Figure 14**
+
+Click 'Spectra'
+
 ![](Figures/HMDB_Fig15.jpg)
-**Figure 15**
+
+Select 'Predicted 1D NMR 400 MHz'.
+
 ![](Figures/HMDB_Fig16.jpg)
-**Figure 16**
+
+Now, compare your STOCSY spectra to HMDB spectra of L-tyrosine.
+
 ![](Figures/HMDB_Fig17.jpg)
 **Figure 17**
 ![](Figures/HMDB_Fig18.jpg)
