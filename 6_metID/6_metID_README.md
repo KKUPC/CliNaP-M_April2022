@@ -400,17 +400,33 @@ Now, compare your STOCSY spectra to HMDB spectra of L-tyrosine.
 
 ![](Figures/HMDB_Fig16.jpg)
 
+Then, type in 'Glucose-6-phosphate' in the search box.
 
 ![](Figures/HMDB_Fig17.jpg)
-**Figure 17**
+
+Select 'Glucose-6-phosphate' to visualise its 1H NMR spectrum.
+
 ![](Figures/HMDB_Fig18.jpg)
-**Figure 18**
+
+Click 'Spectra'
+
 ![](Figures/HMDB_Fig19.jpg)
-**Figure 19**
+
+Select 'Predicted 1D NMR 400 MHz'.
+
 ![](Figures/HMDB_Fig20.jpg)
-**Figure 20**
+
+Now, compare your STOCSY spectra to HMDB spectra of L-tyrosine.
+
 ![](Figures/HMDB_Fig21.jpg)
-**Figure 21**
+
+Hopefully, you are now more familiar with the pipeline for NMR metabolite identification by now and ready for the CHALLENGE :)
+
+###Hands-on
+
+1. Please make your group decision whether you are going to use STOCSY on R and MATLAB at your very first step and then try to identify all 1H NMR signals on the spectra.
+
+Have fun!
 
 ---
 [↥ **Back to top**](#top)
