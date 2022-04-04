@@ -1,6 +1,6 @@
 # Data analysis
 
-**Written materials prepared by:** Phuc Nguyen Minh Ho, Arporn Wangwiwatsin
+**Written and graphical materials prepared by:** Phuc Nguyen Minh Ho, Arporn Wangwiwatsin
 
 ## Table of Contents
 1. [Overview and Aims](#overview)
