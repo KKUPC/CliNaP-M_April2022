@@ -336,69 +336,70 @@ This metabolite is glucose-6-phosphate!!
 
 Now, we are going to further confirm our metabolite assignments with another public database, namely, Human Metabolome Database (HMDB).
 
-![](Figures/HMDB_Fig1.jpg)
-
 Simple go to Google and search for 'HMDB'.
 
-![](Figures/HMDB_Fig2.jpg)
+![](Figures/HMDB_Fig1.jpg)
 
 Then, type in 'Lactic acid' in the search box.
 
-![](Figures/HMDB_Fig3.jpg)
+![](Figures/HMDB_Fig2.jpg)
 
 Select 'Lactic aicd' to visualise its 1H NMR spectrum.
 
-![](Figures/HMDB_Fig4.jpg)
+![](Figures/HMDB_Fig3.jpg)
 
 Click 'Spectra'
+
+![](Figures/HMDB_Fig4.jpg)
+
+Select 'Predicted 1D NMR 400 MHz'.
 
 ![](Figures/HMDB_Fig5.jpg)
 
-Select 'Predicted 1D NMR 400 MHz'.
+Now, compare your STOCSY spectra to HMDB spectra of lactic acid.
 
 ![](Figures/HMDB_Fig6.jpg)
 
-Now, compare your STOCSY spectra to HMDB spectra of lactic acid.
+In the search box, type in 'Acetic acid'.
 
 ![](Figures/HMDB_Fig7.jpg)
 
-In the search box, type in 'Acetic acid'.
+Select 'Acetic aicd' to visualise its 1H NMR spectrum.
 
 ![](Figures/HMDB_Fig8.jpg)
 
-Select 'Acetic aicd' to visualise its 1H NMR spectrum.
+Click 'Spectra'
 
 ![](Figures/HMDB_Fig9.jpg)
 
-Click 'Spectra'
+Select 'Predicted 1D NMR 400 MHz'.
 
 ![](Figures/HMDB_Fig10.jpg)
 
-Select 'Predicted 1D NMR 400 MHz'.
+Now, compare your STOCSY spectra to HMDB spectra of acetic acid.
 
 ![](Figures/HMDB_Fig11.jpg)
 
-Now, compare your STOCSY spectra to HMDB spectra of acetic acid.
+Then, type in 'L-Tyrosine' in the search box.
 
 ![](Figures/HMDB_Fig12.jpg)
 
-Then, type in 'L-Tyrosine' in the search box.
+Select 'L-Tyrosine' to visualise its 1H NMR spectrum.
 
 ![](Figures/HMDB_Fig13.jpg)
 
-Select 'L-Tyrosine' to visualise its 1H NMR spectrum.
+Click 'Spectra'
 
 ![](Figures/HMDB_Fig14.jpg)
 
-Click 'Spectra'
+Select 'Predicted 1D NMR 400 MHz'.
 
 ![](Figures/HMDB_Fig15.jpg)
 
-Select 'Predicted 1D NMR 400 MHz'.
+Now, compare your STOCSY spectra to HMDB spectra of L-tyrosine.
 
 ![](Figures/HMDB_Fig16.jpg)
 
-Now, compare your STOCSY spectra to HMDB spectra of L-tyrosine.
 
 ![](Figures/HMDB_Fig17.jpg)
 **Figure 17**
