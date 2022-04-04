@@ -6,6 +6,8 @@
 3. [NMR-based metabolome data analysis using MetaboAnalyst](#nmrbased)
 4. [LC-MS/MS – based metabolome data analysis using MetaboAnalyst](#lcmsbased)
 5. [Additional materials](#extra)
+- [Using SIMCA with continuous X variables (NMR)](#contYnmr)
+- [Using SIMCA with continuous Y variables (LC-MS)](#contYlcms)
 
 ---
 
@@ -222,7 +224,7 @@ Thus, it provides more analysis tools compared to MetaboAnalyst. Key differences
 
 In Metaboanalyst, we have learnt how to identify metabolites that are significantly different between two conditions (experimental groups) of choice. Sometimes, however, we are interested in particular features (such as odour satisfaction level :)) of our samples regardless of the experimental group they come from. In this case, we would rely of statistical test such as PLS or OPLS which currently are not available on Metaboanalyst. The example below show how we could do this on SIMCA. You may notice that this software require more steps in setting up the analysis and might feel less friendly, but you might also notice that it allows greater flexibility in customising the details of your analysis parameters.
 
-### Using SIMCA with continuous Y variables (NMR)
+### Using SIMCA with continuous Y variables (NMR) <a name="contYnmr"></a>
 First, prepare the dataset for SIMCA software. 
 
 - Open the file XXXX in Excel. Remove the rows labelled as "Run order" and "Class" and save the file.
@@ -311,17 +313,11 @@ The dot that is farthest of the S-plot wing has the strongest influence on Y-var
 
 Next, let's say we want to know which metabolite is represented by this dot. We would use its Primary ID (i.e. the ppm) to check with the MetID table that we established yesterday! 
 
+---
+[↥ **Back to top**](#top)
 
-
-
-
-
-
-
-
+### Using SIMCA with continuous Y variables (LC-MS) <a name="contYlcms"></a>
 
 
 ---
 [↥ **Back to top**](#top)
-
-
