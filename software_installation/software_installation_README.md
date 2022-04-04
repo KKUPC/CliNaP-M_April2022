@@ -138,9 +138,9 @@ Step – 2: Run the .exe file(Window) or pkg (MacOS) and follow the installation
 [↥ **Back to top**](#top)
 
 ## Download the dataset for this workshop <a name="dataset"></a>
-The dataset used in this workshop is available for download from [here](#)
+The dataset used in this workshop is available for download from [here](https://drive.google.com/drive/folders/1AaxejKSMaq35L0wFVDCoce2eVf-sELPM?usp=sharing)
 
-https://drive.google.com/drive/folders/1AaxejKSMaq35L0wFVDCoce2eVf-sELPM?usp=sharing
+R script for R crash course session is [here](./RCrashcourse.R).
 
 ### Data note
 In "Data Analysis" sub-folder, either from NMR or LC-MS folder, there are three data files including:
