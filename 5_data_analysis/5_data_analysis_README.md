@@ -239,11 +239,34 @@ Right click on the line and choose **New model as...**. This will create a new m
 
 
 ![](figures_SIMCA_NMR/Slide2.png)
-
 ![](figures_SIMCA_NMR/Slide3.png)
-
 ![](figures_SIMCA_NMR/Slide4.png)
-
+![](figures_SIMCA_NMR/Slide5.png)
+![](figures_SIMCA_NMR/Slide6.png)
+![](figures_SIMCA_NMR/Slide7.png)
+![](figures_SIMCA_NMR/Slide8.png)
+![](figures_SIMCA_NMR/Slide9.png)
+![](figures_SIMCA_NMR/Slide10.png)
+![](figures_SIMCA_NMR/Slide11.png)
+![](figures_SIMCA_NMR/Slide12.png)
+![](figures_SIMCA_NMR/Slide13.png)
+![](figures_SIMCA_NMR/Slide14.png)
+![](figures_SIMCA_NMR/Slide15.png)
+![](figures_SIMCA_NMR/Slide16.png)
+![](figures_SIMCA_NMR/Slide17.png)
+![](figures_SIMCA_NMR/Slide18.png)
+![](figures_SIMCA_NMR/Slide19.png)
+![](figures_SIMCA_NMR/Slide20.png)
+![](figures_SIMCA_NMR/Slide21.png)
+![](figures_SIMCA_NMR/Slide22.png)
+![](figures_SIMCA_NMR/Slide23.png)
+![](figures_SIMCA_NMR/Slide24.png)
+![](figures_SIMCA_NMR/Slide25.png)
+![](figures_SIMCA_NMR/Slide26.png)
+![](figures_SIMCA_NMR/Slide27.png)
+![](figures_SIMCA_NMR/Slide28.png)
+![](figures_SIMCA_NMR/Slide29.png)
+![](figures_SIMCA_NMR/Slide30.png) 
 
 
 
