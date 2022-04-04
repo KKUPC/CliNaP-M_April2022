@@ -238,6 +238,12 @@ Once the dataset is set up, SIMCA will create the first statistical model by def
 Right click on the line and choose **New model as...**. This will create a new model based on the selected one (say, if you have any setting it will be carried over to the new analysis). 
 
 
+![](figures_SIMCA_NMR/Slide2.png)
+
+![](figures_SIMCA_NMR/Slide3.png)
+
+![](figures_SIMCA_NMR/Slide4.png)
+
 
 
 
