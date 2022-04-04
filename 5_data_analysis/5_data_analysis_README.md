@@ -1,5 +1,7 @@
 # Data analysis
 
+**Written materials prepared by:** Phuc Nguyen Minh Ho, Arporn Wangwiwatsin
+
 ## Table of Contents
 1. [Overview and Aims](#overview)
 2. [Introduction to MetaboAnalyst](#intro)
