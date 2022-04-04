@@ -255,7 +255,6 @@ Click on the name of the first row and choose **Primary ID**.
 
 Click on the second column header and choose **Y-variable**. This **Sat_odour** column contains dour satisfaction level.
 ![](figures_SIMCA_NMR2/Slide11.png)
-**Need new Slide11 - not Primary ID.... Y-variable**
 
 Click on the **Home** tab then click **Finish**
 ![](figures_SIMCA_NMR2/Slide12.png)
@@ -306,6 +305,7 @@ Let's dig into this data further and see which observation is most relate to the
 ![](figures_SIMCA_NMR2/Slide29.png)
 
 The dot that is farthest of the S-plot wing has the strongest influence on Y-variables. To see its informaiton, hover a mouse over the dot and it will reveal more details.
+![](figures_SIMCA_NMR2/Slide30.png)
 
 Next, let's say we want to know which metabolite is represented by this dot. We would use its Primary ID (i.e. the ppm) to check with the MetID table that we established yesterday! 
 
@@ -313,7 +313,81 @@ Next, let's say we want to know which metabolite is represented by this dot. We 
 [↥ **Back to top**](#top)
 
 ### Using SIMCA with continuous Y variables (LC-MS) <a name="contYlcms"></a>
+First, prepare the dataset for SIMCA software on your group laptop. 
 
+- Open the file **LC-MS dataset.xlsx** in Excel. Remove or move the row(s) and column(s) to achieve the format as shown below. Save the new file as **LC-MS dataset_Manual2.xlsx**.
+
+![](figures_SIMCA_LCMS2/Slide2.png)
+
+![](figures_SIMCA_LCMS2/Slide3.png)
+
+Then open SIMCA software. You might see an empty workspace, or a workplace with some existing dataset and analysis results. By default, SIMCA will retain the work environment when it is closed and re-opened. 
+
+Click **File** tab to start importing data into SIMCA. Then choose **Regular project**. Then select the Excel file that you just created previously. 
+![](figures_SIMCA_LCMS2/Slide4.png)
+![](figures_SIMCA_LCMS2/Slide5.png)
+![](figures_SIMCA_LCMS2/Slide6.png)
+
+Now we need to modify the table a bit. First click **Edit** tab. Then click **Transpose**
+![](figures_SIMCA_LCMS2/Slide7.png)
+
+Click the the name of the second row and choose **Include row** (Otherwise it may be considered as another list of IDs)
+![](figures_SIMCA_LCMS2/Slide8.png)
+
+Click on the third column header and choose **Y-variable**. This column contains odour satisfaction level. Check that the first two columns are labelled as Primary ID and Secondary ID respectively as shown below. 
+![](figures_SIMCA_LCMS2/Slide9.png)
+
+Click on the **Home** tab then click **Finish**
+![](figures_SIMCA_LCMS2/Slide10.png)
+
+You will get a little message box about missing data. The missing data are the the odour satisfaction level of the QC samples. They are missing because the QC samples are not part of the odour satisfactory test but were prepared during the sample preparation. Click **Yes to all** to remove the QC samples from the downstream analysis.
+![](figures_SIMCA_LCMS2/Slide11.png)
+
+Once the dataset is set up, SIMCA will create the first statistical model by default, and it will try to select a relevant model for your data type. In this workshop, you will notice the PLS model appear on the list because our data contain continuous Y vairable. 
+
+Right click on the line and choose **New as Model 1...**. This will create a new model based on the selected one (say, if you have any setting, it will be carried over to the new analysis). 
+![](figures_SIMCA_LCMS2/Slide12.png)
+
+Click on **Variable** tab and define types of variable. Click **Sat_odour** and then select the **Y** button
+![](figures_SIMCA_LCMS2/Slide13.png)
+
+Use *Shift* key to select all other variable apart from the Sat_odour. Then click **X** button.
+![](figures_SIMCA_LCMS2/Slide14.png)
+
+Go to **Scale** tab, use *Shift* key to select all variables. Select **Par** for Pareto scaling. Click **Set** button. Notice that the information in the **Type** column will be changed to **Par**
+![](figures_SIMCA_LCMS2/Slide15.png)
+![](figures_SIMCA_LCMS2/Slide16.png)
+
+Go to **Observations** tab, at the bottom that say *Class from Obs ID*, choose **group** and click **Set**. In this case, the **group** contain information about grouping (experimental conditions) of our data. Then click **OK** in the pop-up window.
+![](figures_SIMCA_LCMS2/Slide17.png)
+![](figures_SIMCA_LCMS2/Slide18.png)
+
+Finally, change the type of the model to **OPLS**, and then click **OK**
+![](figures_SIMCA_LCMS2/Slide19.png)
+
+Under the **Home** tab, click **Two first** to start fitting the model. 
+![](figures_SIMCA_LCMS2/Slide20.png)
+
+SIMCA will spend a few seconds to perform the model. To look at the score plot, click **Scores** button under the **Home** tab. 
+![](figures_SIMCA_LCMS2/Slide21.png)
+
+You would notice that the samples are labelled in different colours based on their *group* and each data point is annotated with their *Bucket label*. We can label the data points based on their odour satisfaction score. This score is provided as continuous variable that we defined at the beginning to be our Y-variable. To edit the plot, right click anywhere on the score plot and choose **Properties**.
+![](figures_SIMCA_LCMS2/Slide22.png)
+
+Go to **Color** tab and in the *Coloring type* select **Vector (continuous)**. For the *Data* under *Variable*, choose **Sat_odor**, then click **OK**, and here's your new plot! 
+![](figures_SIMCA_LCMS2/Slide23.png)
+![](figures_SIMCA_LCMS2/Slide24.png)
+
+Notice the locations of the data points remain the same but they are now coloured based on the heatmap of the odour satisfaction level (Sat_odor variable). To save the plot, right click and select **Save as...**
+![](figures_SIMCA_LCMS2/Slide25.png)
+
+Let's dig into this data further and see which observation is most relate to the odour satisfaction level. Go to **Analyze** tab and choose **S-plots** button. You can read more about the S-plots from the pop-up box that appear on the screen. 
+![](figures_SIMCA_LCMS2/Slide26.png)
+
+The dot that is farthest of the S-plot wing has the strongest influence on Y-variables. To see its informaiton, hover a mouse over the dot and it will reveal more details.
+![](figures_SIMCA_LCMS2/Slide27.png)
+
+Next, let's say we want to know which metabolite is represented by this dot. We would use its Primary ID (i.e. the ppm) to check with the MetID table that we established yesterday! 
 
 ---
 [↥ **Back to top**](#top)
