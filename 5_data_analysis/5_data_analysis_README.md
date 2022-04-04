@@ -286,9 +286,38 @@ Finally, change the type of the model to **OPLS**, and then click **OK**
 Under the **Home** tab, click **Two first** to start fitting the model. 
 ![](figures_SIMCA_NMR/Slide22.png)
 
+SIMCA will spend a few seconds to perform the model. To look at the score plot, click **Scores** button under the **Home** tab. You would notice that the samples are labelled in different colours based on their *Sample label* and each data point is annotated with their *Sample ID* 
+![](figures_SIMCA_NMR/Slide23.png)
+
+We are going to label the data points based on their odour satisfaction score. This score is provided as continuous variable that we defined at the beginning to be our Y-variable. To edit the plot, right click anywhere on the score plot and choose **Properties**.
+![](figures_SIMCA_NMR/Slide24.png)
+
+Go to **Color** tab and in the *Coloring type* select **Vector (continuous)**. For the *Data* under *Variable*, choose **Sat_odour**, then click **OK**, and here's your new plot! Notice the locations of the data points remain the same but they are now coloured based on the heatmap of the odour satisfaction level (Sat_odour variable).
+![](figures_SIMCA_NMR/Slide25.png)
+![](figures_SIMCA_NMR/Slide26.png)
+![](figures_SIMCA_NMR/Slide27.png)
+
+To save the plot, right click and select **Save as...**
+![](figures_SIMCA_NMR/Slide28.png)
+
+Let's dig into this data further and see which observation is most relate to the odour satisfaction level. Go to **Analyze** tab and choose **S-plots** button. You can read more about the S-plots from the pop-up box that appear on the screen. 
+![](figures_SIMCA_NMR/Slide29.png)
+
+The dot that is farthest of the S-plot wing has the strongest influence on Y-variables. To see its informaiton, hover a mouse over the dot and it will reveal more details. In the figure below, we see 
+
+- p[1] (XXXX)
+- p(corr)[1] (correlation score)
+- Primary ID (in this case, it's our ppm value from the NMR intensity table)
+
+Next, let's say we want to know which metabolite is represented by this dot. We would use its Primary ID (i.e. the ppm) to check with the MetID table that we established yesterday! 
 
 
-Let's look at some visualisation of this model. 
+
+
+
+
+
+
 
 
 
