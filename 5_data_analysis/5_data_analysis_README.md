@@ -6,7 +6,7 @@
 3. [NMR-based metabolome data analysis using MetaboAnalyst](#nmrbased)
 4. [LC-MS/MS – based metabolome data analysis using MetaboAnalyst](#lcmsbased)
 5. [Additional materials](#extra)
-- [Using SIMCA with continuous X variables (NMR)](#contYnmr)
+- [Using SIMCA with continuous Y variables (NMR)](#contYnmr)
 - [Using SIMCA with continuous Y variables (LC-MS)](#contYlcms)
 
 ---
