@@ -225,7 +225,7 @@ Thus, it provides more analysis tools compared to MetaboAnalyst. Key differences
 In Metaboanalyst, we have learnt how to identify metabolites that are significantly different between two conditions (experimental groups) of choice. Sometimes, however, we are interested in particular features (such as odour satisfaction level :)) of our samples regardless of the experimental group they come from. In this case, we would rely of statistical test such as PLS or OPLS which currently are not available on Metaboanalyst. The example below show how we could do this on SIMCA. You may notice that this software require more steps in setting up the analysis and might feel less friendly, but you might also notice that it allows greater flexibility in customising the details of your analysis parameters.
 
 ### Using SIMCA with continuous Y variables (NMR) <a name="contYnmr"></a>
-First, prepare the dataset for SIMCA software. 
+First, prepare the dataset for SIMCA software on your group laptop. 
 
 - Open the file XXXX in Excel. Remove the rows labelled as "Run order" and "Class" and save the file.
 
