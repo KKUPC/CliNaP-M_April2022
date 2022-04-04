@@ -222,31 +222,21 @@ Thus, it provides more analysis tools compared to MetaboAnalyst. Key differences
 
 In Metaboanalyst, we have learnt how to identify metabolites that are significantly different between two conditions (experimental groups) of choice. Sometimes, however, we are interested in particular features of our samples regardless of the experimental group they come from. In this case, we would rely of statistical test such as PLS or OPLS which currently are not available on Metaboanalyst. The example below show how we could do this on SIMCA.
 
-### Using SIMCA with continuous Y variables
+### Using SIMCA with continuous Y variables 
 First open SIMCA software. You might see an empty workspace, or a workplace with some existing dataset and analysis results. By default, SIMCA will retain the work environment when it is closed and re-opened. 
 
 ![](figures/#)
 
-Import the dataset into SIMCA. This time choose the .csv file with a column that indicate **odour satisfactory level**
-
-![](figures/#)
+Create the dataset for SIMCA. Choose the .csv file with a column that indicate **odour satisfactory level**
+- for NMR, this file is called "XXX"
+- for LC-MS, this file is called "XXX"
 
 Define the identity of each column and row.
 
-![](figures/#)
+Once the dataset is set up, SIMCA will create the first statistical model by default. You will notice the PLS model appear on the list. 
 
-Let's first try PCA on SIMCA. Click XXX to XXX.
+Right click on the line and choose **New model as...**. This will create a new model based on the selected one (say, if you have any setting it will be carried over to the new analysis). 
 
-![](figures/#)
-
-Select groups that will be included in the analysis and select scaling method
-
-![](figures/#)
-![](figures/#)
-
-
-
-![](figures/#)
 
 
 
