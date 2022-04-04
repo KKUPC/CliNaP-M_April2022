@@ -6,8 +6,6 @@
 3. [NMR-based metabolome data analysis using MetaboAnalyst](#nmrbased)
 4. [LC-MS/MS – based metabolome data analysis using MetaboAnalyst](#lcmsbased)
 5. [Additional materials](#extra)
-- [Using SIMCA with continuous Y variables (NMR)](#contYnmr)
-- [Using SIMCA with continuous Y variables (LC-MS)](#contYlcms)
 
 ---
 
@@ -211,6 +209,8 @@ The results from MetaboAnalyst (all tables and figures) can be downloaded in “
 [↥ **Back to top**](#top)
 
 ## Additional materials <a name="extra"></a>
+In Metaboanalyst, we have learnt how to identify metabolites that are significantly different between two conditions (experimental groups) of choice. Sometimes, however, we are interested in particular features (such as odour satisfaction level :)) of our samples regardless of the experimental group they come from. In this case, we would rely of statistical test such as PLS or OPLS which currently are not currently available on Metaboanalyst. 
+
 Besides MetaboAnalyst, another choice for chemometrics analysis that we could employ for metabolome data analysis is SIMCA (requires paid license). SIMCA is the multivariate data analysis software developed by Umetrics. The software provides different features including:
 - Plot the spectra and conduct multivariate models (PCA, PLS, OPLS)
 - Filter data with appropriate tools
@@ -222,24 +222,26 @@ Thus, it provides more analysis tools compared to MetaboAnalyst. Key differences
 - fit the model (the number of components can be changed by selecting different fitting methods apart from the default)
 - use either categorical or continuous Y variables.
 
-In Metaboanalyst, we have learnt how to identify metabolites that are significantly different between two conditions (experimental groups) of choice. Sometimes, however, we are interested in particular features (such as odour satisfaction level :)) of our samples regardless of the experimental group they come from. In this case, we would rely of statistical test such as PLS or OPLS which currently are not available on Metaboanalyst. The example below show how we could do this on SIMCA. You may notice that this software require more steps in setting up the analysis and might feel less friendly, but you might also notice that it allows greater flexibility in customising the details of your analysis parameters.
+The example below show how we could do this on SIMCA. You may notice that this software require more steps in setting up the analysis and might feel less friendly, but you might also notice that it allows greater flexibility in customising the details of your analysis parameters.
+
+- [Using SIMCA with continuous Y variables (NMR)](#contYnmr)
+- [Using SIMCA with continuous Y variables (LC-MS)](#contYlcms)
 
 ### Using SIMCA with continuous Y variables (NMR) <a name="contYnmr"></a>
 First, prepare the dataset for SIMCA software on your group laptop. 
 
-- Open the file XXXX in Excel. Remove the rows labelled as "Run order" and "Class" and save the file.
+- Open the file **NMR intensity.xlsx** in Excel. Remove the rows labelled as "Run order" and "Class" and save the file as **NMR intensity_Manual2.xlsx**.
 
-![](figures_SIMCA_NMR/Slide2.png)
+![](figures_SIMCA_NMR2/Slide2.png)
 
-![](figures_SIMCA_NMR/Slide3.png)
-**Need editting**
+![](figures_SIMCA_NMR2/Slide3.png)
 
 Then open SIMCA software. You might see an empty workspace, or a workplace with some existing dataset and analysis results. By default, SIMCA will retain the work environment when it is closed and re-opened. 
 
 Click **File** tab to start importing data into SIMCA. Then choose **Regular project**. Then select the Excel file that you just created previously. 
-![](figures_SIMCA_NMR/Slide4.png)
-![](figures_SIMCA_NMR/Slide5.png)
-![](figures_SIMCA_NMR/Slide6.png)
+![](figures_SIMCA_NMR2/Slide4.png)
+![](figures_SIMCA_NMR2/Slide5.png)
+![](figures_SIMCA_NMR2/Slide6.png)
 
 Now we need to modify the table a bit. First click **Edit** tab. Then click **Transpose**
 ![](figures_SIMCA_NMR/Slide7.png)
