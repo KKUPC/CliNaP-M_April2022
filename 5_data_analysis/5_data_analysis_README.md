@@ -220,7 +220,7 @@ Thus, it provides more analysis tools compared to MetaboAnalyst. Key differences
 - fit the model (the number of components can be changed by selecting different fitting methods apart from the default)
 - use either categorical or continuous Y variables.
 
-In Metaboanalyst, we have learnt how to identify metabolites that are significantly different between two conditions (experimental groups) of choice. Sometimes, however, we are interested in particular features (such as odour satisfaction level :)) of our samples regardless of the experimental group they come from. In this case, we would rely of statistical test such as PLS or OPLS which currently are not available on Metaboanalyst. The example below show how we could do this on SIMCA. \
+In Metaboanalyst, we have learnt how to identify metabolites that are significantly different between two conditions (experimental groups) of choice. Sometimes, however, we are interested in particular features (such as odour satisfaction level :)) of our samples regardless of the experimental group they come from. In this case, we would rely of statistical test such as PLS or OPLS which currently are not available on Metaboanalyst. The example below show how we could do this on SIMCA. You may notice that this software require more steps in setting up the analysis and might feel less friendly, but you might also notice that it allows greater flexibility in customising the details of your analysis parameters.
 
 ### Using SIMCA with continuous Y variables (NMR)
 First, prepare the dataset for SIMCA software. 
@@ -251,7 +251,7 @@ Click on the third column header and choose **Secondary ID**.
 Click on the first column header and choose **Primary ID**. 
 ![](figures_SIMCA_NMR/Slide10.png)
 
-Click on the second column header and choose **Y-variable**. 
+Click on the second column header and choose **Y-variable**. The **Sat_odour** column contains dour satisfaction level.
 ![](figures_SIMCA_NMR/Slide11.png)
 **Need new Slide11 - not Primary ID.... Y-variable**
 
@@ -261,47 +261,34 @@ Click on the **Home** tab then click **Finish**
 You will get a little message box about missing data - the odour satisfaction level of the QC samples. Click **Yes to all** to remove the QC samples from the downstream analysis.
 ![](figures_SIMCA_NMR/Slide13.png)
 
-Create the dataset for SIMCA. Choose the .csv file with a column that indicate **odour satisfactory level**
-- for NMR, this file is called "XXX"
-- for LC-MS, this file is called "XXX"
+Once the dataset is set up, SIMCA will create the first statistical model by default, and it will try to select a relevant model for your data type. In this workshop, you will notice the PLS model appear on the list because our data contain continuous Y vairable. 
 
-Define the identity of each column and row.
-
-Once the dataset is set up, SIMCA will create the first statistical model by default. You will notice the PLS model appear on the list. 
-
-Right click on the line and choose **New model as...**. This will create a new model based on the selected one (say, if you have any setting it will be carried over to the new analysis). 
-
-
-
-![](figures_SIMCA_NMR/Slide7.png)
-![](figures_SIMCA_NMR/Slide8.png)
-![](figures_SIMCA_NMR/Slide9.png)
-![](figures_SIMCA_NMR/Slide10.png)
-![](figures_SIMCA_NMR/Slide11.png)
-![](figures_SIMCA_NMR/Slide12.png)
-![](figures_SIMCA_NMR/Slide13.png)
+Right click on the line and choose **New as Model 1...**. This will create a new model based on the selected one (say, if you have any setting, it will be carried over to the new analysis). 
 ![](figures_SIMCA_NMR/Slide14.png)
+
+Click on **Variable** tab and define types of variable. Click **Sat_odour** and then select the **Y** button
 ![](figures_SIMCA_NMR/Slide15.png)
+
+Use *Shift* key to select all other variable apart from the Sat_odour. Then click **X** button.
 ![](figures_SIMCA_NMR/Slide16.png)
+
+Go to **Scale** tab, use *Shift* key to select all variables. Select **Par** for Pareto scaling. Click **Set** button. Notice that the information in the **Type** column will be changed to **Par**
 ![](figures_SIMCA_NMR/Slide17.png)
 ![](figures_SIMCA_NMR/Slide18.png)
+
+Go to **Observations** tab, at the bottom that say *Class from Obs ID*, choose **Sample label** and click **Set**. In this case, the **Sample label** contain information about grouping (experimental conditions) of our data. Then click **OK** in the pop-up window.
 ![](figures_SIMCA_NMR/Slide19.png)
 ![](figures_SIMCA_NMR/Slide20.png)
+
+Finally, change the type of the model to **OPLS**, and then click **OK**
 ![](figures_SIMCA_NMR/Slide21.png)
+
+Under the **Home** tab, click **Two first** to start fitting the model. 
 ![](figures_SIMCA_NMR/Slide22.png)
-![](figures_SIMCA_NMR/Slide23.png)
-![](figures_SIMCA_NMR/Slide24.png)
-![](figures_SIMCA_NMR/Slide25.png)
-![](figures_SIMCA_NMR/Slide26.png)
-![](figures_SIMCA_NMR/Slide27.png)
-![](figures_SIMCA_NMR/Slide28.png)
-![](figures_SIMCA_NMR/Slide29.png)
-![](figures_SIMCA_NMR/Slide30.png) 
 
 
 
-
-
+Let's look at some visualisation of this model. 
 
 
 
