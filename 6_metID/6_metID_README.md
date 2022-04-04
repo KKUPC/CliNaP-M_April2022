@@ -422,11 +422,11 @@ Now, compare your STOCSY spectra to HMDB spectra of L-tyrosine.
 
 Hopefully, you are now more familiar with the pipeline for NMR metabolite identification by now and ready for the CHALLENGE :)
 
-###Hands-on
+### Hands-on
 
-1. Please make your group decision whether you are going to use STOCSY on R and MATLAB at your very first step and then try to identify all 1H NMR signals on the spectra.
+Please make your group decision whether you are going to use STOCSY on R and MATLAB at your very first step and then try to identify all 1H NMR signals on the spectra using the pipeline that you have just come across.
 
-Have fun!
+Have fun :)
 
 ---
 [↥ **Back to top**](#top)
