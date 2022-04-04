@@ -77,7 +77,7 @@ The main steps of data processing include Data check, Missing value, Data filter
 
 *Normalisation*
 - MetaboAnalyst provides the normalisation procedures with three categories to improve the quality of your dataset such as sample normalisation, data transformation, and data scaling. For this module, as the example dataset has undergone the preprocessing procedure, thus, none of the strategies is required.
-![](figures/SA_Normalization.png)
+![](figures/SA_Normalization2.png)
 
 
 In case your dataset requires normalisation procedures, after selecting and normalising, you can click “View Result” to review the results and to compare “before” and “after” processes.
@@ -90,32 +90,32 @@ The PCA is used to study the metabolic overview, similarities, and differences o
 ![](figures/SA_PCA_Allgroups.png)
 
 The visualisation of PCA results can be reviewed by different kinds of plots provided by MetaboAnalyst. The first plot “Overview” displays pairwise score plots of PCA results from top 5 principal components (PCs). 
-![](figures/SA_PCA_Overview.png)
+![](figures/SA_PCA_Overview2.png)
 
 Next to that is the “Scree Plot” which displays the accumulated variance explained and the variance explained by individual PC. 
-![](figures/SA_PCA_ScreePlot.png)
+![](figures/SA_PCA_ScreePlot2.png)
 
 In addition, “2D Scores Plot” can be used to study the clustering between groups.
-![](figures/SA_PCA_2DScoresPlot.png)
+![](figures/SA_PCA_2DScoresPlot2.png)
 
 ##### ***Orthogonal partial least squares - discriminant analysis (O-PLS-DA)***
 The O-PLS-DA is used to investigate further in pairwise comparison aiming to identify the differences between groups. Therefore, it requires the step to select two interested groups for the analysis through “Data editor”. For the current dataset, the example is conducted for a pairwise comparison model between “Raw_day 0” and “Raw_2 weeks”. 
 ![](figures/SA_OPLSDA_DataEditor.png)
 
 After the normalisation step which follows the instructions mentioned above, the analysis can be performed straight away by clicking “OrthPLSDA” in the left panel under “Statistics” section. Similar to PCA, the visualisation of O-PLS-DA results can be reviewed by different kinds of plots provided by MetaboAnalyst. The first “Score Plot” demonstrates the significant class discrimination between “Raw_day 0” and “Raw_2 weeks”.
-![](figures/SA_OPLSDA_ScorePlot.png)
+![](figures/SA_OPLSDA_ScorePlot2.png)
 
 Further, the “Imp. Feature (S-plot)” represents the variable influence in an O-PLS-DA model. It combines the covariance and correlation loading profiles. The loading plots combine a scatter plot “p[1]” which describes the magnitude of each variable within a model, and “p(corr)[1]” which represents the reliability of each variable (model correlation). What’s more, we can choose the significance discriminated variable, click on it to access “Feature View” which is a box and whisker plot representing the difference in relative concentrations of this particular variable. 
-![](figures/SA_OPLSDA_SPlot.png)
+![](figures/SA_OPLSDA_SPlot2.png)
 
 In the same window, we can also take a look at the table summarised from values of “p[1]” and “p(corr)[1]” by clicking on “View the detailed data table”. The variables at the outermost bottom and top of the loading plot were sorted in the order of potentially relevant metabolites with significant differences in the pairwise comparison. Thus, these potentially variables (or chemical shift, ppm) can be employed for further metabolite identification.
-![](figures/SA_OPLSDA_DetailedTable.png)
+![](figures/SA_OPLSDA_DetailedTable2.png)
 
 The statistical parameters obtained from the current O-PLS-DA model, such as the fitness and predictability determined by  R2X, R2Y, and Q2 values, can be reviewed in “Model Overview”. 
-![](figures/SA_OPLSDA_ModelOverview.png)
+![](figures/SA_OPLSDA_ModelOverview2.png)
 
 Last but not least, the computationally intensive procedure known as “Permutation” can also be carried out in the same window, next to “Model Overview”.  Depending on the size of the dataset, we could set the appropriate number for permutation.
-![](figures/SA_OPLSDA_Permutation.png)
+![](figures/SA_OPLSDA_Permutation2.png)
 
 ### Download Results
 The results from MetaboAnalyst (all tables and figures) can be downloaded in “Download” section located in the left panel. We can either choose to download single files or all the files composed in “Download.zip”. In addition, a PDF analysis report can also be generated using the button “Generate Report”. 
@@ -161,7 +161,7 @@ The main steps of data processing include Data check, Missing value, Data filter
 
 *Normalisation*
 - MetaboAnalyst provides the normalisation procedures with three categories to improve the quality of your dataset such as sample normalisation, data transformation, and data scaling. For this module, as the example dataset has undergone the preprocessing procedure, thus, none of the strategies is required.
-![](figures/SA_Normalization.png)
+![](figures/SA_Normalization2.png)
 
 
 In case your dataset requires normalisation procedures, after selecting and normalising, you can click “View Result” to review the results and to compare “before” and “after” processes.
@@ -174,32 +174,32 @@ The PCA is used to study the metabolic overview, similarities, and differences o
 ![](figures/SA_PCA_Allgroups.png)
 
 The visualisation of PCA results can be reviewed by different kinds of plots provided by MetaboAnalyst. The first plot “Overview” displays pairwise score plots of PCA results from top 5 principal components (PCs). 
-![](figures/SA_PCA_LCMSOverview.png)
+![](figures/SA_PCA_LCMSOverview2.png)
 
 Next to that is the “Scree Plot” which displays the accumulated variance explained and the variance explained by individual PC. 
-![](figures/SA_PCA_LCMSScreePlot.png)
+![](figures/SA_PCA_LCMSScreePlot2.png)
 
 In addition, “2D Scores Plot” can be used to study the clustering between groups.
-![](figures/SA_PCA_LCMS2DScoresPlot.png)
+![](figures/SA_PCA_LCMS2DScoresPlot2.png)
 
 ##### ***Orthogonal partial least squares - discriminant analysis (O-PLS-DA)***
 The O-PLS-DA is used to investigate further in pairwise comparison aiming to identify the differences between groups. Therefore, it requires the step to select two interested groups for the analysis through “Data editor”. For the current dataset, the example is conducted for a pairwise comparison model between “Raw_day 0” and “Raw_2 weeks”. 
 ![](figures/SA_OPLSDA_LCMSDataEditor.png)
 
 After the normalisation step which follows the instructions mentioned above, the analysis can be performed straight away by clicking “OrthPLSDA” in the left panel under “Statistics” section. Similar to PCA, the visualisation of O-PLS-DA results can be reviewed by different kinds of plots provided by MetaboAnalyst. The first “Score Plot” demonstrates the significant class discrimination between “Raw_day 0” and “Raw_2 weeks”.
-![](figures/SA_OPLSDA_LCMSScorePlot.png)
+![](figures/SA_OPLSDA_LCMSScorePlot2.png)
 
 Further, the “Imp. Feature (S-plot)” represents the variable influence in an O-PLS-DA model. It combines the covariance and correlation loading profiles. The loading plots combine a scatter plot “p[1]” which describes the magnitude of each variable within a model, and “p(corr)[1]” which represents the reliability of each variable (model correlation). What’s more, we can choose the significance discriminated variable, click on it to access “Feature View” which is a box and whisker plot representing the difference in relative concentrations of this particular variable. 
-![](figures/SA_OPLSDA_LCMSSPlot.png)
+![](figures/SA_OPLSDA_LCMSSPlot2.png)
 
 In the same window, we can also take a look at the table summarised from values of “p[1]” and “p(corr)[1]” by clicking on “View the detailed data table”. The variables at the outermost bottom and top of the loading plot were sorted in the order of potentially relevant metabolites with significant differences in the pairwise comparison. Thus, these potentially variables (or chemical shift, ppm) can be employed for further metabolite identification.
-![](figures/SA_OPLSDA_LCMSDetailedTable.png)
+![](figures/SA_OPLSDA_LCMSDetailedTable2.png)
 
 The statistical parameters obtained from the current O-PLS-DA model, such as the fitness and predictability determined by  R2X, R2Y, and Q2 values, can be reviewed in “Model Overview”. 
-![](figures/SA_OPLSDA_LCMSModelOverview.png)
+![](figures/SA_OPLSDA_LCMSModelOverview2.png)
 
 Last but not least, the computationally intensive procedure known as “Permutation” can also be carried out in the same window, next to “Model Overview”.  Depending on the size of the dataset, we could set the appropriate number for permutation.
-![](figures/SA_OPLSDA_LCMSPermutation.png)
+![](figures/SA_OPLSDA_LCMSPermutation2.png)
 
 ### Download Results
 The results from MetaboAnalyst (all tables and figures) can be downloaded in “Download” section located in the left panel. We can either choose to download single files or all the files composed in “Download.zip”. In addition, a PDF analysis report can also be generated using the button “Generate Report”. 
