@@ -76,11 +76,10 @@ The main steps of data processing include Data check, Missing value, Data filter
 ![](figures/SA_DataFilter.png)
 
 *Normalisation*
-- MetaboAnalyst provides the normalisation procedures with three categories to improve the quality of your dataset such as sample normalisation, data transformation, and data scaling. For this module, as the example dataset has undergone the preprocessing procedure, thus, none of the strategies is required.
+- MetaboAnalyst provides the normalisation procedures with three categories to improve the quality of your dataset such as sample normalisation, data transformation, and data scaling. For this module, as the example dataset has undergone the normalisation procedure, here we choose Pareto method for data scaling.
 ![](figures/SA_Normalization2.png)
 
-
-In case your dataset requires normalisation procedures, after selecting and normalising, you can click “View Result” to review the results and to compare “before” and “after” processes.
+After selecting and normalising, you can click “View Result” to review the results and to compare “before” and “after” processes.
 
 #### Statistical analysis
 After data processing, the tool box appears with different analysis paths to select such as univariate analysis, chemometrics analysis, or cluster analysis. In this module, we introduce the process of chemometrics analysis, specifically principal component analysis (PCA) and orthogonal partial least squares - discriminant analysis (O-PLS-DA). 
@@ -160,11 +159,10 @@ The main steps of data processing include Data check, Missing value, Data filter
 ![](figures/SA_DataFilter.png)
 
 *Normalisation*
-- MetaboAnalyst provides the normalisation procedures with three categories to improve the quality of your dataset such as sample normalisation, data transformation, and data scaling. For this module, as the example dataset has undergone the preprocessing procedure, thus, none of the strategies is required.
+- MetaboAnalyst provides the normalisation procedures with three categories to improve the quality of your dataset such as sample normalisation, data transformation, and data scaling. For this module, as the example dataset has undergone the normalisation procedure, here we choose Pareto method for data scaling.
 ![](figures/SA_Normalization2.png)
 
-
-In case your dataset requires normalisation procedures, after selecting and normalising, you can click “View Result” to review the results and to compare “before” and “after” processes.
+After selecting and normalising, you can click “View Result” to review the results and to compare “before” and “after” processes.
 
 #### Statistical analysis
 After data processing, the toolbox appears with different analysis paths to select such as univariate analysis, chemometrics analysis, or cluster analysis. In this module, we introduce the process of chemometrics analysis, specifically principal component analysis (PCA) and orthogonal partial least squares - discriminant analysis (O-PLS-DA). 
