@@ -220,12 +220,46 @@ Thus, it provides more analysis tools compared to MetaboAnalyst. Key differences
 - fit the model (the number of components can be changed by selecting different fitting methods apart from the default)
 - use either categorical or continuous Y variables.
 
-In Metaboanalyst, we have learnt how to identify metabolites that are significantly different between two conditions (experimental groups) of choice. Sometimes, however, we are interested in particular features of our samples regardless of the experimental group they come from. In this case, we would rely of statistical test such as PLS or OPLS which currently are not available on Metaboanalyst. The example below show how we could do this on SIMCA.
+In Metaboanalyst, we have learnt how to identify metabolites that are significantly different between two conditions (experimental groups) of choice. Sometimes, however, we are interested in particular features (such as odour satisfaction level :)) of our samples regardless of the experimental group they come from. In this case, we would rely of statistical test such as PLS or OPLS which currently are not available on Metaboanalyst. The example below show how we could do this on SIMCA. \
 
-### Using SIMCA with continuous Y variables 
-First open SIMCA software. You might see an empty workspace, or a workplace with some existing dataset and analysis results. By default, SIMCA will retain the work environment when it is closed and re-opened. 
+### Using SIMCA with continuous Y variables (NMR)
+First, prepare the dataset for SIMCA software. 
 
-![](figures/#)
+- Open the file XXXX in Excel. Remove the rows labelled as "Run order" and "Class" and save the file.
+
+![](figures_SIMCA_NMR/Slide2.png)
+
+![](figures_SIMCA_NMR/Slide3.png)
+**Need editting**
+
+Then open SIMCA software. You might see an empty workspace, or a workplace with some existing dataset and analysis results. By default, SIMCA will retain the work environment when it is closed and re-opened. 
+
+Click **File** tab to start importing data into SIMCA. Then choose **Regular project**. Then select the Excel file that you just created previously. 
+![](figures_SIMCA_NMR/Slide4.png)
+![](figures_SIMCA_NMR/Slide5.png)
+![](figures_SIMCA_NMR/Slide6.png)
+
+Now we need to modify the table a bit. First click **Edit** tab. Then click **Transpose**
+![](figures_SIMCA_NMR/Slide7.png)
+
+Click the the name of the first row and choose **Include row**
+![](figures_SIMCA_NMR/Slide8.png)
+
+Click on the third column header and choose **Secondary ID**. 
+![](figures_SIMCA_NMR/Slide9.png)
+
+Click on the first column header and choose **Primary ID**. 
+![](figures_SIMCA_NMR/Slide10.png)
+
+Click on the second column header and choose **Y-variable**. 
+![](figures_SIMCA_NMR/Slide11.png)
+**Need new Slide11 - not Primary ID.... Y-variable**
+
+Click on the **Home** tab then click **Finish**
+![](figures_SIMCA_NMR/Slide12.png)
+
+You will get a little message box about missing data - the odour satisfaction level of the QC samples. Click **Yes to all** to remove the QC samples from the downstream analysis.
+![](figures_SIMCA_NMR/Slide13.png)
 
 Create the dataset for SIMCA. Choose the .csv file with a column that indicate **odour satisfactory level**
 - for NMR, this file is called "XXX"
@@ -238,11 +272,7 @@ Once the dataset is set up, SIMCA will create the first statistical model by def
 Right click on the line and choose **New model as...**. This will create a new model based on the selected one (say, if you have any setting it will be carried over to the new analysis). 
 
 
-![](figures_SIMCA_NMR/Slide2.png)
-![](figures_SIMCA_NMR/Slide3.png)
-![](figures_SIMCA_NMR/Slide4.png)
-![](figures_SIMCA_NMR/Slide5.png)
-![](figures_SIMCA_NMR/Slide6.png)
+
 ![](figures_SIMCA_NMR/Slide7.png)
 ![](figures_SIMCA_NMR/Slide8.png)
 ![](figures_SIMCA_NMR/Slide9.png)
