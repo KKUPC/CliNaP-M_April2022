@@ -226,6 +226,7 @@ The example below show how we could do this on SIMCA. You may notice that this s
 
 - [Using SIMCA with continuous Y variables (NMR)](#contYnmr)
 - [Using SIMCA with continuous Y variables (LC-MS)](#contYlcms)
+- [Want to know more about OPLS, OPLS-DA, PCA?](#ref)
 
 ### Using SIMCA with continuous Y variables (NMR) <a name="contYnmr"></a>
 First, prepare the dataset for SIMCA software on your group laptop. 
@@ -430,6 +431,13 @@ The dot that is farthest of the S-plot wing has the strongest influence on Y-var
 ![](figures_SIMCA_LCMS2/Slide27.png)
 
 Next, let's say we want to know which metabolite is represented by this dot. We would use its Primary ID (i.e. the m/z value and its retention time) to check with the MetID table that we established yesterday! 
+
+---
+[↥ **Back to top**](#top)
+
+
+### Want to know more about OPLS, OPLS-DA, PCA? <a name="ref"></a>
+The SIMCA website provide a nice explanation [here](https://www.sartorius.com/en/knowledge/science-snippets/explaining-differences-or-grouping-data-opls-da-vs-pca-data-analysis-507204)
 
 ---
 [↥ **Back to top**](#top)
